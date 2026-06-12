@@ -1,0 +1,301 @@
+{% extends "base.html" %}
+{% set ui = config.ui.get(lang) or config.ui['en'] %}
+{% set prefix = '' if lang == 'en' else ('/de' if lang == 'de' else '/fr') %}
+
+{% set t = {
+  'en': {
+    'eyebrow': 'Switzerland · Europe · Southeast Asia',
+    'h1': 'The Trusted Access Partner\nfor Private Capital',
+    'sub': 'GKP connects ultra-high-net-worth individuals, family offices, private investors, and growth-stage founders with curated off-market opportunities across real estate, hospitality, capital introduction, and business acquisitions.',
+    'cta1': "GKP's services",
+    'cta2': 'Get in touch',
+    'stat1_v': 'CHF 200M+','stat1_l': 'Active mandate value',
+    'stat2_v': '13',       'stat2_l': 'Mandates',
+    'stat3_v': '6',        'stat3_l': 'Markets',
+    'svc_label': 'What GKP does',
+    'svc_h2': "GKP's Services",
+    'svc_sub': 'Six areas of specialist access.',
+    'split_label': "GKP's approach",
+    'split_h2': 'Access to Markets Others Cannot Reach',
+    'split_p1': 'GKP operates at the intersection of Swiss private wealth infrastructure and global capital flows. Based in Zug, GKP maintains active relationships across Zurich, Geneva, Singapore, Dubai, and key capital hubs in Europe, Southeast Asia, East Asia, and the Middle East. Opportunities reach GKP before they reach public channels.',
+    'split_p2': "GKP's clients are investors, family offices, asset owners, and growth-stage founders who understand that the most valuable opportunities are rarely publicly listed. Access requires genuine relationships built over time.",
+    'split_btn': 'About GKP',
+    'why_label': 'Why Global Key Partners',
+    'why_h2': 'The GKP Standard',
+    'p1_num': 'I',   'p1_h': 'Curated Access',      'p1_p': 'GKP sources off-market opportunities through genuine, long-standing relationships built over years of presence in its markets. Every opportunity GKP presents has been pre-screened for relevance and credibility.',
+    'p2_num': 'II',  'p2_h': 'Full Discretion',     'p2_p': 'Every mandate is handled with Swiss-standard confidentiality, from first contact through to closing.',
+    'p3_num': 'III', 'p3_h': 'Aligned Interests',   'p3_p': "GKP's revenue depends on the quality of its introductions, not their volume. GKP is selective with mandates precisely because its long-term reputation is the foundation of everything it does.",
+    'loc_label': 'Where GKP operates',
+    'loc_h2': "GKP's Markets",
+    'loc_sub': 'Based in Zug, Switzerland. Active across Europe, Southeast Asia, East Asia, and the Middle East.',
+    'ins_label': 'Private market intelligence',
+    'ins_h2': 'Insights',
+    'cta_h2': 'Start a Confidential Conversation',
+    'cta_p': 'Qualified investors, founders, and asset owners are welcome to reach out for a confidential initial conversation.'
+  },
+  'de': {
+    'eyebrow': 'Schweiz · Europa · Südostasien',
+    'h1': 'Ihr vertrauensvoller Zugang\nzu privatem Kapital',
+    'sub': 'GKP verbindet sehr vermögende Privatpersonen, Family Offices und Privatinvestoren mit kuratierten Off-Market-Möglichkeiten in Immobilien, Hospitality, strategischen Investments und Unternehmensübernahmen.',
+    'cta1': 'Die Leistungen von GKP',
+    'cta2': 'Kontakt aufnehmen',
+    'stat1_v': 'CHF 200M+','stat1_l': 'Aktiver Mandatswert',
+    'stat2_v': '13',       'stat2_l': 'Mandate',
+    'stat3_v': '6',        'stat3_l': 'Märkte',
+    'svc_label': 'Was GKP tut',
+    'svc_h2': 'Die Leistungen von GKP',
+    'svc_sub': 'Sechs Bereiche spezialisierten Zugangs.',
+    'split_label': 'Der Ansatz von GKP',
+    'split_h2': 'Zugang zu Märkten, die andere nicht erreichen',
+    'split_p1': 'GKP bewegt sich an der Schnittstelle zwischen dem Schweizer Finanzplatz und globalen Kapitalströmen. Vom Sitz in Zug aus pflegt GKP aktive Beziehungen in Zürich, Genf, Singapur, Dubai und wichtigen Kapitalzentren in Europa, Südostasien, Ostasien und dem Nahen Osten.',
+    'split_p2': 'Die Kunden von GKP sind Investoren, Family Offices, Vermögenseigentümer und wachstumsstarke Gründer, die wissen, dass die wertvollsten Gelegenheiten selten öffentlich angeboten werden.',
+    'split_btn': 'Über GKP',
+    'why_label': 'Warum Global Key Partners',
+    'why_h2': 'Der GKP-Standard',
+    'p1_num': 'I',   'p1_h': 'Kuratierter Zugang',    'p1_p': 'GKP erschliesst Off-Market-Gelegenheiten über echte, langjährige Beziehungen, gewachsen durch jahrelange Präsenz in seinen Märkten. Jede Gelegenheit, die GKP vorstellt, ist auf Relevanz und Glaubwürdigkeit geprüft.',
+    'p2_num': 'II',  'p2_h': 'Volle Diskretion',     'p2_p': 'Jedes Mandat wird mit schweizerischer Diskretion geführt, vom ersten Gespräch bis zum Abschluss.',
+    'p3_num': 'III', 'p3_h': 'Gleichgerichtete Interessen', 'p3_p': 'Der Erfolg von GKP hängt von der Qualität seiner Vermittlungen ab, nicht von ihrer Anzahl. GKP wählt seine Mandate bewusst aus: denn der langfristige Ruf ist das Fundament des gesamten Geschäfts.',
+    'loc_label': 'Wo GKP tätig ist',
+    'loc_h2': 'Die Märkte von GKP',
+    'loc_sub': 'Mit Sitz in Zug, Schweiz. Aktiv in Europa, Südostasien, Ostasien und dem Nahen Osten.',
+    'ins_label': 'Private Market Intelligence',
+    'ins_h2': 'Einblicke',
+    'cta_h2': 'Ein vertrauliches Gespräch beginnen',
+    'cta_p': 'Qualifizierte Investoren, Gründer und Vermögensinhaber sind herzlich eingeladen, sich für ein vertrauliches Erstgespräch zu melden.'
+  },
+  'fr': {
+    'eyebrow': 'Suisse · Europe · Asie du Sud-Est',
+    'h1': 'Le partenaire de confiance\npour l\'accès aux capitaux privés',
+    'sub': 'GKP ouvre aux UHNWI, family offices et investisseurs privés l\'accès à des opportunités hors marché soigneusement sélectionnées en immobilier, hôtellerie, investissements stratégiques et acquisitions d\'entreprises.',
+    'cta1': 'Les services de GKP',
+    'cta2': 'Nous contacter',
+    'stat1_v': 'CHF 200M+','stat1_l': 'Valeur des mandats actifs',
+    'stat2_v': '13',       'stat2_l': 'Mandats',
+    'stat3_v': '6',        'stat3_l': 'Marchés',
+    'svc_label': 'Ce que fait GKP',
+    'svc_h2': 'Les services de GKP',
+    'svc_sub': 'Six domaines d\'accès spécialisé.',
+    'split_label': "L'approche de GKP",
+    'split_h2': 'Accéder aux marchés que d\'autres n\'atteignent pas',
+    'split_p1': 'GKP opère à la croisée de la gestion de patrimoine suisse et des flux de capitaux internationaux. Depuis Zoug, GKP entretient des relations actives à Zurich, Genève, Singapour, Dubaï et dans les principales places financières d\'Europe, d\'Asie du Sud-Est, d\'Asie de l\'Est et du Moyen-Orient.',
+    'split_p2': 'Les clients de GKP sont des investisseurs, des family offices, des propriétaires d\'actifs et des fondateurs en forte croissance qui savent que les opportunités les plus précieuses ne sont que rarement rendues publiques.',
+    'split_btn': 'À propos de GKP',
+    'why_label': 'Pourquoi Global Key Partners',
+    'why_h2': 'Le standard GKP',
+    'p1_num': 'I',   'p1_h': 'Un accès trié sur le volet',    'p1_p': 'GKP identifie des opportunités hors marché grâce à des relations authentiques et durables, tissées au fil d\'années de présence sur ses marchés. Chaque opportunité présentée a été présélectionnée pour sa pertinence et sa crédibilité.',
+    'p2_num': 'II',  'p2_h': 'Discrétion absolue',    'p2_p': 'Chaque mandat est conduit avec la discrétion propre à la place suisse, du premier échange jusqu\'à la conclusion.',
+    'p3_num': 'III', 'p3_h': 'Des intérêts alignés',     'p3_p': "Le succès de GKP dépend de la qualité de ses introductions, pas de leur volume. GKP est sélectif dans ses mandats précisément parce que sa réputation à long terme est le fondement de tout ce qu'il fait.",
+    'loc_label': 'Où GKP opère',
+    'loc_h2': 'Les marchés de GKP',
+    'loc_sub': 'Basé à Zoug, Suisse. Actif en Europe, Asie du Sud-Est, Asie de l\'Est et au Moyen-Orient.',
+    'ins_label': 'Intelligence des marchés privés',
+    'ins_h2': 'Analyses',
+    'cta_h2': 'Engager une conversation confidentielle',
+    'cta_p': 'Les investisseurs qualifiés, fondateurs et propriétaires d\'actifs sont invités à prendre contact pour un premier échange confidentiel.'
+  }
+}.get(lang) or {
+    'eyebrow': 'Switzerland · Europe · Southeast Asia',
+    'h1': 'The Trusted Access Partner\nfor Private Capital',
+    'sub': 'GKP connects ultra-high-net-worth individuals, family offices, and private investors with curated off-market opportunities.',
+    'cta1': "GKP's services", 'cta2': 'Get in touch',
+    'stat1_v': 'CHF 200M+', 'stat1_l': 'Active mandate value',
+    'stat2_v': '13', 'stat2_l': 'Mandates',
+    'stat3_v': '6', 'stat3_l': 'Markets',
+    'svc_label': 'What GKP does', 'svc_h2': "GKP's Services", 'svc_sub': 'Six areas of specialist access.',
+    'split_label': "GKP's approach", 'split_h2': 'Access to Markets Others Cannot Reach',
+    'split_p1': '', 'split_p2': '', 'split_btn': 'About GKP',
+    'why_label': 'Why Global Key Partners', 'why_h2': 'The GKP Standard',
+    'p1_num': 'I', 'p1_h': 'Curated Access', 'p1_p': '',
+    'p2_num': 'II', 'p2_h': 'Full Discretion', 'p2_p': '',
+    'p3_num': 'III', 'p3_h': 'Aligned Interests', 'p3_p': '',
+    'loc_label': 'Where we operate', 'loc_h2': 'Our Markets', 'loc_sub': '',
+    'ins_label': 'Private market intelligence', 'ins_h2': 'Insights',
+    'cta_h2': 'Start a Confidential Conversation', 'cta_p': ''
+} %}
+
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ config.site_url }}/#website",
+  "url": "{{ config.site_url }}",
+  "name": "{{ config.site_name }}",
+  "description": "{{ config.description[lang] }}",
+  "inLanguage": "{{ lang }}",
+  "publisher": { "@id": "{{ config.site_url }}/#organization" }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+
+<!-- ── Hero ──────────────────────────────────────────────── -->
+<section class="hero hero--home" aria-labelledby="hero-heading">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero-content">
+      <span class="hero-eyebrow">{{ t.eyebrow }}</span>
+      <h1 id="hero-heading">{{ t.h1 | replace('\n', '<br>') | safe }}</h1>
+      <p class="hero-sub">{{ t.sub }}</p>
+      <div class="hero-actions">
+        <a href="{{ prefix }}/services/" class="btn btn-gold">{{ t.cta1 }}</a>
+        <a href="{{ prefix }}/contact/" class="btn btn-outline--white btn-outline">{{ t.cta2 }}</a>
+      </div>
+      <div class="hero-stats" aria-label="Key metrics">
+        <div class="hero-stat">
+          <span class="hero-stat-val">{{ t.stat1_v }}</span>
+          <span class="hero-stat-lbl">{{ t.stat1_l }}</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-val">{{ t.stat2_v }}</span>
+          <span class="hero-stat-lbl">{{ t.stat2_l }}</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-val">{{ t.stat3_v }}</span>
+          <span class="hero-stat-lbl">{{ t.stat3_l }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Services ───────────────────────────────────────────── -->
+<section class="section" aria-labelledby="svc-heading">
+  <div class="container">
+    <div class="section-heading" style="max-width:640px; margin-bottom:48px;">
+      <span class="label">{{ t.svc_label }}</span>
+      <h2 id="svc-heading">{{ t.svc_h2 }}</h2>
+      <p>{{ t.svc_sub }}</p>
+    </div>
+    <nav class="service-list" aria-label="Services">
+      {% for svc in services %}
+      {% set content = svc.get(lang) or svc.get('en') %}
+      <a href="{{ prefix }}/services/{{ svc.slug }}/" class="service-row">
+        <span class="service-num">{{ svc.num }}</span>
+        <div class="service-body">
+          <div class="service-title">{{ content.h1 }}</div>
+          <p class="service-desc">{{ content.card_summary }}</p>
+        </div>
+        <span class="service-arrow" aria-hidden="true">&#8594;</span>
+      </a>
+      {% endfor %}
+    </nav>
+  </div>
+</section>
+
+<!-- ── Visual split ───────────────────────────────────────── -->
+<section class="section" style="background:var(--cream-2);" aria-labelledby="split-heading">
+  <div class="container">
+    <div class="grid-2" style="align-items:center;">
+      <div class="split-text">
+        <span class="label">{{ t.split_label }}</span>
+        <h2 id="split-heading" style="margin-bottom:24px;">{{ t.split_h2 }}</h2>
+        <div class="gold-rule"></div>
+        <p>{{ t.split_p1 }}</p>
+        <p>{{ t.split_p2 }}</p>
+        <a href="{{ prefix }}/about/" class="btn btn-outline" style="margin-top:16px;">{{ t.split_btn }}</a>
+      </div>
+      <div>
+        <img
+          src="/assets/images/swiss-terrace.jpg"
+          alt="{{ 'Swiss lakeside property. Global Key Partners off-market access' if lang == 'en' else 'Schweizer Seelage Immobilie. GKP Off-Market Zugang' }}"
+          class="split-image"
+          loading="lazy"
+          width="640" height="480"
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Why GKP ────────────────────────────────────────────── -->
+<section class="section" aria-labelledby="why-heading">
+  <div class="container">
+    <div style="margin-bottom:56px;">
+      <span class="label">{{ t.why_label }}</span>
+      <h2 id="why-heading">{{ t.why_h2 }}</h2>
+    </div>
+    <div class="principles">
+      <div class="principles-grid">
+        <div class="principle">
+          <span class="principle-num">{{ t.p1_num }}</span>
+          <h3>{{ t.p1_h }}</h3>
+          <p>{{ t.p1_p }}</p>
+        </div>
+        <div class="principle">
+          <span class="principle-num">{{ t.p2_num }}</span>
+          <h3>{{ t.p2_h }}</h3>
+          <p>{{ t.p2_p }}</p>
+        </div>
+        <div class="principle">
+          <span class="principle-num">{{ t.p3_num }}</span>
+          <h3>{{ t.p3_h }}</h3>
+          <p>{{ t.p3_p }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Locations ──────────────────────────────────────────── -->
+<section class="section" aria-labelledby="loc-heading">
+  <div class="container">
+    <div class="grid-2" style="align-items:start; gap:80px;">
+      <div>
+        <span class="label">{{ t.loc_label }}</span>
+        <h2 id="loc-heading" style="margin-bottom:12px;">{{ t.loc_h2 }}</h2>
+        <p style="margin-bottom:0;">{{ t.loc_sub }}</p>
+      </div>
+      <div>
+        <nav class="location-list" aria-label="Locations">
+          {% for loc in locations if loc.show_on_home %}
+          <a href="{{ prefix }}/markets/{{ loc.slug }}/" class="location-row">
+            <span class="location-row-name">{{ loc.name[lang] or loc.name.en }}</span>
+            <span class="location-row-region">{{ loc.region }}</span>
+            <span class="location-row-arrow" aria-hidden="true">&#8594;</span>
+          </a>
+          {% endfor %}
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Insights ───────────────────────────────────────────── -->
+{% if articles %}
+<section class="section" aria-labelledby="ins-heading">
+  <div class="container">
+    <div style="display:flex; align-items:flex-end; justify-content:space-between; margin-bottom:48px; flex-wrap:wrap; gap:16px;">
+      <div>
+        <span class="label">{{ t.ins_label }}</span>
+        <h2 id="ins-heading" style="margin-bottom:0;">{{ t.ins_h2 }}</h2>
+      </div>
+      <a href="{{ prefix }}/insights/" class="btn btn-outline">{{ ui.view_all_insights }}</a>
+    </div>
+    <div class="insights-grid">
+      {% for art in articles %}
+      {% set ac = art.get(lang) or art.get('en') %}
+      <article class="insight-item">
+        <p class="insight-meta">{{ art.published }} &nbsp;·&nbsp; {{ art.reading_time }} min</p>
+        <h3 class="insight-title"><a href="{{ prefix }}/insights/{{ art.slug }}/" style="color:inherit;">{{ ac.h1 }}</a></h3>
+        <p class="insight-summary">{{ ac.summary }}</p>
+        <a href="{{ prefix }}/insights/{{ art.slug }}/" class="insight-link">{{ ui.read_more }}</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- ── CTA Band ────────────────────────────────────────────── -->
+<section class="section section--dark cta-band" aria-labelledby="cta-heading">
+  <div class="container" style="max-width:600px;">
+    <span class="label label--light">{{ config.site_name }}</span>
+    <h2 id="cta-heading">{{ t.cta_h2 }}</h2>
+    <p>{{ t.cta_p }}</p>
+    <a href="{{ prefix }}/contact/" class="btn btn-gold">{{ ui.contact_cta }}</a>
+  </div>
+</section>
+
+{% endblock %}

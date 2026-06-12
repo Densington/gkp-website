@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+
+{% set t = {
+  'en': { 'h1': 'Privacy Policy', 'eyebrow': 'Global Key Partners GmbH' },
+  'de': { 'h1': 'Datenschutzerklärung', 'eyebrow': 'Global Key Partners GmbH' },
+  'fr': { 'h1': 'Politique de Confidentialité', 'eyebrow': 'Global Key Partners GmbH' }
+}.get(lang) or {} %}
+
+{% block content %}
+<section class="hero hero--page" aria-labelledby="privacy-heading">
+  <div class="container">
+    <span class="hero-eyebrow">{{ t.eyebrow }}</span>
+    <h1 id="privacy-heading">{{ t.h1 }}</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div style="max-width:760px;" class="legal-body">
+      <div class="gold-line"></div>
+
+      {% if lang == 'en' %}
+
+      <p><em>Last updated: 10 June 2026</em></p>
+
+      <h2>1. Controller</h2>
+      <p>The controller responsible for the processing of personal data on this website is:</p>
+      <p>Global Key Partners GmbH<br>Knonauerstrasse 52c<br>6330 Cham, Zug, Switzerland<br>Email: business@globalkeypartners.com</p>
+      <p>This privacy policy is governed by the Swiss Federal Act on Data Protection (FADP). Where the EU General Data Protection Regulation (GDPR) applies to visitors from the European Economic Area, the information below also covers the requirements of the GDPR.</p>
+
+      <h2>2. Data We Process</h2>
+      <h3>Contact form</h3>
+      <p>If you contact us through the contact form, we process the information you provide: name, email address, and, if you choose to share them, company, phone number, investor type, area of interest, preferred language, and the content of your message. This data is processed on the basis of your request (pre-contractual measures) and our legitimate interest in responding to enquiries. Form submissions are transmitted and delivered to us via <strong>Formspree, Inc.</strong> (USA), which acts as a processor. Formspree's privacy policy is available at <a href="https://formspree.io/legal/privacy-policy/" rel="noopener" target="_blank">formspree.io/legal/privacy-policy</a>.</p>
+      <h3>Email</h3>
+      <p>If you email us directly, we process your email address and the content of your message in order to handle your enquiry.</p>
+      <h3>Web analytics</h3>
+      <p>This website uses <strong>Google Analytics 4</strong>, a web analytics service provided by Google Ireland Limited (Gordon House, Barrow Street, Dublin 4, Ireland) and Google LLC (USA). Google Analytics uses cookies and similar technologies to analyse how visitors use the site (pages visited, approximate location at city level, device and browser information, traffic source). IP addresses are not logged or stored by Google Analytics 4. The information generated is generally transmitted to and stored on Google servers, which may include servers in the United States. Data transfers to the USA are based on the Swiss–U.S. and EU–U.S. Data Privacy Framework and/or standard contractual clauses. You can prevent analytics tracking by using the browser add-on available at <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener" target="_blank">tools.google.com/dlpage/gaoptout</a> or by disabling cookies in your browser.</p>
+      <h3>Hosting and server logs</h3>
+      <p>This website is hosted on <strong>GitHub Pages</strong>, a service of GitHub, Inc. (USA). When you visit the site, GitHub automatically processes technical data such as your IP address, browser type, and the pages requested, in server log files, for the purpose of delivering and securing the website. GitHub's privacy statement is available at <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" rel="noopener" target="_blank">docs.github.com</a>.</p>
+
+      <h2>3. Purposes and Legal Bases</h2>
+      <p>We process personal data to operate this website, to respond to enquiries, to initiate and manage business relationships, to analyse and improve our website, and to comply with legal obligations. Where the GDPR applies, processing is based on Art. 6(1)(b) (pre-contractual measures), Art. 6(1)(f) (legitimate interests), and, where applicable, Art. 6(1)(a) (consent).</p>
+
+      <h2>4. Disclosure and Transfers Abroad</h2>
+      <p>We do not sell personal data. We disclose personal data only to the service providers named above (Formspree, Google, GitHub), to professional advisers where necessary, or where required by law. Some of these providers are located in the United States; transfers are safeguarded by the Swiss–U.S. Data Privacy Framework and/or standard contractual clauses.</p>
+
+      <h2>5. Retention</h2>
+      <p>We retain personal data only as long as necessary for the purposes described above or as required by statutory retention obligations. Enquiry correspondence is deleted when it is no longer needed for the business relationship.</p>
+
+      <h2>6. Your Rights</h2>
+      <p>You have the right to request information about the personal data we process about you, to request rectification or deletion, to object to processing, and to request restriction of processing. Where processing is based on consent, you may withdraw consent at any time with effect for the future. If the GDPR applies to you, you also have the right to data portability and the right to lodge a complaint with a supervisory authority. The competent Swiss authority is the Federal Data Protection and Information Commissioner (FDPIC).</p>
+      <p>To exercise your rights, contact us at business@globalkeypartners.com.</p>
+
+      <h2>7. Cookies</h2>
+      <p>This website uses cookies only for the web analytics described above. You can block or delete cookies at any time in your browser settings; the website remains fully functional without cookies.</p>
+
+      <h2>8. Changes</h2>
+      <p>We may update this privacy policy from time to time. The version published on this page is the current version.</p>
+
+      {% elif lang == 'de' %}
+
+      <p><em>Stand: 10. Juni 2026</em></p>
+
+      <h2>1. Verantwortliche Stelle</h2>
+      <p>Verantwortlich für die Bearbeitung von Personendaten auf dieser Website ist:</p>
+      <p>Global Key Partners GmbH<br>Knonauerstrasse 52c<br>6330 Cham, Zug, Schweiz<br>E-Mail: business@globalkeypartners.com</p>
+      <p>Diese Datenschutzerklärung richtet sich nach dem schweizerischen Datenschutzgesetz (DSG). Soweit die EU-Datenschutz-Grundverordnung (DSGVO) auf Besucher aus dem Europäischen Wirtschaftsraum anwendbar ist, deckt die nachfolgende Information auch deren Anforderungen ab.</p>
+
+      <h2>2. Bearbeitete Daten</h2>
+      <h3>Kontaktformular</h3>
+      <p>Wenn Sie uns über das Kontaktformular kontaktieren, bearbeiten wir die von Ihnen angegebenen Daten: Name, E-Mail-Adresse sowie, sofern angegeben, Unternehmen, Telefonnummer, Investorentyp, Interessensgebiet, bevorzugte Sprache und den Inhalt Ihrer Nachricht. Die Bearbeitung erfolgt zur Beantwortung Ihrer Anfrage (vorvertragliche Massnahmen) und aufgrund unseres berechtigten Interesses. Formularübermittlungen erfolgen über <strong>Formspree, Inc.</strong> (USA) als Auftragsbearbeiter. Die Datenschutzerklärung von Formspree finden Sie unter <a href="https://formspree.io/legal/privacy-policy/" rel="noopener" target="_blank">formspree.io/legal/privacy-policy</a>.</p>
+      <h3>E-Mail</h3>
+      <p>Wenn Sie uns direkt per E-Mail kontaktieren, bearbeiten wir Ihre E-Mail-Adresse und den Inhalt Ihrer Nachricht zur Bearbeitung Ihres Anliegens.</p>
+      <h3>Webanalyse</h3>
+      <p>Diese Website verwendet <strong>Google Analytics 4</strong>, einen Webanalysedienst der Google Ireland Limited (Gordon House, Barrow Street, Dublin 4, Irland) und der Google LLC (USA). Google Analytics verwendet Cookies und ähnliche Technologien zur Analyse der Nutzung der Website (besuchte Seiten, ungefährer Standort auf Stadtebene, Geräte- und Browserinformationen, Herkunft des Zugriffs). IP-Adressen werden von Google Analytics 4 weder protokolliert noch gespeichert. Die erzeugten Informationen werden in der Regel an Server von Google übertragen, auch in die USA. Datenübermittlungen in die USA stützen sich auf das Swiss–U.S. Data Privacy Framework und/oder Standardvertragsklauseln. Sie können die Erfassung durch das Browser-Add-on unter <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener" target="_blank">tools.google.com/dlpage/gaoptout</a> oder durch Deaktivieren von Cookies in Ihrem Browser verhindern.</p>
+      <h3>Hosting und Server-Logs</h3>
+      <p>Diese Website wird auf <strong>GitHub Pages</strong>, einem Dienst der GitHub, Inc. (USA), gehostet. Beim Besuch der Website bearbeitet GitHub automatisch technische Daten wie IP-Adresse, Browsertyp und aufgerufene Seiten in Server-Logfiles zum Zweck der Bereitstellung und Sicherheit der Website. Die Datenschutzerklärung von GitHub finden Sie unter <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" rel="noopener" target="_blank">docs.github.com</a>.</p>
+
+      <h2>3. Zwecke und Rechtsgrundlagen</h2>
+      <p>Wir bearbeiten Personendaten zum Betrieb dieser Website, zur Beantwortung von Anfragen, zur Anbahnung und Pflege von Geschäftsbeziehungen, zur Analyse und Verbesserung unserer Website sowie zur Erfüllung gesetzlicher Pflichten. Soweit die DSGVO anwendbar ist, stützt sich die Bearbeitung auf Art. 6 Abs. 1 lit. b (vorvertragliche Massnahmen), Art. 6 Abs. 1 lit. f (berechtigte Interessen) und gegebenenfalls Art. 6 Abs. 1 lit. a (Einwilligung).</p>
+
+      <h2>4. Weitergabe und Auslandsübermittlung</h2>
+      <p>Wir verkaufen keine Personendaten. Eine Weitergabe erfolgt nur an die oben genannten Dienstleister (Formspree, Google, GitHub), an professionelle Berater soweit erforderlich oder wenn dies gesetzlich verlangt ist. Einzelne Anbieter haben ihren Sitz in den USA; Übermittlungen sind durch das Swiss–U.S. Data Privacy Framework und/oder Standardvertragsklauseln abgesichert.</p>
+
+      <h2>5. Aufbewahrung</h2>
+      <p>Wir bewahren Personendaten nur so lange auf, wie es für die genannten Zwecke erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen. Anfragekorrespondenz wird gelöscht, sobald sie für die Geschäftsbeziehung nicht mehr benötigt wird.</p>
+
+      <h2>6. Ihre Rechte</h2>
+      <p>Sie haben das Recht, Auskunft über die von uns bearbeiteten Personendaten zu verlangen, deren Berichtigung oder Löschung zu verlangen, der Bearbeitung zu widersprechen und eine Einschränkung der Bearbeitung zu verlangen. Beruht eine Bearbeitung auf Einwilligung, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen. Soweit die DSGVO anwendbar ist, haben Sie zudem das Recht auf Datenübertragbarkeit und das Recht, Beschwerde bei einer Aufsichtsbehörde einzureichen. Zuständige schweizerische Behörde ist der Eidgenössische Datenschutz- und Öffentlichkeitsbeauftragte (EDÖB).</p>
+      <p>Zur Ausübung Ihrer Rechte kontaktieren Sie uns unter business@globalkeypartners.com.</p>
+
+      <h2>7. Cookies</h2>
+      <p>Diese Website verwendet Cookies ausschliesslich für die oben beschriebene Webanalyse. Sie können Cookies jederzeit in Ihren Browsereinstellungen blockieren oder löschen; die Website bleibt ohne Cookies voll funktionsfähig.</p>
+
+      <h2>8. Änderungen</h2>
+      <p>Wir können diese Datenschutzerklärung von Zeit zu Zeit anpassen. Es gilt die jeweils auf dieser Seite publizierte Fassung.</p>
+
+      {% else %}
+
+      <p><em>Dernière mise à jour : 10 juin 2026</em></p>
+
+      <h2>1. Responsable du traitement</h2>
+      <p>Le responsable du traitement des données personnelles sur ce site est :</p>
+      <p>Global Key Partners GmbH<br>Knonauerstrasse 52c<br>6330 Cham, Zoug, Suisse<br>E-mail : business@globalkeypartners.com</p>
+      <p>La présente politique de confidentialité est régie par la loi fédérale suisse sur la protection des données (LPD). Lorsque le Règlement général sur la protection des données de l'UE (RGPD) s'applique aux visiteurs de l'Espace économique européen, les informations ci-dessous couvrent également ses exigences.</p>
+
+      <h2>2. Données traitées</h2>
+      <h3>Formulaire de contact</h3>
+      <p>Si vous nous contactez via le formulaire de contact, nous traitons les informations que vous fournissez : nom, adresse e-mail et, si vous choisissez de les communiquer, société, numéro de téléphone, type d'investisseur, domaine d'intérêt, langue préférée et contenu de votre message. Ce traitement repose sur votre demande (mesures précontractuelles) et sur notre intérêt légitime à répondre aux demandes. Les soumissions du formulaire nous sont transmises via <strong>Formspree, Inc.</strong> (États-Unis), agissant en qualité de sous-traitant. La politique de confidentialité de Formspree est disponible sur <a href="https://formspree.io/legal/privacy-policy/" rel="noopener" target="_blank">formspree.io/legal/privacy-policy</a>.</p>
+      <h3>E-mail</h3>
+      <p>Si vous nous écrivez directement par e-mail, nous traitons votre adresse e-mail et le contenu de votre message afin de traiter votre demande.</p>
+      <h3>Analyse d'audience</h3>
+      <p>Ce site utilise <strong>Google Analytics 4</strong>, un service d'analyse web fourni par Google Ireland Limited (Gordon House, Barrow Street, Dublin 4, Irlande) et Google LLC (États-Unis). Google Analytics utilise des cookies et des technologies similaires pour analyser l'utilisation du site (pages visitées, localisation approximative au niveau de la ville, informations sur l'appareil et le navigateur, source du trafic). Les adresses IP ne sont ni journalisées ni stockées par Google Analytics 4. Les informations générées sont généralement transmises et stockées sur des serveurs de Google, y compris aux États-Unis. Les transferts vers les États-Unis reposent sur le Swiss–U.S. Data Privacy Framework et/ou des clauses contractuelles types. Vous pouvez empêcher la collecte en installant le module disponible sur <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener" target="_blank">tools.google.com/dlpage/gaoptout</a> ou en désactivant les cookies dans votre navigateur.</p>
+      <h3>Hébergement et journaux de serveur</h3>
+      <p>Ce site est hébergé sur <strong>GitHub Pages</strong>, un service de GitHub, Inc. (États-Unis). Lors de votre visite, GitHub traite automatiquement des données techniques telles que votre adresse IP, le type de navigateur et les pages consultées, dans des fichiers journaux, aux fins de fourniture et de sécurisation du site. La déclaration de confidentialité de GitHub est disponible sur <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" rel="noopener" target="_blank">docs.github.com</a>.</p>
+
+      <h2>3. Finalités et bases juridiques</h2>
+      <p>Nous traitons les données personnelles pour exploiter ce site, répondre aux demandes, initier et gérer des relations d'affaires, analyser et améliorer notre site, et respecter nos obligations légales. Lorsque le RGPD s'applique, le traitement repose sur l'art. 6, par. 1, let. b (mesures précontractuelles), l'art. 6, par. 1, let. f (intérêts légitimes) et, le cas échéant, l'art. 6, par. 1, let. a (consentement).</p>
+
+      <h2>4. Communication et transferts à l'étranger</h2>
+      <p>Nous ne vendons pas de données personnelles. Les données ne sont communiquées qu'aux prestataires mentionnés ci-dessus (Formspree, Google, GitHub), à des conseillers professionnels si nécessaire, ou lorsque la loi l'exige. Certains prestataires sont établis aux États-Unis ; les transferts sont encadrés par le Swiss–U.S. Data Privacy Framework et/ou des clauses contractuelles types.</p>
+
+      <h2>5. Conservation</h2>
+      <p>Nous ne conservons les données personnelles que le temps nécessaire aux finalités décrites ci-dessus ou conformément aux obligations légales de conservation. La correspondance liée aux demandes est supprimée lorsqu'elle n'est plus nécessaire à la relation d'affaires.</p>
+
+      <h2>6. Vos droits</h2>
+      <p>Vous avez le droit de demander des informations sur les données personnelles que nous traitons vous concernant, d'en demander la rectification ou la suppression, de vous opposer au traitement et d'en demander la limitation. Lorsque le traitement repose sur le consentement, vous pouvez le retirer à tout moment avec effet pour l'avenir. Si le RGPD vous est applicable, vous disposez également du droit à la portabilité des données et du droit d'introduire une réclamation auprès d'une autorité de contrôle. L'autorité suisse compétente est le Préposé fédéral à la protection des données et à la transparence (PFPDT).</p>
+      <p>Pour exercer vos droits, contactez-nous à business@globalkeypartners.com.</p>
+
+      <h2>7. Cookies</h2>
+      <p>Ce site n'utilise des cookies que pour l'analyse d'audience décrite ci-dessus. Vous pouvez bloquer ou supprimer les cookies à tout moment dans les paramètres de votre navigateur ; le site reste pleinement fonctionnel sans cookies.</p>
+
+      <h2>8. Modifications</h2>
+      <p>Nous pouvons mettre à jour la présente politique de confidentialité de temps à autre. La version publiée sur cette page fait foi.</p>
+
+      {% endif %}
+
+    </div>
+  </div>
+</section>
+{% endblock %}

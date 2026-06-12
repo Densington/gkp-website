@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% set ui = config.ui.get(lang) or config.ui['en'] %}
+{% set prefix = '' if lang == 'en' else ('/de' if lang == 'de' else '/fr') %}
+
+{% set t = {
+  'en': {
+    'title': 'Services | Global Key Partners. Swiss Boutique Access & Introductions',
+    'h1': 'Our Services',
+    'eyebrow': 'What we do',
+    'sub': 'GKP provides specialist access and introductions across off-market real estate, off-market M&A and succession, capital and startup investor introductions, luxury brand partnerships, and hospitality investments. Everything we do is relationship-driven and mandate-specific.',
+    'meta': 'Specialist access and introduction services from GKP: off-market real estate, off-market M&A, capital and startup investor introductions, luxury brand partnerships, and hospitality investments in Switzerland and globally.'
+  },
+  'de': {
+    'title': 'Leistungen | Global Key Partners. Schweizer Boutique-Zugang & Kontaktvermittlung',
+    'h1': 'Unsere Leistungen',
+    'eyebrow': 'Was wir tun',
+    'sub': 'GKP bietet spezialisierten Zugang und Kontaktvermittlung für Off-Market-Immobilien, Off-Market M&A und Nachfolge, Kapital- und Investorenkontakte für Start-ups, Luxusmarken-Partnerschaften und Hospitality-Investments. Alles, was wir tun, ist beziehungsgetrieben und mandatsspezifisch.',
+    'meta': 'Spezialisierter Zugang und Kontaktvermittlung von GKP: Off-Market Immobilien, Off-Market M&A, Investorenkontakte für Start-ups, Luxusmarken-Partnerschaften und Hospitality-Investments in der Schweiz und weltweit.'
+  },
+  'fr': {
+    'title': 'Services | Global Key Partners. Accès Boutique Suisse',
+    'h1': 'Nos Services',
+    'eyebrow': 'Ce que nous faisons',
+    'sub': 'GKP offre un accès spécialisé et des introductions en immobilier hors marché, M&A hors marché et succession, introductions en capital pour start-ups, partenariats de marques de luxe et investissements hôteliers. Tout ce que nous faisons est fondé sur les relations et spécifique au mandat.',
+    'meta': 'Services d\'accès et d\'introductions de GKP : immobilier hors marché, M&A hors marché, introductions en capital pour start-ups, partenariats de marques de luxe et investissements hôteliers en Suisse et à l\'international.'
+  }
+}.get(lang) or {} %}
+
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"{{ 'Home' if lang=='en' else ('Startseite' if lang=='de' else 'Accueil') }}","item":"{{ config.site_url }}{{ '/' if lang=='en' else ('/de/' if lang=='de' else '/fr/') }}"},
+    {"@type":"ListItem","position":2,"name":"{{ t.h1 }}","item":"{{ config.site_url }}{{ canonical }}"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+
+<section class="hero hero--page" aria-labelledby="services-heading">
+  <div class="container">
+    <span class="hero-eyebrow">{{ t.eyebrow }}</span>
+    <h1 id="services-heading">{{ t.h1 }}</h1>
+    <p class="hero-sub" style="max-width:640px;">{{ t.sub }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="svc-index-list">
+      {% for svc in services %}
+      {% set content = svc.get(lang) or svc.get('en') %}
+      <article class="svc-index-row">
+        <div class="svc-index-left">
+          <span class="svc-index-num">{{ '%02d' % loop.index }}</span>
+          <span class="svc-index-icon" aria-hidden="true">{{ svc.icon }}</span>
+        </div>
+        <div class="svc-index-body">
+          <h2 class="svc-index-title">{{ content.h1 }}</h2>
+          <p class="svc-index-desc">{{ content.card_summary }}</p>
+          <a href="{{ prefix }}/services/{{ svc.slug }}/" class="svc-index-link">
+            {{ ui.read_more }} <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% endblock %}

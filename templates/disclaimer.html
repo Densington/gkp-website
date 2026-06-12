@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+
+{% set t = {
+  'en': { 'h1': 'Legal Disclaimer', 'eyebrow': 'Global Key Partners GmbH' },
+  'de': { 'h1': 'Rechtlicher Hinweis', 'eyebrow': 'Global Key Partners GmbH' },
+  'fr': { 'h1': 'Avis Juridique', 'eyebrow': 'Global Key Partners GmbH' }
+}.get(lang) or {} %}
+
+{% block content %}
+<section class="hero hero--page" aria-labelledby="disclaimer-heading">
+  <div class="container">
+    <span class="hero-eyebrow">{{ t.eyebrow }}</span>
+    <h1 id="disclaimer-heading">{{ t.h1 }}</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div style="max-width:760px;" class="legal-body">
+      <div class="gold-line"></div>
+
+      {% if lang == 'en' %}
+
+      <h2>No Financial, Investment, Legal or Tax Advice</h2>
+      <p>Global Key Partners GmbH ("GKP") is not a bank, securities firm, asset manager, portfolio manager, trustee, fund manager, investment adviser, financial adviser, legal adviser or tax adviser. GKP is not supervised by the Swiss Financial Market Supervisory Authority FINMA and does not hold a FINMA licence or authorisation.</p>
+      <p>GKP acts exclusively as an independent introducer and business consultant. GKP facilitates introductions between independent principals. The parties introduced by GKP negotiate, evaluate and conclude any potential transaction independently and at their own risk.</p>
+      <p>Nothing on this website, in any communication from GKP, or in any document shared by GKP constitutes financial advice, investment advice, legal advice, tax advice, a personal recommendation, or a recommendation to buy, sell, hold or subscribe for any asset, company interest, financial instrument, security, fund, collective investment scheme or other investment product.</p>
+
+      <h2>No Offer, Solicitation or Placement</h2>
+      <p>Nothing published or communicated by GKP constitutes an offer, invitation, solicitation, placement, distribution, underwriting, brokerage or marketing of securities, financial instruments, collective investment schemes or other regulated investment products.</p>
+      <p>GKP does not offer, place, distribute, underwrite, broker or market financial instruments or securities. GKP does not receive or transmit investment orders and does not make investment decisions for any client, investor or counterparty.</p>
+
+      <h2>No Handling of Client Assets</h2>
+      <p>GKP does not accept, hold, transmit, manage, control or safeguard client funds, investor monies, securities, crypto-assets or other assets. Any payments, investments or transaction flows are made directly between the relevant parties or through their appointed professional, regulated or legal advisers.</p>
+
+      <h2>Independent Due Diligence Required</h2>
+      <p>Information provided by GKP is for general informational purposes only and may be based on information supplied by third parties. Unless expressly stated in writing, GKP has not independently verified all information, assumptions, projections, valuations or statements provided by third parties.</p>
+      <p>Any materials shared by GKP are not a prospectus, offering memorandum, key information document or regulated marketing document. Prospective investors, sellers, buyers and transaction parties must conduct their own due diligence and obtain independent financial, legal, tax, regulatory and technical advice before entering into any transaction.</p>
+
+      <h2>No Guarantee of Results</h2>
+      <p>GKP makes no representation, warranty or guarantee regarding the accuracy, completeness, suitability, profitability, feasibility or outcome of any introduction, project, transaction or advisory engagement. Past transactions, mandates or introductions are not indicative of future results.</p>
+      <p>All business and investment activities involve risk, including the risk of partial or total loss of capital.</p>
+
+      <h2>No Authority to Bind Parties</h2>
+      <p>GKP has no authority to negotiate, approve, bind, represent or commit any investor, seller, buyer, project owner, company, issuer or other counterparty unless expressly agreed in writing. Any agreement is concluded solely between the relevant parties.</p>
+
+      <h2>Confidentiality</h2>
+      <p>GKP treats client and counterparty information confidentially in accordance with applicable law and contractual obligations. GKP does not disclose the identity of clients, mandates or transaction parties to third parties without appropriate consent, unless disclosure is required by law, regulation, court order or competent authority.</p>
+      <p>GKP is in the process of affiliating with a recognised Swiss self-regulatory organisation (SRO) in accordance with the Swiss Anti-Money Laundering Act (GwG).</p>
+
+      <h2>Jurisdiction</h2>
+      <p>This website is operated by Global Key Partners GmbH, registered in Zug, Switzerland. All matters relating to this website and GKP's services are governed by Swiss law, subject to mandatory applicable law. The courts of Zug, Switzerland shall have exclusive jurisdiction, subject to mandatory legal venues.</p>
+
+      <h2>Contact</h2>
+      <p>For questions regarding this disclaimer or GKP's activities, please contact:</p>
+      <p>
+        <strong>{{ config.site_name }} GmbH</strong><br>
+        {{ config.address.street }}<br>
+        {{ config.address.postal_code }} {{ config.address.city }}, {{ config.address.canton }}<br>
+        {{ config.address.country }}<br>
+        <a href="mailto:{{ config.email }}">{{ config.email }}</a>
+      </p>
+
+      {% elif lang == 'de' %}
+
+      <h2>Keine Finanz-, Anlage-, Rechts- oder Steuerberatung</h2>
+      <p>Global Key Partners GmbH ("GKP") ist keine Bank, kein Effektenhändler, kein Vermögensverwalter, kein Portfolioverwalter, kein Treuhänder, kein Fondsmanager, kein Anlageberater, kein Finanzberater, kein Rechtsberater und kein Steuerberater. GKP untersteht nicht der Aufsicht der Eidgenössischen Finanzmarktaufsicht FINMA und verfügt über keine FINMA-Lizenz oder -Bewilligung.</p>
+      <p>GKP ist ausschliesslich als unabhängiger Vermittler und Unternehmensberater tätig. GKP stellt Kontakte zwischen unabhängigen Parteien her. Die von GKP vermittelten Parteien verhandeln, prüfen und schliessen allfällige Transaktionen eigenständig und auf eigenes Risiko ab.</p>
+      <p>Nichts auf dieser Website, in Mitteilungen von GKP oder in von GKP geteilten Dokumenten stellt eine Finanz-, Anlage-, Rechts- oder Steuerberatung, eine persönliche Empfehlung oder eine Empfehlung zum Kauf, Verkauf, Halten oder zur Zeichnung von Vermögenswerten, Unternehmensanteilen, Finanzinstrumenten, Wertpapieren, Fonds, kollektiven Kapitalanlagen oder anderen Anlageprodukten dar.</p>
+
+      <h2>Kein Angebot, keine Aufforderung oder Platzierung</h2>
+      <p>Nichts, was von GKP veröffentlicht oder mitgeteilt wird, stellt ein Angebot, eine Einladung, Aufforderung, Platzierung, Verteilung, Zeichnung, Vermittlung oder Vermarktung von Wertpapieren, Finanzinstrumenten, kollektiven Kapitalanlagen oder anderen regulierten Anlageprodukten dar.</p>
+      <p>GKP bietet keine Finanzinstrumente oder Wertpapiere an, platziert, vertreibt, zeichnet, vermittelt oder vermarktet diese nicht. GKP empfängt oder übermittelt keine Anlageaufträge und trifft keine Anlageentscheidungen für Kunden, Investoren oder Gegenparteien.</p>
+
+      <h2>Keine Verwaltung von Kundenvermögen</h2>
+      <p>GKP nimmt keine Kundengelder, Investorengelder, Wertpapiere, Krypto-Assets oder sonstige Vermögenswerte entgegen, hält, überträgt, verwaltet, kontrolliert oder verwahrt diese nicht. Zahlungen, Investitionen oder Transaktionsflüsse erfolgen direkt zwischen den betreffenden Parteien oder über ihre beauftragten professionellen, regulierten oder rechtlichen Berater.</p>
+
+      <h2>Eigenständige Sorgfaltsprüfung erforderlich</h2>
+      <p>Von GKP bereitgestellte Informationen dienen ausschliesslich allgemeinen Informationszwecken und können auf Informationen Dritter basieren. Sofern nicht ausdrücklich schriftlich angegeben, hat GKP nicht alle von Dritten bereitgestellten Informationen, Annahmen, Projektionen, Bewertungen oder Aussagen unabhängig überprüft.</p>
+      <p>Von GKP geteilte Materialien stellen keinen Prospekt, kein Angebotsmemorandu, kein wesentliches Informationsdokument oder reguliertes Marketingdokument dar. Potenzielle Investoren, Verkäufer, Käufer und Transaktionsparteien müssen ihre eigene Sorgfaltsprüfung durchführen und vor dem Abschluss einer Transaktion unabhängige finanzielle, rechtliche, steuerliche, regulatorische und technische Beratung einholen.</p>
+
+      <h2>Keine Ergebnisgarantie</h2>
+      <p>GKP gibt keine Zusicherungen, Gewährleistungen oder Garantien hinsichtlich der Richtigkeit, Vollständigkeit, Eignung, Rentabilität, Durchführbarkeit oder des Ergebnisses einer Vermittlung, eines Projekts, einer Transaktion oder eines Beratungsmandats. Vergangene Transaktionen, Mandate oder Vermittlungen sind kein Indikator für zukünftige Ergebnisse.</p>
+      <p>Alle unternehmerischen und anlageorientierten Tätigkeiten sind mit Risiken verbunden, einschliesslich des teilweisen oder vollständigen Kapitalverlusts.</p>
+
+      <h2>Keine Befugnis zur Bindung von Parteien</h2>
+      <p>GKP ist nicht befugt, Investoren, Verkäufer, Käufer, Projekteigentümer, Unternehmen, Emittenten oder andere Gegenparteien zu verhandeln, zu genehmigen, zu binden, zu vertreten oder zu verpflichten, sofern dies nicht ausdrücklich schriftlich vereinbart wurde. Jede Vereinbarung wird ausschliesslich zwischen den betreffenden Parteien geschlossen.</p>
+
+      <h2>Vertraulichkeit</h2>
+      <p>GKP behandelt Kunden- und Gegenparteiinformationen gemäss den geltenden Gesetzen und vertraglichen Verpflichtungen vertraulich. GKP gibt die Identität von Kunden, Mandaten oder Transaktionsparteien ohne angemessene Zustimmung nicht an Dritte weiter, es sei denn, die Offenlegung ist gesetzlich, durch Regulierung, Gerichtsbeschluss oder zuständige Behörde vorgeschrieben.</p>
+      <p>GKP ist dabei, sich einer anerkannten Schweizer Selbstregulierungsorganisation (SRO) gemäss dem Schweizer Geldwäschereigesetz (GwG) anzuschliessen.</p>
+
+      <h2>Rechtsordnung</h2>
+      <p>Diese Website wird von Global Key Partners GmbH mit Sitz in Zug, Schweiz, betrieben. Alle Angelegenheiten im Zusammenhang mit dieser Website und den Leistungen von GKP unterliegen Schweizer Recht, vorbehaltlich zwingender anwendbarer Gesetze. Die Gerichte in Zug, Schweiz, sind ausschliesslich zuständig, vorbehaltlich zwingender Gerichtsstände.</p>
+
+      <h2>Kontakt</h2>
+      <p>Bei Fragen zu diesem Haftungsausschluss oder den Tätigkeiten von GKP wenden Sie sich bitte an:</p>
+      <p>
+        <strong>{{ config.site_name }} GmbH</strong><br>
+        {{ config.address.street }}<br>
+        {{ config.address.postal_code }} {{ config.address.city }}, {{ config.address.canton }}<br>
+        {{ config.address.country }}<br>
+        <a href="mailto:{{ config.email }}">{{ config.email }}</a>
+      </p>
+
+      {% else %}
+
+      <h2>Absence de conseil financier, en investissement, juridique ou fiscal</h2>
+      <p>Global Key Partners GmbH ("GKP") n'est pas une banque, une société de valeurs mobilières, un gestionnaire d'actifs, un gestionnaire de portefeuille, un fiduciaire, un gestionnaire de fonds, un conseiller en investissement, un conseiller financier, un conseiller juridique ou un conseiller fiscal. GKP n'est pas supervisé par l'Autorité fédérale de surveillance des marchés financiers FINMA et ne détient aucune licence ou autorisation FINMA.</p>
+      <p>GKP agit exclusivement en tant qu'intermédiaire indépendant et consultant en affaires. GKP facilite les introductions entre des parties indépendantes. Les parties présentées par GKP négocient, évaluent et concluent toute transaction potentielle de manière indépendante et à leurs propres risques.</p>
+      <p>Rien sur ce site, dans les communications de GKP ou dans les documents partagés par GKP ne constitue un conseil financier, un conseil en investissement, un conseil juridique, un conseil fiscal, une recommandation personnelle, ou une recommandation d'achat, de vente, de détention ou de souscription d'un actif, d'un intérêt dans une société, d'un instrument financier, d'un titre, d'un fonds, d'un organisme de placement collectif ou d'un autre produit d'investissement.</p>
+
+      <h2>Absence d'offre, de sollicitation ou de placement</h2>
+      <p>Rien de ce qui est publié ou communiqué par GKP ne constitue une offre, une invitation, une sollicitation, un placement, une distribution, une souscription, un courtage ou une commercialisation de valeurs mobilières, d'instruments financiers, d'organismes de placement collectif ou d'autres produits d'investissement réglementés.</p>
+      <p>GKP n'offre pas, ne place pas, ne distribue pas, ne souscrit pas, ne négocie pas et ne commercialise pas d'instruments financiers ou de valeurs mobilières. GKP ne reçoit ni ne transmet d'ordres d'investissement et ne prend pas de décisions d'investissement pour le compte de clients, d'investisseurs ou de contreparties.</p>
+
+      <h2>Absence de gestion d'actifs clients</h2>
+      <p>GKP n'accepte pas, ne détient pas, ne transmet pas, ne gère pas, ne contrôle pas et ne conserve pas les fonds des clients, les fonds des investisseurs, les valeurs mobilières, les crypto-actifs ou autres actifs. Tout paiement, investissement ou flux de transaction est effectué directement entre les parties concernées ou par l'intermédiaire de leurs conseillers professionnels, réglementés ou juridiques désignés.</p>
+
+      <h2>Diligence raisonnable indépendante requise</h2>
+      <p>Les informations fournies par GKP sont fournies à titre informatif général uniquement et peuvent être basées sur des informations fournies par des tiers. Sauf indication expresse par écrit, GKP n'a pas vérifié de manière indépendante toutes les informations, hypothèses, projections, évaluations ou déclarations fournies par des tiers.</p>
+      <p>Les documents partagés par GKP ne constituent pas un prospectus, un mémorandum d'offre, un document d'informations clés ou un document de marketing réglementé. Les investisseurs potentiels, vendeurs, acheteurs et parties à une transaction doivent effectuer leur propre diligence raisonnable et obtenir des conseils financiers, juridiques, fiscaux, réglementaires et techniques indépendants avant de conclure toute transaction.</p>
+
+      <h2>Absence de garantie de résultats</h2>
+      <p>GKP ne fait aucune déclaration, garantie ou assurance concernant l'exactitude, l'exhaustivité, la pertinence, la rentabilité, la faisabilité ou le résultat d'une introduction, d'un projet, d'une transaction ou d'une mission de conseil. Les transactions, mandats ou introductions passés ne sont pas indicatifs des résultats futurs.</p>
+      <p>Toutes les activités commerciales et d'investissement comportent des risques, y compris le risque de perte partielle ou totale du capital.</p>
+
+      <h2>Absence d'autorité pour engager les parties</h2>
+      <p>GKP n'a pas le pouvoir de négocier, d'approuver, d'engager, de représenter ou d'obliger un investisseur, un vendeur, un acheteur, un propriétaire de projet, une société, un émetteur ou toute autre contrepartie, sauf accord exprès écrit. Tout accord est conclu uniquement entre les parties concernées.</p>
+
+      <h2>Confidentialité</h2>
+      <p>GKP traite les informations des clients et des contreparties de manière confidentielle conformément aux lois applicables et aux obligations contractuelles. GKP ne divulgue pas l'identité des clients, mandats ou parties à des transactions à des tiers sans consentement approprié, sauf si la divulgation est requise par la loi, la réglementation, une ordonnance judiciaire ou une autorité compétente.</p>
+      <p>GKP est en cours d'affiliation à un organisme suisse d'autorégulation (OAR) reconnu, conformément à la loi fédérale sur le blanchiment d'argent (LBA).</p>
+
+      <h2>Juridiction</h2>
+      <p>Ce site est exploité par Global Key Partners GmbH, enregistrée à Zoug, Suisse. Toutes les questions relatives à ce site et aux services de GKP sont régies par le droit suisse, sous réserve des dispositions légales impératives applicables. Les tribunaux de Zoug, Suisse, auront compétence exclusive, sous réserve des fors légaux impératifs.</p>
+
+      <h2>Contact</h2>
+      <p>Pour toute question concernant cet avis juridique ou les activités de GKP, veuillez contacter :</p>
+      <p>
+        <strong>{{ config.site_name }} GmbH</strong><br>
+        {{ config.address.street }}<br>
+        {{ config.address.postal_code }} {{ config.address.city }}, {{ config.address.canton }}<br>
+        {{ config.address.country }}<br>
+        <a href="mailto:{{ config.email }}">{{ config.email }}</a>
+      </p>
+
+      {% endif %}
+
+    </div>
+  </div>
+</section>
+{% endblock %}

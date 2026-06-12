@@ -1,0 +1,183 @@
+{% extends "base.html" %}
+{% set ui = config.ui.get(lang) or config.ui['en'] %}
+{% set prefix = '' if lang == 'en' else ('/de' if lang == 'de' else '/fr') %}
+
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ content.h1 | tojson }},
+  "description": {{ content.meta_description | tojson }},
+  "datePublished": "{{ article.published }}",
+  "dateModified": "{{ article.published }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ config.site_name }}",
+    "@id": "{{ config.site_url }}/#organization"
+  },
+  "publisher": { "@id": "{{ config.site_url }}/#organization" },
+  "url": "{{ config.site_url }}{{ canonical }}",
+  "inLanguage": "{{ lang }}"
+}
+</script>
+{% if content.faqs %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in content.faqs %}
+    {
+      "@type": "Question",
+      "name": {{ faq.q | tojson }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ faq.a | tojson }} }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"{{ 'Home' if lang=='en' else 'Startseite' }}","item":"{{ config.site_url }}{{ '/' if lang=='en' else '/de/' }}"},
+    {"@type":"ListItem","position":2,"name":"{{ 'Insights' if lang=='en' else 'Einblicke' }}","item":"{{ config.site_url }}{{ prefix }}/insights/"},
+    {"@type":"ListItem","position":3,"name":"{{ content.h1 | truncate(60) }}","item":"{{ config.site_url }}{{ canonical }}"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+
+<!-- ── Hero ───────────────────────────────────────────────── -->
+<section class="hero hero--page" aria-labelledby="article-heading">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' if lang == 'en' else '/de/' }}">{{ ui.breadcrumb_home }}</a>
+      <span class="sep" aria-hidden="true">/</span>
+      <a href="{{ prefix }}/insights/">{{ 'Insights' if lang == 'en' else 'Einblicke' }}</a>
+      <span class="sep" aria-hidden="true">/</span>
+      <span aria-current="page">{{ content.h1 | truncate(40) }}</span>
+    </nav>
+    <span class="hero-eyebrow">{{ 'GKP Insights' if lang == 'en' else 'GKP Einblicke' }} · {{ article.published }} · {{ article.reading_time }} min read</span>
+    <h1 id="article-heading" style="max-width:760px;">{{ content.h1 }}</h1>
+    <p class="hero-sub" style="max-width:640px;">{{ content.summary }}</p>
+  </div>
+</section>
+
+<!-- ── Body + Sidebar ────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="page-layout">
+
+      <article>
+        <div class="prose">
+          {% for block in content.body %}
+          {% if block.type == 'disclaimer' %}
+          <div class="article-disclaimer">{{ block.text }}</div>
+          {% elif block.type == 'h2' %}
+          <h2>{{ block.text }}</h2>
+          {% else %}
+          {% if block.heading is defined %}
+          <h2>{{ block.heading }}</h2>
+          {% endif %}
+          {% if block.text is defined %}
+          <p>{{ block.text }}</p>
+          {% endif %}
+          {% if block.bullets is defined %}
+          <ul>
+            {% for bullet in block.bullets %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+        </div>
+
+        <!-- FAQ -->
+        {% if content.faqs %}
+        <div style="margin-top:56px;">
+          <div class="gold-line"></div>
+          <h2 style="margin-bottom:32px;">{{ ui.faq_heading }}</h2>
+          <div class="faq-list">
+            {% for faq in content.faqs %}
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span class="faq-question-text">{{ faq.q }}</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-answer" hidden>
+                <p>{{ faq.a }}</p>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+
+        <!-- Back link -->
+        <div style="margin-top:48px; padding-top:32px; border-top:1px solid var(--gray-200);">
+          <a href="{{ prefix }}/insights/" class="btn btn-outline">← {{ ui.back_to_insights }}</a>
+        </div>
+      </article>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        {% set svc_map = {
+          'property':      'off-market-real-estate',
+          'business':      'business-acquisitions',
+          'family-office': 'capital-introduction',
+          'corridor':      'strategic-introductions'
+        } %}
+        {% set svc_names = {
+          'off-market-real-estate':  {'en': 'Off-Market Real Estate',            'de': 'Off-Market Immobilien',                  'fr': 'Immobilier Hors Marché'},
+          'business-acquisitions':   {'en': 'Off-Market M&A & Succession',       'de': 'Off-Market M&A & Nachfolge',             'fr': 'M&A Hors Marché & Succession'},
+          'capital-introduction':    {'en': 'Capital & Investor Introductions',  'de': 'Kapital- & Investorenkontakte',          'fr': 'Introductions en Capital'},
+          'strategic-introductions': {'en': 'Strategic Introductions',           'de': 'Strategische Kontaktvermittlung',        'fr': 'Mises en relation stratégiques'}
+        } %}
+        {% set rel_slug = article.get('related_service') or svc_map.get(article.get('topic', 'general'), 'strategic-introductions') %}
+        {% set rel_name = svc_names[rel_slug][lang] if rel_slug in svc_names else svc_names['strategic-introductions'][lang] %}
+        <div class="cta-block" style="margin-bottom:24px;">
+          <h4>{{ 'How GKP can help' if lang == 'en' else ('Wie GKP helfen kann' if lang == 'de' else 'Comment GKP peut aider') }}</h4>
+          <p>{{ 'This topic is part of our work in ' if lang == 'en' else ('Dieses Thema gehört zu unserer Arbeit im Bereich ' if lang == 'de' else 'Ce sujet fait partie de notre travail en ') }}{{ rel_name }}.</p>
+          <a href="{{ prefix }}/services/{{ rel_slug }}/" class="btn btn-gold-outline" style="width:100%; justify-content:center; margin-bottom:8px;">{{ rel_name }} &rarr;</a>
+          <a href="{{ prefix }}/contact/" class="btn btn-gold-outline" style="width:100%; justify-content:center;">{{ ui.contact_cta }}</a>
+        </div>
+
+        {% set related = all_articles | selectattr('slug', 'ne', article.slug) | selectattr('topic', 'equalto', article.get('topic', 'general')) | list %}
+        {% if related | length < 3 %}
+          {% set seen = related | map(attribute='slug') | list %}
+          {% set extra = all_articles | selectattr('slug', 'ne', article.slug) | rejectattr('slug', 'in', seen) | list %}
+          {% set related = (related + extra) | list %}
+        {% endif %}
+        {% if related | length > 0 %}
+        <div class="sidebar-block">
+          <span class="sidebar-block-label">{{ 'More insights' if lang == 'en' else 'Weitere Einblicke' }}</span>
+          {% for art in related[:4] %}
+          {% set ac = art.get(lang) or art.get('en') %}
+          <a href="{{ prefix }}/insights/{{ art.slug }}/" class="sidebar-link">{{ ac.h1 | truncate(48) }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="sidebar-block">
+          <span class="sidebar-block-label">{{ 'Our services' if lang == 'en' else ('Unsere Leistungen' if lang == 'de' else 'Nos services') }}</span>
+          <a href="{{ prefix }}/services/strategic-introductions/" class="sidebar-link">{{ '01&ensp;Strategic Introductions' if lang == 'en' else ('01&ensp;Strategische Kontaktvermittlung' if lang == 'de' else '01&ensp;Mises en relation stratégiques') }}</a>
+          <a href="{{ prefix }}/services/off-market-real-estate/" class="sidebar-link">{{ '02&ensp;Off-Market Real Estate' if lang == 'en' else ('02&ensp;Off-Market Immobilien' if lang == 'de' else '02&ensp;Immobilier Hors Marché') }}</a>
+          <a href="{{ prefix }}/services/business-acquisitions/" class="sidebar-link">{{ '03&ensp;Off-Market M&A & Succession' if lang == 'en' else ('03&ensp;Off-Market M&A & Nachfolge' if lang == 'de' else '03&ensp;M&A Hors Marché & Succession') }}</a>
+          <a href="{{ prefix }}/services/capital-introduction/" class="sidebar-link">{{ '04&ensp;Capital & Investor Introductions' if lang == 'en' else ('04&ensp;Kapital- & Investorenkontakte' if lang == 'de' else '04&ensp;Introductions en Capital') }}</a>
+          <a href="{{ prefix }}/services/luxury-brand-partnerships/" class="sidebar-link">{{ '05&ensp;Luxury Brand Partnerships' if lang == 'en' else ('05&ensp;Luxusmarken-Partnerschaften' if lang == 'de' else '05&ensp;Partenariats de Marques de Luxe') }}</a>
+          <a href="{{ prefix }}/services/hospitality-investments/" class="sidebar-link">{{ '06&ensp;Hospitality Investments' if lang == 'en' else ('06&ensp;Hospitality Investments' if lang == 'de' else '06&ensp;Investissements Hôteliers') }}</a>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+{% endblock %}

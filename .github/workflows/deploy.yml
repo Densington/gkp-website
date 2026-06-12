@@ -1,0 +1,49 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:   # allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build site
+        run: python build.py
+
+      - name: Create placeholder images if missing
+        run: |
+          # Ensure the images directory exists in dist
+          mkdir -p dist/assets/images
+          # Create placeholder OG image if not present
+          if [ ! -f dist/assets/images/og-image.jpg ]; then
+            echo "Note: og-image.jpg not found — add one to assets/images/"
+          fi
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Deploy: ${{ github.event.head_commit.message }}'
+          force_orphan: true

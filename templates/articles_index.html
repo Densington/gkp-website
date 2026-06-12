@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% set ui = config.ui.get(lang) or config.ui['en'] %}
+{% set prefix = '' if lang == 'en' else ('/de' if lang == 'de' else '/fr') %}
+
+{% set t = {
+  'en': {
+    'title': 'Insights | Global Key Partners. Private Market Intelligence',
+    'h1': 'Private Market Insights',
+    'eyebrow': 'GKP Insights',
+    'sub': 'Practical intelligence on off-market real estate, family office deal flow, capital introduction, and private market strategy in Switzerland and globally.',
+    'meta': 'GKP insights: practical guides on off-market real estate in Switzerland, family office deal sourcing, capital introduction, and private market access.'
+  },
+  'de': {
+    'title': 'Einblicke | Global Key Partners. Private Market Intelligence',
+    'h1': 'Private Market Einblicke',
+    'eyebrow': 'GKP Einblicke',
+    'sub': 'Praktisches Wissen über Off-Market-Immobilien, Family Office Deal Flow, Kapitalvermittlung und Privatmarkt-Strategie in der Schweiz und weltweit.',
+    'meta': 'GKP Einblicke: Praktische Leitfäden zu Off-Market-Immobilien in der Schweiz, Family Office Deal Sourcing, Kapitalvermittlung und Privatmarktzugang.'
+  }
+}.get(lang) or {} %}
+
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "url": "{{ config.site_url }}{{ canonical }}",
+  "name": "{{ t.h1 }}",
+  "description": "{{ t.sub }}",
+  "publisher": { "@id": "{{ config.site_url }}/#organization" }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+
+<section class="hero hero--page" aria-labelledby="insights-heading">
+  <div class="container">
+    <span class="hero-eyebrow">{{ t.eyebrow }}</span>
+    <h1 id="insights-heading">{{ t.h1 }}</h1>
+    <p class="hero-sub" style="max-width:600px;">{{ t.sub }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="article-grid">
+      {% for art in articles %}
+      {% set ac = art.get(lang) or art.get('en') %}
+      <article class="card article-card" itemscope itemtype="https://schema.org/Article">
+        <div class="card-body">
+          <p class="article-meta">
+            <time datetime="{{ art.published }}" itemprop="datePublished">{{ art.published }}</time>
+            · {{ art.reading_time }} min read
+          </p>
+          <h2 style="font-size:1.2rem; margin-bottom:10px;" itemprop="headline">
+            <a href="{{ prefix }}/insights/{{ art.slug }}/" style="color:inherit" itemprop="url">{{ ac.h1 }}</a>
+          </h2>
+          <p itemprop="description">{{ ac.summary }}</p>
+          <a href="{{ prefix }}/insights/{{ art.slug }}/" class="card-link">{{ ui.read_more }}</a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% endblock %}
