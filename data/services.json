@@ -2,34 +2,65 @@
   {
     "slug": "strategic-introductions",
     "num": "01",
-    "hero_image": "swiss-terrace.jpg",
+    "hero_image": "strategic-introductions-hero.jpg",
     "en": {
-      "title": "Strategic Introductions Switzerland | Private Investor Matchmaking | GKP",
-      "h1": "Strategic Introductions & Curated Matchmaking",
-      "meta_description": "GKP facilitates trusted introductions between UHNWIs, family offices, and private investors in Switzerland, connecting private capital with the right people, deals, and opportunities.",
-      "card_summary": "Curated introductions between private capital, family offices, and strategic partners, built on trust, not databases.",
-      "intro": "The most valuable business relationships are rarely formed through open platforms. They develop over time, through discretion, consistency, and mutual trust. Global Key Partners operates as an intermediary in this space, connecting principals through carefully considered introductions.",
+      "title": "Strategic Introductions & Capital Access Switzerland | Private Investor Matchmaking | GKP",
+      "h1": "Strategic Introductions & Capital Access",
+      "meta_description": "GKP facilitates trusted introductions between UHNWIs, family offices, founders, and private investors in Switzerland, connecting private capital with the right people, deals, and capital partners.",
+      "card_summary": "Curated introductions between private capital, family offices, founders, and strategic partners, built on trust, not databases.",
+      "intro": "The most valuable business relationships are rarely formed through open platforms. They develop over time through discretion, consistency, and mutual trust. Global Key Partners connects investors, entrepreneurs, family offices, business owners, and decision-makers where there is a clear basis for mutual interest and long-term value creation.",
       "body": [
         {
-          "text": "GKP acts as an intermediary for principals seeking relevant counterparts in private markets. Clients include investors, entrepreneurs, family offices, and executives who require a discreet, qualified partner to facilitate introductions at the appropriate stage."
+          "heading": "Strategic Introductions",
+          "text": "Every engagement begins with a clear understanding of objectives, priorities, and desired outcomes. Through established relationships across Switzerland, Europe, the Gulf region, and Southeast Asia, GKP identifies relevant individuals, businesses, investors, and partners aligned with a specific mandate."
         },
         {
-          "heading": "What GKP does",
-          "text": "GKP begins by establishing the objectives and criteria of each party. It then reviews its network, built across Switzerland, Europe, the Gulf, and Southeast Asia, to identify a relevant counterpart. Introductions are made only where there is a clear basis for mutual interest. GKP does not operate a directory or make introductions on a volume basis; each connection is reviewed and made under the firm's name."
+          "text": "Whether the objective is capital, a business acquisition, a strategic partnership, a buyer, or a commercial opportunity, the focus remains the same: connecting the right people at the right time."
         },
         {
-          "heading": "Who GKP works with",
+          "heading": "Who Global Key Partners Works With",
           "bullets": [
-            "Ultra-high-net-worth individuals seeking access to off-market investment opportunities",
-            "Family offices looking for off-market deal flow or operating expertise",
-            "Founders and entrepreneurs seeking strategic investors beyond typical venture capital",
-            "Luxury and premium brands seeking entry into new markets or investor partners",
-            "Asset owners seeking qualified buyers or equity partners for specific opportunities"
+            "Family offices and private investors",
+            "Ultra-high-net-worth individuals",
+            "Founders and entrepreneurs",
+            "Business owners and asset owners",
+            "Strategic partners and industry leaders",
+            "Luxury, hospitality, and premium brands"
           ]
         },
         {
-          "heading": "Why trust matters more than scale",
-          "text": "In private markets, a well-considered introduction supports a productive business relationship and reflects the level of trust between the parties involved. Each introduction is reviewed through a structured filtering process before it is made, with the aim of prioritising relationship quality over volume and reducing unnecessary use of personnel, financial, and time resources for all parties."
+          "heading": "Capital & Investor Access",
+          "text": "For businesses, founders, and asset owners seeking capital, the right investor is often more valuable than the largest investor. Family offices, private investors, and strategic capital partners can provide financial resources alongside industry expertise, operational experience, and long-term alignment."
+        },
+        {
+          "text": "GKP facilitates access to investors across a range of situations, including growth-stage businesses, real estate opportunities, hospitality projects, business acquisitions, and asset-backed transactions."
+        },
+        {
+          "heading": "What Global Key Partners Offers",
+          "bullets": [
+            "Access to family offices, private investors, and strategic capital partners",
+            "Investors with sector expertise and operating experience",
+            "Growth capital and expansion opportunities",
+            "Real estate and asset-backed investment situations",
+            "International investor relationships across Switzerland, Europe, the Gulf region, and Southeast Asia"
+          ]
+        },
+        {
+          "heading": "How a Capital Introduction Mandate Works",
+          "text": "Each engagement begins with an assessment of the opportunity, capital requirement, investor profile sought, and relevant timeline. Based on these criteria, potential investors are identified and approached selectively where there is a credible basis for mutual interest and strategic alignment."
+        },
+        {
+          "text": "The process is focused on relevance, discretion, and relationship quality, ensuring that every introduction serves a clear purpose."
+        },
+        {
+          "heading": "Regulatory Positioning",
+          "text": "Global Key Partners acts as an introducer and facilitator of private introductions."
+        },
+        {
+          "text": "All commercial discussions, negotiations, due diligence, documentation, and transaction decisions remain the responsibility of the parties involved and their professional advisors."
+        },
+        {
+          "text": "Global Key Partners operates in accordance with applicable Swiss regulations. The firm does not provide investment advice, portfolio management, securities placement, or other regulated financial services within the meaning of the Swiss Financial Services Act (FinSA/FIDLEG). Any investment, legal, tax, or financial advice is provided solely by appropriately licensed and qualified professional advisors engaged by the parties."
         }
       ],
       "faqs": [
@@ -38,12 +69,12 @@
           "a": "A strategic introduction firm acts as a trusted intermediary, identifying and facilitating relationships between parties who can create mutual value, investors, business owners, family offices, or strategic partners. Unlike transactional brokers, the focus is on long-term relationship quality and genuine fit, not volume of introductions."
         },
         {
-          "q": "How does GKP find the right match for clients?",
-          "a": "GKP maintains an active, personally cultivated network across Switzerland, Europe, Southeast Asia, and selected global markets. We work on a mandate basis, listening carefully to client objectives before actively searching for the right counterpart. We do not rely on databases or platforms. Every introduction is made through genuine, verified relationships."
+          "q": "How does Global Key Partners find the right match for clients?",
+          "a": "GKP maintains an active network across Switzerland, Europe, Southeast Asia, and selected international markets. Each mandate begins with a clear understanding of the objectives and criteria of the parties involved. Potential counterparties are identified through trusted connections rather than databases or public platforms, and introductions are facilitated only where there is a credible basis for mutual interest, strategic alignment, and long-term value creation."
         },
         {
           "q": "What is the difference between a broker and a strategic introduction firm?",
-          "a": "Brokers typically operate transactionally, matching supply and demand across a wide market and earning fees per completed transaction regardless of quality. A strategic introduction firm like GKP focuses on a small number of high-quality, bilateral matches and brings relationship credibility, discretion, and long-term perspective to every engagement."
+          "a": "Brokers primarily facilitate transactions. A strategic introduction firm focuses on connecting the right people, investors, business owners, family offices, and strategic partners, where there is a genuine basis for mutual interest, strategic alignment, and long-term value creation."
         },
         {
           "q": "Does GKP work on retainer or success fees?",
@@ -52,60 +83,191 @@
         {
           "q": "Which industries does GKP cover for strategic introductions?",
           "a": "GKP's primary focus areas are real estate, hospitality, luxury brands, private equity and venture co-investment, and business acquisitions. GKP is most active in Switzerland and Southeast Asia, with network reach extending to the wider European and Gulf markets."
+        },
+        {
+          "q": "What is capital introduction and how does it differ from fundraising?",
+          "a": "Capital introduction refers to a targeted, relationship-based approach to connecting capital seekers with specific qualified investors. Unlike broad fundraising campaigns or investor roadshows, capital introduction is discreet, direct, and based on trusted relationships between the parties involved. Introductions are facilitated only where there is a credible basis for mutual interest and strategic alignment."
+        },
+        {
+          "q": "Who are GKP's typical capital introduction clients?",
+          "a": "Global Key Partners works with founders of growth-stage companies, real estate principals, asset owners, entrepreneurs, and businesses undergoing succession or ownership transition. Engagements are typically centred on opportunities with a clear investment thesis, a defined capital requirement, and an identifiable investor profile."
+        },
+        {
+          "q": "Does GKP help startups raise capital?",
+          "a": "Global Key Partners facilitates introductions between founders and relevant private investors, family offices, UHNWIs, and strategic investors where there is a credible opportunity and a clearly defined investor profile. The firm acts solely as an introducer and does not undertake fundraising, placement activities, or investment advisory services."
+        },
+        {
+          "q": "How long does a capital introduction process typically take?",
+          "a": "Private capital introductions are relationship-driven and therefore depend on the nature of the opportunity, investor appetite, and the decision-making process of the parties involved. While some introductions progress quickly, most engagement timelines are measured in months rather than weeks. Expectations regarding timing are discussed at the outset of each engagement."
+        },
+        {
+          "q": "What information does GKP need before starting a capital introduction mandate?",
+          "a": "A clear summary of the opportunity, key financial information, capital requirements, and the desired investor profile are typically required. For asset-backed opportunities, supporting documentation relating to the underlying asset may also be necessary. Confidentiality is maintained throughout the engagement process."
         }
       ],
       "nav_title": "Strategic Introductions"
     },
     "de": {
-      "title": "Strategische Kontaktvermittlung & Matchmaking Schweiz | Global Key Partners",
-      "h1": "Strategische Kontaktvermittlung & kuratiertes Matchmaking",
-      "meta_description": "GKP vermittelt hochwertige, vertrauensbasierte Kontakte zwischen sehr vermögenden Privatpersonen, Family Offices, Luxusmarken und Privatinvestoren in der Schweiz und weltweit.",
-      "card_summary": "Kuratierte Kontakte zwischen privatem Kapital, Family Offices und strategischen Partnern, auf Vertrauen aufgebaut, nicht auf Datenbanken.",
-      "intro": "Die wertvollsten Geschäftsbeziehungen entstehen selten über offene Plattformen. Sie entwickeln sich über Zeit, durch Diskretion, Beständigkeit und gegenseitiges Vertrauen. Global Key Partners agiert in diesem Bereich als Vermittler und stellt sorgfältig geprüfte Verbindungen zwischen Auftraggebern her.",
+      "title": "Strategische Kontaktvermittlung & Kapitalzugang Schweiz | Global Key Partners",
+      "h1": "Strategische Kontaktvermittlung & Kapitalzugang",
+      "meta_description": "GKP vermittelt hochwertige, vertrauensbasierte Kontakte zwischen sehr vermögenden Privatpersonen, Family Offices, Gründern und Privatinvestoren in der Schweiz und weltweit.",
+      "card_summary": "Kuratierte Kontakte zwischen privatem Kapital, Family Offices, Gründern und strategischen Partnern, auf Vertrauen aufgebaut, nicht auf Datenbanken.",
+      "intro": "Die wertvollsten Geschäftsbeziehungen entstehen selten über öffentliche Plattformen. Sie entwickeln sich über Zeit durch Diskretion, Beständigkeit und gegenseitiges Vertrauen. Global Key Partners verbindet Investoren, Unternehmer, Family Offices, Geschäftsinhaber, Eigentümer und Entscheidungsträger dort, wo eine klare Grundlage für gegenseitiges Interesse und langfristige Wertschöpfung besteht.",
       "body": [
         {
-          "text": "GKP fungiert als Vermittler für Auftraggeber, die in privaten Märkten nach geeigneten Gegenparteien suchen. Zu den Kunden zählen Investoren, Unternehmer, Family Offices und Führungskräfte, die einen diskreten, qualifizierten Partner für die Vermittlung passender Kontakte benötigen."
+          "heading": "Strategische Kontaktvermittlung",
+          "text": "Jedes Engagement beginnt mit einem klaren Verständnis von Zielen, Prioritäten und gewünschten Ergebnissen. Über etablierte Beziehungen in der Schweiz, Europa, der Golfregion und Südostasien identifiziert GKP relevante Personen, Unternehmen, Investoren und Partner, die zu einem bestimmten Mandat passen."
         },
         {
-          "heading": "Was wir tun",
-          "text": "GKP klärt zunächst die Ziele und Kriterien jeder Partei. Anschliessend prüft es sein Netzwerk, aufgebaut in der Schweiz, Europa, dem Nahen Osten und Südostasien, auf eine geeignete Gegenpartei. Ein Kontakt wird nur hergestellt, wenn eine klare Grundlage für gegenseitiges Interesse besteht."
+          "text": "Ob das Ziel Kapital, eine Unternehmensübernahme, eine strategische Partnerschaft, ein Käufer oder eine Geschäftsmöglichkeit ist, im Mittelpunkt steht die Zusammenführung relevanter Parteien mit gemeinsamen Interessen und Zielsetzungen."
         },
         {
-          "heading": "Mit wem wir arbeiten",
+          "heading": "Mit wem Global Key Partners arbeitet",
           "bullets": [
-            "Sehr vermögende Privatpersonen auf der Suche nach Zugang zu Off-Market-Investitionsmöglichkeiten",
-            "Family Offices auf der Suche nach Off-Market-Deal-Flow oder operativer Expertise",
-            "Gründer und Unternehmer auf der Suche nach strategischen Investoren",
-            "Luxus- und Premiummarken auf der Suche nach Markteintritten oder Investoren",
-            "Vermögensinhaber auf der Suche nach qualifizierten Käufern oder Eigenkapitalpartnern"
+            "Family Offices und Investoren",
+            "Gründer und Unternehmer",
+            "Geschäftsinhaber und Eigentümer",
+            "Strategische Partner und Branchenführer",
+            "Luxus, Hospitality und Premiummarken"
           ]
+        },
+        {
+          "heading": "Kapitalzugang & Investorennetzwerke",
+          "text": "Für Unternehmen, Gründer und Geschäftsinhaber auf der Suche nach Kapital ist der passende Investor oft wertvoller als der grösste Investor. Family Offices, Privatinvestoren und strategische Kapitalpartner können neben finanziellen Mitteln auch Branchenexpertise, operative Erfahrung und wertvolle Netzwerke einbringen."
+        },
+        {
+          "text": "GKP ermöglicht Zugang zu Investoren für Wachstumsunternehmen, Immobilienmöglichkeiten, Hospitality Projekte, Unternehmensübernahmen und ausgewählte Investitionsvorhaben."
+        },
+        {
+          "heading": "Was Global Key Partners bietet",
+          "bullets": [
+            "Zugang zu Family Offices, Privatinvestoren und strategischen Kapitalpartnern",
+            "Investoren mit Branchenexpertise und operativer Erfahrung",
+            "Wachstumskapital und Expansionsmöglichkeiten",
+            "Immobilienbezogene und unternehmensbezogene Investitionsmöglichkeiten",
+            "Internationale Investorenbeziehungen in der Schweiz, Europa, der Golfregion und Südostasien"
+          ]
+        },
+        {
+          "heading": "Ablauf eines Kapitalvermittlungsmandats",
+          "text": "Jedes Engagement beginnt mit einer Beurteilung der Opportunität, des Kapitalbedarfs, des gewünschten Investorenprofils und des relevanten Zeitrahmens. Basierend auf diesen Kriterien werden potenzielle Investoren identifiziert und selektiv angesprochen, sofern eine nachvollziehbare Grundlage für gegenseitiges Interesse und strategische Passung besteht."
+        },
+        {
+          "text": "Der Fokus liegt auf Relevanz, Diskretion und einer sorgfältigen Auswahl potenzieller Kontakte, sodass jede Kontaktvermittlung einem klaren Zweck dient."
+        },
+        {
+          "heading": "Regulatorische Einordnung",
+          "text": "Global Key Partners agiert ausschliesslich als Vermittler privater Kontakte und Geschäftsbeziehungen."
+        },
+        {
+          "text": "Sämtliche kommerziellen Gespräche, Verhandlungen, Due Diligence Prüfungen, Dokumentationen und Transaktionsentscheidungen verbleiben in der Verantwortung der beteiligten Parteien und ihrer professionellen Berater."
+        },
+        {
+          "text": "Global Key Partners erbringt seine Leistungen unter Beachtung der geltenden Schweizer Gesetzgebung. Die Gesellschaft erbringt keine Anlageberatung, Vermögensverwaltung, Platzierung von Finanzinstrumenten oder andere regulierte Finanzdienstleistungen im Sinne des Schweizer Finanzdienstleistungsgesetzes (FIDLEG). Jegliche Anlage-, Rechts-, Steuer- oder Finanzberatung wird ausschliesslich von entsprechend qualifizierten und zugelassenen Fachpersonen erbracht."
         }
       ],
       "faqs": [
         {
-          "q": "Was ist eine Firma für strategische Kontaktvermittlung?",
-          "a": "Eine Firma für strategische Kontaktvermittlung fungiert als vertrauenswürdiger Vermittler und erleichtert Beziehungen zwischen Parteien, die gegenseitigen Wert schaffen können. Im Gegensatz zu transaktionalen Maklern liegt der Fokus auf langfristiger Beziehungsqualität und echter Übereinstimmung."
+          "q": "Was ist strategische Kontaktvermittlung?",
+          "a": "Strategische Kontaktvermittlung schafft Zugang zu relevanten Kontakten, Partnerschaften und Opportunitäten durch ein etabliertes Netzwerk und vertrauensvolle Beziehungen. Im Mittelpunkt steht die gezielte Zusammenführung von Investoren, Unternehmern, Family Offices und strategischen Partnern mit gemeinsamen Interessen und komplementären Zielsetzungen. Im Gegensatz zu klassischen Vermittlungsmodellen liegt der Fokus auf langfristigen Beziehungen, Diskretion und der sorgfältigen Auswahl geeigneter Kontakte und Geschäftspartner."
         },
         {
-          "q": "Wie findet GKP die richtige Übereinstimmung für Kunden?",
-          "a": "GKP unterhält ein aktiv gepflegtes Netzwerk in der Schweiz, Europa, Südostasien und ausgewählten globalen Märkten. GKP arbeitet auf Mandatsbasis und sucht aktiv nach dem richtigen Gegenüber, bevor es einen Kontakt herstellt."
+          "q": "Wie findet Global Key Partners passende Kontakte und Geschäftspartner?",
+          "a": "GKP pflegt ein aktives Netzwerk in der Schweiz, Europa, Südostasien und ausgewählten internationalen Märkten. Jedes Mandat beginnt mit einem klaren Verständnis der Ziele, Prioritäten und Anforderungen der beteiligten Parteien. Potenzielle Kontakte, Investoren, Geschäftspartner oder Käufer werden über etablierte Beziehungen identifiziert, nicht über Datenbanken oder öffentliche Plattformen. Kontaktvermittlungen erfolgen ausschliesslich dort, wo eine nachvollziehbare Grundlage für gegenseitiges Interesse, gemeinsame Zielsetzungen und langfristige Wertschöpfung besteht."
+        },
+        {
+          "q": "Was ist der Unterschied zwischen einem Makler und einer Firma für strategische Kontaktvermittlung?",
+          "a": "Makler begleiten in der Regel konkrete Transaktionen und konzentrieren sich auf die Vermittlung eines Geschäfts. Eine Firma für strategische Kontaktvermittlung fokussiert sich auf die gezielte Zusammenführung von Investoren, Unternehmern, Family Offices, Eigentümern und strategischen Partnern, wo gemeinsame Interessen, eine klare strategische Passung und Potenzial für eine langfristige Zusammenarbeit bestehen."
         },
         {
           "q": "Arbeitet GKP auf Retainer- oder Erfolgsbasis?",
-          "a": "GKP strukturiert Engagements je nach Art des Mandats. Für laufende Beziehungsaufbau- und Deal-Flow-Unterstützung können Retainer-Vereinbarungen gelten. Für vermittelte Kontakte, die zu Transaktionen führen, sind Erfolgsgebühren üblich."
+          "a": "Die Vergütungsstruktur richtet sich nach Art und Umfang des jeweiligen Mandats. Bei laufenden Mandaten können Retainer-Vereinbarungen zur Anwendung kommen. Für Kontaktvermittlungen, die zu einer Transaktion oder Zusammenarbeit führen, werden in der Regel erfolgsabhängige Honorare vereinbart. Die jeweiligen Konditionen werden vor Beginn eines Mandats transparent festgelegt."
+        },
+        {
+          "q": "Auf welche Branchen konzentriert sich GKP bei der strategischen Kontaktvermittlung?",
+          "a": "Die Schwerpunkte von GKP liegen in den Bereichen Immobilien, Hospitality, Luxusmarken, Private Equity, Unternehmensübernahmen und Unternehmensnachfolge. GKP ist hauptsächlich in der Schweiz und Südostasien aktiv und verfügt über etablierte Beziehungen in Europa, der Golfregion und weiteren ausgewählten internationalen Märkten."
+        },
+        {
+          "q": "Was ist Kapitalvermittlung und wie unterscheidet sie sich von Fundraising?",
+          "a": "Kapitalvermittlung bezeichnet die gezielte Kontaktvermittlung zwischen Kapitalsuchenden und potenziellen Investoren. Im Unterschied zu öffentlichen Fundraising-Prozessen, Investoren-Roadshows oder breiten Investorenansprachen erfolgt die Kontaktvermittlung in der Regel selektiv, diskret und auf Grundlage etablierter Beziehungen. Im Mittelpunkt stehen die Identifikation geeigneter Kontakte und die Herstellung einer Verbindung zwischen Parteien mit gemeinsamen Interessen und Zielsetzungen."
+        },
+        {
+          "q": "Wer sind die typischen Kunden von GKP im Bereich Kapitalzugang?",
+          "a": "Global Key Partners arbeitet mit Gründern von Wachstumsunternehmen, Immobilieninhabern, Unternehmern, Geschäftsinhabern sowie Unternehmen in Nachfolge oder Eigentumsübergängen. Im Mittelpunkt stehen Vorhaben mit einem klar definierten Kapitalbedarf, einer nachvollziehbaren Investitionsmöglichkeit und einem passenden Investorenprofil."
+        },
+        {
+          "q": "Hilft GKP Start-ups beim Zugang zu Investoren?",
+          "a": "Global Key Partners vermittelt Kontakte zwischen Gründern und relevanten Privatinvestoren, Family Offices und strategischen Investoren, sofern eine nachvollziehbare Grundlage für gegenseitiges Interesse und ein klar definiertes Investorenprofil bestehen. GKP agiert ausschliesslich als Vermittler von Kontakten und Geschäftsbeziehungen. Die Gesellschaft erbringt keine Anlageberatung, keine Vermögensverwaltung und keine Platzierung von Finanzinstrumenten im Sinne des Schweizer Finanzdienstleistungsgesetzes (FIDLEG)."
+        },
+        {
+          "q": "Wie lange dauert ein Kapitalvermittlungsprozess typischerweise?",
+          "a": "Kapitalvermittlungen basieren auf persönlichen Beziehungen und hängen von verschiedenen Faktoren ab, darunter die Art des Vorhabens, das Interesse potenzieller Investoren sowie die Entscheidungsprozesse der beteiligten Parteien. Während einzelne Prozesse zügig verlaufen können, werden die meisten Zeitrahmen eher in Monaten als in Wochen gemessen."
+        },
+        {
+          "q": "Welche Informationen benötigt GKP vor Beginn eines Kapitalvermittlungsmandats?",
+          "a": "In der Regel werden eine Zusammenfassung des Vorhabens, relevante Finanzinformationen, der Kapitalbedarf sowie das gewünschte Investorenprofil benötigt. Je nach Mandat können zusätzliche Unterlagen zur Investitionsmöglichkeit oder zum zugrunde liegenden Vermögenswert erforderlich sein."
         }
       ],
       "nav_title": "Strategische Kontaktvermittlung"
     },
     "fr": {
-      "title": "Mises en relation stratégiques Suisse | Mise en Relation d'Investisseurs Privés | GKP",
-      "h1": "Mises en relation stratégiques & matchmaking sur mesure",
-      "meta_description": "GKP facilite des introductions de confiance entre UHNWI, family offices et investisseurs privés en Suisse, connectant les capitaux privés aux bonnes personnes, aux bons deals et aux bonnes opportunités.",
-      "card_summary": "Introductions sur mesure entre investisseurs qualifiés, fondateurs et propriétaires d'actifs en Suisse et à l'international.",
-      "intro": "Dans les marchés privés suisses, les transactions les plus significatives ne se concluent généralement pas via des plateformes ouvertes, mais par le biais de relations établies. GKP agit comme intermédiaire et met en relation les parties pertinentes au moment approprié.",
+      "title": "Mises en Relation Stratégiques & Accès au Capital Suisse | GKP",
+      "h1": "Mises en Relation Stratégiques & Accès au Capital",
+      "meta_description": "GKP facilite des introductions de confiance entre UHNWI, family offices, fondateurs et investisseurs privés en Suisse, connectant les capitaux privés aux bonnes personnes et aux bons partenaires.",
+      "card_summary": "Introductions sur mesure entre investisseurs qualifiés, fondateurs et propriétaires d'actifs en Suisse et à l'international, fondées sur la confiance, pas sur des bases de données.",
+      "intro": "Les relations d'affaires les plus précieuses se forment rarement via des plateformes ouvertes. Elles se développent dans le temps grâce à la discrétion, la constance et la confiance mutuelle. Global Key Partners met en relation investisseurs, entrepreneurs, family offices, propriétaires d'entreprises et décideurs, là où il existe une base claire d'intérêt mutuel et de création de valeur à long terme.",
       "body": [
         {
-          "text": "GKP facilite des introductions confidentielles entre investisseurs qualifiés, propriétaires d'actifs, fondateurs et family offices en Suisse et à l'international. GKP ne gère pas de base de données d'investisseurs ; chaque introduction est examinée sur la base d'une compréhension des critères des deux parties."
+          "heading": "Mises en Relation Stratégiques",
+          "text": "Chaque mandat commence par une compréhension claire des objectifs, des priorités et des résultats souhaités. Grâce à des relations établies en Suisse, en Europe, dans la région du Golfe et en Asie du Sud-Est, GKP identifie les personnes, entreprises, investisseurs et partenaires pertinents alignés avec un mandat spécifique."
+        },
+        {
+          "text": "Que l'objectif soit le capital, une acquisition d'entreprise, un partenariat stratégique, un acheteur ou une opportunité commerciale, l'approche reste la même : réunir les bonnes personnes au bon moment."
+        },
+        {
+          "heading": "Avec qui Global Key Partners travaille",
+          "bullets": [
+            "Family offices et investisseurs privés",
+            "Particuliers très fortunés (UHNWI)",
+            "Fondateurs et entrepreneurs",
+            "Propriétaires d'entreprises et d'actifs",
+            "Partenaires stratégiques et leaders du secteur",
+            "Marques de luxe, d'hôtellerie et premium"
+          ]
+        },
+        {
+          "heading": "Accès au Capital & aux Investisseurs",
+          "text": "Pour les entreprises, fondateurs et propriétaires d'actifs en recherche de capital, identifier le bon investisseur est souvent plus précieux qu'identifier le plus grand investisseur. Les family offices, investisseurs privés et partenaires en capital stratégiques peuvent apporter des ressources financières ainsi qu'une expertise sectorielle, une expérience opérationnelle et un alignement à long terme."
+        },
+        {
+          "text": "GKP facilite l'accès à des investisseurs dans une variété de situations, notamment les entreprises en phase de croissance, les opportunités immobilières, les projets hôteliers, les acquisitions d'entreprises et les transactions adossées à des actifs."
+        },
+        {
+          "heading": "Ce que Global Key Partners Offre",
+          "bullets": [
+            "Accès à des family offices, investisseurs privés et partenaires en capital stratégiques",
+            "Investisseurs disposant d'une expertise sectorielle et d'une expérience opérationnelle",
+            "Capital de croissance et opportunités d'expansion",
+            "Situations d'investissement immobilier et adossées à des actifs",
+            "Relations avec des investisseurs internationaux en Suisse, en Europe, dans la région du Golfe et en Asie du Sud-Est"
+          ]
+        },
+        {
+          "heading": "Comment Fonctionne un Mandat d'Introduction en Capital",
+          "text": "Chaque engagement commence par une évaluation de l'opportunité, du besoin en capital, du profil d'investisseur recherché et du calendrier pertinent. Sur la base de ces critères, les investisseurs potentiels sont identifiés et approchés de manière sélective lorsqu'il existe une base crédible d'intérêt mutuel et d'alignement stratégique."
+        },
+        {
+          "text": "Le processus est centré sur la pertinence, la discrétion et la qualité relationnelle, garantissant que chaque introduction serve un objectif clair."
+        },
+        {
+          "heading": "Positionnement réglementaire",
+          "text": "Global Key Partners agit en tant qu'introducteur et facilitateur d'introductions privées."
+        },
+        {
+          "text": "Toutes les discussions commerciales, négociations, due diligence, documentation et décisions de transaction relèvent de la responsabilité des parties concernées et de leurs conseillers professionnels."
+        },
+        {
+          "text": "Global Key Partners opère conformément à la réglementation suisse applicable. La firme ne fournit pas de conseil en investissement, de gestion de portefeuille, de placement d'instruments financiers ou d'autres services financiers réglementés au sens de la Loi suisse sur les services financiers (LSFin/FIDLEG). Tout conseil en investissement, juridique, fiscal ou financier est fourni exclusivement par des conseillers professionnels dûment habilités et qualifiés, engagés par les parties."
         }
       ],
       "faqs": [
@@ -114,47 +276,128 @@
           "a": "Une firme d'mises en relation stratégiques facilite des connexions confidentielles et ciblées entre investisseurs, propriétaires d'actifs et partenaires commerciaux qualifiés, sans publicité ni processus d'appel d'offres ouvert. GKP opère exclusivement à ce niveau."
         },
         {
-          "q": "Comment GKP trouve-t-il la bonne correspondance pour ses clients ?",
-          "a": "GKP commence par comprendre en profondeur les objectifs, le profil financier et les critères de chaque client. GKP recherche ensuite activement dans son réseau des contreparties pertinentes, et ne procède à des introductions que lorsqu'il existe une correspondance crédible des deux côtés."
+          "q": "Comment Global Key Partners trouve-t-il la bonne correspondance pour ses clients ?",
+          "a": "GKP entretient un réseau actif en Suisse, en Europe, en Asie du Sud-Est et sur des marchés internationaux sélectionnés. Chaque mandat commence par une compréhension claire des objectifs et des critères des parties concernées. Les contreparties potentielles sont identifiées par des connexions de confiance plutôt que par des bases de données ou des plateformes publiques, et les introductions ne sont facilitées que lorsqu'il existe une base crédible d'intérêt mutuel, d'alignement stratégique et de création de valeur à long terme."
+        },
+        {
+          "q": "Quelle est la différence entre un courtier et une firme d'mises en relation stratégiques ?",
+          "a": "Les courtiers facilitent principalement des transactions. Une firme de mises en relation stratégiques se concentre sur la mise en relation des bonnes personnes, investisseurs, propriétaires d'entreprises, family offices et partenaires stratégiques, lorsqu'il existe une base authentique d'intérêt mutuel, d'alignement stratégique et de création de valeur à long terme."
+        },
+        {
+          "q": "GKP travaille-t-il sur la base d'honoraires fixes ou de commissions de succès ?",
+          "a": "GKP structure ses engagements selon la nature du mandat. Pour un soutien continu au développement de relations et au flux de transactions, des accords d'honoraires fixes peuvent s'appliquer. Pour des introductions spécifiques menant à des transactions, les commissions de succès sont la norme."
+        },
+        {
+          "q": "Quels secteurs GKP couvre-t-il pour les mises en relation stratégiques ?",
+          "a": "Les principaux domaines d'intervention de GKP sont l'immobilier, l'hôtellerie, les marques de luxe, le capital-investissement et le co-investissement en capital-risque, ainsi que les acquisitions d'entreprises. GKP est principalement actif en Suisse et en Asie du Sud-Est, avec une portée de réseau s'étendant aux marchés européens et du Golfe plus larges."
+        },
+        {
+          "q": "Qu'est-ce que l'introduction en capital et en quoi diffère-t-elle de la levée de fonds ?",
+          "a": "L'introduction en capital désigne une approche ciblée et relationnelle visant à connecter les chercheurs de capitaux avec des investisseurs qualifiés spécifiques. Contrairement aux campagnes de levée de fonds larges ou aux roadshows d'investisseurs, l'introduction en capital est discrète, directe et fondée sur des relations de confiance entre les parties concernées."
+        },
+        {
+          "q": "Qui sont les clients typiques de GKP en matière d'introduction en capital ?",
+          "a": "Global Key Partners travaille avec des fondateurs d'entreprises en croissance, des acteurs de l'immobilier, des propriétaires d'actifs, des entrepreneurs et des entreprises en transition de succession ou de propriété. Les engagements sont généralement centrés sur des opportunités présentant une thèse d'investissement claire, un besoin en capital défini et un profil d'investisseur identifiable."
+        },
+        {
+          "q": "GKP aide-t-il les start-ups à lever des capitaux ?",
+          "a": "Global Key Partners facilite les introductions entre fondateurs et investisseurs privés pertinents, family offices, UHNWIs et investisseurs stratégiques lorsqu'il existe une opportunité crédible et un profil d'investisseur clairement défini. La firme agit uniquement en tant qu'introducteur et n'entreprend ni levée de fonds, ni activités de placement, ni services de conseil en investissement."
+        },
+        {
+          "q": "Combien de temps dure généralement un processus d'introduction en capital ?",
+          "a": "Les introductions en capital privé sont relationnelles et dépendent donc de la nature de l'opportunité, de l'appétit des investisseurs et du processus décisionnel des parties concernées. Si certaines introductions progressent rapidement, la plupart des délais d'engagement se mesurent en mois plutôt qu'en semaines."
+        },
+        {
+          "q": "Quelles informations GKP requiert-il avant de commencer un mandat d'introduction en capital ?",
+          "a": "Un résumé clair de l'opportunité, les informations financières clés, les besoins en capital et le profil d'investisseur souhaité sont généralement requis. Pour les opportunités adossées à des actifs, une documentation relative à l'actif sous-jacent peut également être nécessaire."
         }
       ],
-      "nav_title": "Mises en relation stratégiques"
+      "nav_title": "Mises en Relation Stratégiques"
     }
   },
   {
-    "slug": "off-market-real-estate",
+    "slug": "off-market-sourcing",
     "num": "02",
-    "hero_image": "real-estate-lakeview.jpg",
+    "hero_image": "off-market-sourcing-hero.jpg",
     "en": {
-      "title": "Off-Market Real Estate Switzerland | Private Property Access Zurich Geneva Zug Basel Lucerne | GKP",
-      "h1": "Off-Market Real Estate Access in Switzerland",
-      "meta_description": "Access off-market real estate investment opportunities across Switzerland. GKP connects qualified buyers with private property in Zurich, Geneva, Zug, Basel, Lucerne, and Swiss alpine markets, before public listing.",
-      "card_summary": "Private access to off-market properties across Switzerland: residential, commercial, hospitality, and development sites.",
-      "intro": "In Switzerland's premium property markets, a significant share of valuable assets do not appear on public listings. Industry estimates suggest that 15–25% of high-value transactions in cities such as Zurich and Geneva take place off-market, through private networks, referrals, and direct introductions.",
+      "title": "Off-Market Real Estate & Business Acquisitions Switzerland | GKP",
+      "h1": "Off-Market Real Estate & Business Acquisitions",
+      "meta_description": "Access off-market real estate and business acquisition opportunities across Switzerland. GKP connects qualified buyers with private property and owner-operated companies in Zurich, Geneva, Zug, Basel, and Lucerne, before public listing.",
+      "card_summary": "Private access to off-market properties and owner-operated businesses across Switzerland: residential, commercial, hospitality, development sites, and succession situations.",
+      "intro": "Many of the most attractive opportunities never reach public markets. Across real estate, business acquisitions, succession situations, hospitality assets, and selected private investments, transactions are often conducted discreetly through established networks, referrals, and long-standing industry relationships.",
       "body": [
         {
-          "text": "GKP acts as an intermediary for qualified buyers, sellers, and investors who prefer to transact on a private basis. GKP maintains relationships with property owners, developers, family offices, and professionals across Switzerland, which it draws on to identify relevant opportunities ahead of the open market where possible."
+          "heading": "Off-Market Real Estate",
+          "text": "Global Key Partners sources and facilitates access to off-market real estate opportunities across Switzerland and selected international markets. Through relationships with property owners, developers, investors, family offices, and industry professionals, opportunities can often be identified before reaching broader market channels."
         },
         {
-          "heading": "For buyers",
-          "text": "GKP establishes the client's investment criteria, financial profile, and objectives, then reviews its network for properties that match. Only pre-screened, relevant opportunities are presented. GKP does not operate a listing database; each opportunity put forward is reviewed for verified ownership and transaction readiness."
+          "heading": "For Buyers",
+          "text": "Investment criteria, acquisition objectives, financial profile, and geographic preferences are established at the outset of each mandate. Opportunities are then sourced and presented selectively based on suitability, ownership verification, and transaction readiness."
         },
         {
-          "heading": "For sellers and owners",
-          "text": "Owners considering a sale, refinancing, or seeking equity partners on a discreet basis can be introduced, through GKP, to qualified private buyers and family offices allocating capital in this space. Mandates are handled with confidentiality, and assets are not listed publicly without explicit agreement."
+          "heading": "For Sellers and Owners",
+          "text": "Property owners considering a sale, refinancing, recapitalisation, or the introduction of additional capital can gain access to qualified investors, family offices, and private buyers seeking opportunities in the market. Engagements are conducted with discretion and confidentiality throughout the process."
         },
         {
-          "heading": "Asset types GKP represents",
+          "heading": "Areas of Focus",
           "bullets": [
-            "Luxury residential properties (apartments, villas, chalets) in prime Swiss locations",
+            "Luxury residential properties, including apartments, villas, and chalets",
+            "Commercial and investment properties",
             "Boutique hotels, resort properties, and hospitality assets",
             "Development sites and land with planning potential",
-            "Income-producing investment properties with stable yield profiles"
+            "Income-producing investment properties",
+            "Selected international real estate opportunities"
           ]
         },
         {
-          "heading": "Why off-market matters in Switzerland",
-          "text": "Switzerland's real estate market is structurally constrained, closely regulated, and largely relationship-driven. For buyers, relying on public listings often means competing with a wide pool of qualified parties. For sellers, public listings can attract a high volume of unqualified interest rather than suitable counterparties. GKP's role is to provide an alternative route, conducted discreetly and on a private basis."
+          "heading": "Why Off-Market Matters",
+          "text": "Many of the most desirable assets change hands privately rather than through public listings. For buyers, this can provide access to opportunities before they become widely known. For sellers, it enables a more targeted process focused on qualified counterparties and transaction certainty."
+        },
+        {
+          "heading": "Off-Market M&A & Business Succession",
+          "text": "Switzerland and the wider DACH region are experiencing a significant wave of business succession, creating opportunities for investors, entrepreneurs, and strategic buyers seeking established businesses with strong foundations and long-term potential."
+        },
+        {
+          "text": "Global Key Partners works with business owners exploring succession or ownership transitions, as well as buyers seeking acquisition opportunities outside a public sale process."
+        },
+        {
+          "heading": "For Business Buyers",
+          "text": "Relationships with business owners, succession advisors, fiduciaries, and professional advisors can provide visibility into opportunities before they reach the broader market. Once acquisition criteria have been established, relevant businesses are identified and approached confidentially."
+        },
+        {
+          "heading": "For Business Owners",
+          "text": "Owners exploring a succession solution, partial sale, strategic partnership, management buy-in, management buy-out, or full exit may gain access to qualified buyers, investors, and acquisition partners aligned with their objectives."
+        },
+        {
+          "heading": "Areas of Focus",
+          "bullets": [
+            "Swiss and DACH owner-operated SMEs",
+            "Succession and ownership transition situations",
+            "Hospitality, luxury, services, and niche manufacturing businesses",
+            "Cross-border acquisition opportunities",
+            "Strategic acquisitions and growth transactions"
+          ]
+        },
+        {
+          "heading": "Why Succession Matters",
+          "text": "Many successful businesses are approaching a generational transition without a natural successor. These situations create opportunities for investors and entrepreneurs seeking established companies, experienced teams, and long-term growth potential."
+        },
+        {
+          "heading": "How Transaction Mandates Work",
+          "text": "Each engagement begins with a clear understanding of the opportunity, objectives, transaction criteria, and desired outcome. Based on these parameters, suitable opportunities, buyers, sellers, or investors are identified and approached selectively where appropriate."
+        },
+        {
+          "text": "The process is conducted with discretion, confidentiality, and a focus on achieving the right outcome for all parties involved."
+        },
+        {
+          "heading": "Regulatory Positioning",
+          "text": "Global Key Partners acts as an introducer and facilitator of private market opportunities."
+        },
+        {
+          "text": "All commercial discussions, negotiations, due diligence, documentation, and transaction decisions remain the responsibility of the parties involved and their professional advisors."
+        },
+        {
+          "text": "Global Key Partners operates in accordance with applicable Swiss regulations and does not provide regulated investment, legal, tax, or financial advisory services. Any such advice is provided solely by appropriately qualified professional advisors engaged by the parties."
         }
       ],
       "faqs": [
@@ -164,7 +407,7 @@
         },
         {
           "q": "What types of off-market real estate does GKP handle?",
-          "a": "GKP works across luxury residential, commercial, hospitality, and development assets in Switzerland. Our strongest networks are in Zurich, Geneva, Zug, Lucerne, and the Swiss alpine resort markets. We also represent selected international opportunities in Southeast Asia and Europe."
+          "a": "GKP works across luxury residential, commercial, hospitality, and development assets in Switzerland. Activity is concentrated in Zurich, Geneva, Zug, Lucerne, and the Swiss alpine resort markets, while selected opportunities are also sourced internationally across Europe and Southeast Asia."
         },
         {
           "q": "Does GKP handle both buying and selling mandates?",
@@ -176,64 +419,226 @@
         },
         {
           "q": "What fees does GKP charge for off-market real estate introductions?",
-          "a": "GKP charges success fees upon completion of transactions, aligned with market-standard rates for the mandate type. For complex or exclusive mandates requiring substantial upfront work, a mandate fee may apply, and any mandate fee paid is deducted from the success fee due. All fee structures are discussed transparently before any engagement begins."
+          "a": "Fee structures vary depending on the nature and complexity of the mandate. Engagements may be structured on a success-based basis, through a mandate fee, or a combination of both. All commercial terms are discussed and agreed before any engagement begins."
+        },
+        {
+          "q": "How do I find off-market businesses for sale in Switzerland?",
+          "a": "Off-market business acquisition opportunities in Switzerland are typically surfaced through relationships with trusted intermediaries, succession advisors, fiduciaries, and business networks. GKP maintains active relationships in these circles and works on buyer mandates to actively source matching opportunities before they are publicly listed."
+        },
+        {
+          "q": "What is a succession situation and why is it relevant?",
+          "a": "A succession situation refers to an owner-operated business where the founder or owner is approaching retirement or a transition, and there is no natural internal successor. Across Switzerland and the wider DACH region, many such businesses are seeking long-term ownership solutions, and can represent attractive acquisition opportunities for strategic buyers, entrepreneurs, and investors."
+        },
+        {
+          "q": "Does GKP provide valuation or due diligence services?",
+          "a": "GKP focuses on sourcing, introductions, and transaction facilitation rather than financial valuation, tax structuring, or legal due diligence. Engagements are typically supported by fiduciaries, auditors, legal counsel, and other specialist advisors, and introductions can be facilitated where appropriate."
+        },
+        {
+          "q": "Can GKP help with cross-border acquisitions and international buyers in Switzerland?",
+          "a": "Yes. GKP regularly works with international buyers seeking acquisition opportunities in Switzerland. Activity frequently involves counterparties from Europe, the Gulf region, and Southeast Asia. Through its network and local market relationships, the firm facilitates introductions and connections relating to cross-border acquisition opportunities involving Swiss businesses."
         }
       ],
-      "nav_title": "Off-Market Real Estate"
+      "nav_title": "Off-Market Sourcing"
     },
     "de": {
-      "title": "Off-Market Immobilien Schweiz | Privater Immobilienzugang Zürich Genf Zug Basel Luzern | GKP",
-      "h1": "Zugang zu Off-Market-Immobilien in der Schweiz",
-      "meta_description": "Zugang zu Off-Market-Immobilien-Investitionsmöglichkeiten in der ganzen Schweiz. GKP verbindet qualifizierte Käufer mit privaten Immobilien in Zürich, Genf, Zug, Basel, Luzern und Schweizer Alpenresorts.",
-      "card_summary": "Privater Zugang zu Off-Market-Immobilien in der Schweiz. Wohnimmobilien, Gewerbe, Hospitality und Entwicklungsliegenschaften.",
-      "intro": "In den Premiummärkten der Schweizer Immobilienwirtschaft erscheint ein erheblicher Teil wertvoller Objekte nicht auf öffentlichen Inseraten. Schätzungen zufolge finden 15–25% der hochwertigen Transaktionen in Städten wie Zürich und Genf ausserhalb des öffentlichen Marktes statt, über private Netzwerke und direkte Kontakte.",
+      "title": "Off-Market Immobilien & Unternehmenskauf Schweiz | Global Key Partners",
+      "h1": "Off Market Immobilien & Unternehmensübernahmen",
+      "meta_description": "Zugang zu Off-Market-Immobilien und Unternehmensübernahmen in der ganzen Schweiz. GKP verbindet qualifizierte Käufer mit privaten Immobilien und inhabergeführten Unternehmen in Zürich, Genf, Zug, Basel und Luzern.",
+      "card_summary": "Privater Zugang zu Off-Market-Immobilien und inhabergeführten Unternehmen in der Schweiz: Wohnimmobilien, Gewerbe, Hospitality, Entwicklungsliegenschaften und Nachfolgesituationen.",
+      "intro": "Ein bedeutender Teil attraktiver Immobilien und Unternehmensübernahmen gelangt nicht auf öffentliche Plattformen oder Ausschreibungen. Transaktionen erfolgen häufig diskret über bestehende Beziehungen, Empfehlungen und etablierte Netzwerke. Dies gilt insbesondere für Immobilien, Unternehmensübernahmen, Nachfolgesituationen, Hospitality Assets und ausgewählte private Investitionsmöglichkeiten.",
       "body": [
         {
-          "text": "GKP fungiert als Vermittler für qualifizierte Käufer, Verkäufer und Investoren, die Transaktionen auf privater Basis bevorzugen. GKP pflegt Beziehungen zu Immobilieneigentümern, Entwicklern, Family Offices und Fachleuten in der gesamten Schweiz, die zur Identifikation relevanter Möglichkeiten beitragen."
+          "heading": "Off Market Immobilien",
+          "text": "Global Key Partners vermittelt Zugang zu Off Market Immobilien in der Schweiz und ausgewählten internationalen Märkten. Über Beziehungen zu Immobilieneigentümern, Entwicklern, Investoren, Family Offices und Branchenexperten können attraktive Möglichkeiten häufig identifiziert werden, bevor sie breitere Marktkanäle erreichen."
         },
         {
           "heading": "Für Käufer",
-          "text": "GKP erfasst zunächst die Investitionskriterien, das Finanzprofil und die Ziele des Kunden. Anschliessend prüft es sein Netzwerk auf passende Immobilien und stellt ausschliesslich vorgeprüfte, relevante Möglichkeiten vor."
+          "text": "Investitionskriterien, Akquisitionsziele, Finanzprofil und geografische Präferenzen werden zu Beginn jedes Mandats festgelegt. Potenzielle Möglichkeiten werden anschliessend selektiv vorgestellt, basierend auf Eignung, Eigentumsverifizierung und Transaktionsreife."
         },
         {
           "heading": "Für Verkäufer und Eigentümer",
-          "text": "Eigentümer, die einen Verkauf, eine Refinanzierung oder Eigenkapitalpartner auf diskreter Basis in Betracht ziehen, können über GKP an qualifizierte Privatkäufer und Family Offices vermittelt werden, die in diesem Bereich aktiv Kapital einsetzen."
+          "text": "Eigentümer, die einen Verkauf, eine Refinanzierung, eine Rekapitalisierung oder die Aufnahme zusätzlichen Kapitals in Betracht ziehen, können mit qualifizierten Investoren, Family Offices und potenziellen Käufern in Kontakt gebracht werden. Der gesamte Prozess wird mit Diskretion und Vertraulichkeit begleitet."
         },
         {
-          "heading": "Vermögenswerte, die wir vertreten",
+          "heading": "Schwerpunkte",
           "bullets": [
-            "Luxuswohnimmobilien (Wohnungen, Villen, Chalets) in erstklassigen Schweizer Lagen",
-            "Boutique-Hotels, Ferienimmobilien und Hospitality-Assets",
-            "Entwicklungsliegenschaften und Bauland",
-            "Renditeobjekte mit stabilen Ertragsprofilenäufig"
+            "Luxuswohnimmobilien, einschliesslich Wohnungen, Villen und Chalets",
+            "Gewerbe und Anlageimmobilien",
+            "Boutique Hotels, Ferienimmobilien und Hospitality Assets",
+            "Entwicklungsliegenschaften und Bauland mit Planungspotenzial",
+            "Ausgewählte internationale Immobilienmöglichkeiten"
           ]
+        },
+        {
+          "heading": "Warum Off Market entscheidend ist",
+          "text": "Viele der begehrtesten Objekte wechseln privat den Besitzer statt über öffentliche Inserate. Für Käufer kann dies Zugang zu Möglichkeiten schaffen, bevor diese breiter bekannt werden. Für Verkäufer ermöglicht es einen gezielten Prozess mit qualifizierten Gegenparteien und hoher Vertraulichkeit."
+        },
+        {
+          "heading": "Off Market M&A & Unternehmensnachfolge",
+          "text": "Die Schweiz und der weitere DACH-Raum erleben eine bedeutende Welle der Unternehmensnachfolge. Dadurch entstehen Möglichkeiten für Investoren, Unternehmer und strategische Käufer, die etablierte Unternehmen mit solider Grundlage und langfristigem Potenzial suchen."
+        },
+        {
+          "text": "Global Key Partners arbeitet mit Geschäftsinhabern und Eigentümern, die eine Nachfolge oder einen Eigentümerwechsel prüfen, sowie mit Käufern, die Übernahmemöglichkeiten ausserhalb eines öffentlichen Verkaufsprozesses suchen."
+        },
+        {
+          "heading": "Für Käufer von Unternehmen",
+          "text": "Beziehungen zu Geschäftsinhabern, Nachfolgeberatern, Treuhändern und weiteren Fachpersonen ermöglichen häufig Zugang zu Möglichkeiten, bevor diese einem breiteren Markt bekannt werden. Sobald Akquisitionskriterien definiert sind, werden relevante Unternehmen identifiziert und vertraulich angesprochen."
+        },
+        {
+          "heading": "Für Geschäftsinhaber und Eigentümer",
+          "text": "Eigentümer, die eine Nachfolgelösung, einen Teilverkauf, eine strategische Partnerschaft, ein Management-Buy-in, ein Management-Buy-out oder einen vollständigen Ausstieg prüfen, können mit qualifizierten Käufern, Investoren und Akquisitionspartnern in Kontakt gebracht werden."
+        },
+        {
+          "heading": "Schwerpunkte",
+          "bullets": [
+            "Schweizer und DACH-inhabergeführte KMU",
+            "Nachfolgesituationen und Eigentümerwechsel",
+            "Unternehmen in Hospitality, Luxus, Dienstleistungen und Nischenfertigung",
+            "Grenzüberschreitende Akquisitionsmöglichkeiten",
+            "Strategische Übernahmen und Wachstumstransaktionen"
+          ]
+        },
+        {
+          "heading": "Warum Nachfolge wichtig ist",
+          "text": "Viele erfolgreiche Unternehmen stehen vor einem Generationenwechsel ohne natürlichen Nachfolger. Diese Situationen schaffen Möglichkeiten für Investoren und Unternehmer, die etablierte Unternehmen, erfahrene Teams und langfristiges Wachstumspotenzial suchen."
+        },
+        {
+          "heading": "Ablauf eines Transaktionsmandats",
+          "text": "Jedes Mandat beginnt mit einem klaren Verständnis der Transaktion, der Ziele, der relevanten Kriterien und des gewünschten Ergebnisses. Basierend auf diesen Parametern werden geeignete Möglichkeiten, Käufer, Verkäufer oder Investoren identifiziert und, wo sinnvoll, selektiv angesprochen."
+        },
+        {
+          "text": "Der Prozess erfolgt mit Diskretion, Vertraulichkeit und dem Ziel, passende Gegenparteien zusammenzuführen."
+        },
+        {
+          "heading": "Regulatorische Einordnung",
+          "text": "Global Key Partners agiert ausschliesslich als Vermittler privater Kontakte und Geschäftsbeziehungen."
+        },
+        {
+          "text": "Sämtliche kommerziellen Gespräche, Verhandlungen, Due Diligence Prüfungen, Dokumentationen und Transaktionsentscheidungen verbleiben in der Verantwortung der beteiligten Parteien und ihrer professionellen Berater."
+        },
+        {
+          "text": "Global Key Partners erbringt seine Leistungen unter Beachtung der geltenden Schweizer Gesetzgebung. Die Gesellschaft erbringt keine Anlageberatung, Vermögensverwaltung, Platzierung von Finanzinstrumenten oder andere regulierte Finanzdienstleistungen im Sinne des Schweizer Finanzdienstleistungsgesetzes (FIDLEG). Jegliche Anlage-, Rechts-, Steuer- oder Finanzberatung wird ausschliesslich von entsprechend qualifizierten und zugelassenen Fachpersonen erbracht."
         }
       ],
       "faqs": [
         {
-          "q": "Wie erhalte ich Zugang zu Off-Market-Immobilien in der Schweiz?",
-          "a": "Off-Market-Immobilien in der Schweiz werden über vertrauenswürdige Vermittler mit etablierten Beziehungen zu Immobilieneigentümern und privaten Netzwerken zugänglich. GKP arbeitet auf Käufermandatsbasis. Sobald GKP Ihre Kriterien kennt, sucht es aktiv in seinem Netzwerk."
+          "q": "Wie erfolgt der Zugang zu Off Market Immobilien in der Schweiz?",
+          "a": "Off Market Immobilien in der Schweiz werden häufig über etablierte Beziehungen, Empfehlungen und private Netzwerke vermittelt. GKP arbeitet auf Mandatsbasis. Nach Definition der Suchkriterien werden relevante Möglichkeiten über das bestehende Netzwerk identifiziert und geprüft."
         },
         {
-          "q": "Welche Arten von Off-Market-Immobilien betreut GKP?",
-          "a": "GKP ist in den Bereichen Luxuswohnimmobilien, Gewerbe, Hospitality und Entwicklungsliegenschaften in der Schweiz tätig. Unsere stärksten Netzwerke befinden sich in Zürich, Genf, Zug, Luzern und den Schweizer Alpenregionen."
+          "q": "Welche Arten von Off Market Immobilien betreut GKP?",
+          "a": "GKP ist in den Bereichen Luxuswohnimmobilien, Gewerbeimmobilien, Hospitality Assets und Entwicklungsliegenschaften tätig. Der Fokus liegt auf der Schweiz, insbesondere in den Regionen Zürich, Genf, Zug, Luzern und den Schweizer Alpen. Darüber hinaus werden ausgewählte internationale Möglichkeiten in Europa und Südostasien begleitet."
         },
         {
-          "q": "Welche Gebühren berechnet GKP für die Immobilienberatung?",
-          "a": "GKP berechnet Erfolgsgebühren beim Abschluss von Transaktionen, entsprechend den marktüblichen Sätzen für die jeweilige Mandatsart. Bei komplexen oder exklusiven Mandaten mit erheblichem Vorabaufwand kann eine Mandatsgebühr anfallen, die im Erfolgsfall von der fälligen Erfolgsgebühr abgezogen wird. Alle Gebührenstrukturen werden vor Beginn eines Engagements transparent besprochen."
+          "q": "Übernimmt GKP sowohl Kauf- als auch Verkaufsmandate?",
+          "a": "Ja. GKP arbeitet sowohl mit Käufern, die einen diskreten Zugang zu Off Market Möglichkeiten suchen, als auch mit Eigentümern oder Entwicklern, die qualifizierte Käufer, Investoren oder Kapitalpartner für ihre Objekte suchen."
+        },
+        {
+          "q": "Können internationale Käufer Immobilien in der Schweiz erwerben?",
+          "a": "Der Erwerb von Immobilien durch Personen im Ausland unterliegt in der Schweiz bestimmten gesetzlichen Bestimmungen, insbesondere im Zusammenhang mit der Lex Koller. Bei Bedarf können Kontakte zu qualifizierten Rechts- und Steuerberatern hergestellt werden."
+        },
+        {
+          "q": "Welche Gebühren berechnet GKP für Off Market Immobilienmandate?",
+          "a": "Die Vergütungsstruktur richtet sich nach Art und Umfang des jeweiligen Mandats. Je nach Situation können Mandatsgebühren, erfolgsabhängige Honorare oder eine Kombination aus beiden Modellen zur Anwendung kommen. Die jeweiligen Konditionen werden vor Beginn eines Mandats transparent vereinbart."
+        },
+        {
+          "q": "Wie lassen sich Unternehmen zum Kauf in der Schweiz identifizieren?",
+          "a": "Unternehmensübernahmen werden häufig über bestehende Beziehungen, Nachfolgeberater, Treuhänder und weitere Fachpersonen vermittelt. GKP pflegt Kontakte in diesen Netzwerken und unterstützt bei der Identifikation geeigneter Übernahmemöglichkeiten, die nicht öffentlich ausgeschrieben sind."
+        },
+        {
+          "q": "Was ist eine Nachfolgesituation und warum ist sie relevant?",
+          "a": "Eine Nachfolgesituation entsteht, wenn ein inhabergeführtes Unternehmen einen Eigentümerwechsel plant und keine interne Nachfolgelösung vorhanden ist. In der Schweiz und im weiteren DACH-Raum stehen viele erfolgreiche Unternehmen in den kommenden Jahren vor einer solchen Übergangsphase."
+        },
+        {
+          "q": "Bietet GKP Unternehmensbewertungen oder Due Diligence Dienstleistungen an?",
+          "a": "Nein. GKP konzentriert sich auf die Identifikation von Möglichkeiten, die Kontaktvermittlung zwischen relevanten Parteien sowie die Begleitung des Vermittlungsprozesses. Unternehmensbewertungen, Steuerstrukturierungen, rechtliche Prüfungen und Due Diligence Leistungen werden von entsprechend qualifizierten Fachpersonen erbracht."
+        },
+        {
+          "q": "Kann GKP bei grenzüberschreitenden Übernahmen und internationalen Käufern unterstützen?",
+          "a": "Ja. GKP arbeitet regelmässig mit internationalen Investoren, Unternehmern und Käufern zusammen, die Möglichkeiten in der Schweiz prüfen. Häufig bestehen Verbindungen nach Europa, in die Golfregion und nach Südostasien."
         }
       ],
-      "nav_title": "Off-Market Immobilien"
+      "nav_title": "Off-Market Sourcing"
     },
     "fr": {
-      "title": "Immobilier Hors Marché Suisse | Accès Privé Zurich Genève Zoug Bâle Lucerne | GKP",
-      "h1": "Accès à l'Immobilier Hors Marché en Suisse",
-      "meta_description": "Accédez aux opportunités d'investissement immobilier hors marché en Suisse. GKP connecte les acheteurs qualifiés avec des biens privés à Zurich, Genève, Zoug, Bâle, Lucerne et les marchés alpins suisses, avant toute mise en vente publique.",
-      "card_summary": "Accès privé aux propriétés hors marché en Suisse : résidentiel, commercial, hospitalité et terrains à développer.",
-      "intro": "Dans les marchés immobiliers premium de Suisse, une part importante des actifs de valeur n'apparaît pas dans les annonces publiques. Selon les estimations du secteur, 15 à 25% des transactions haut de gamme dans des villes comme Zurich et Genève se déroulent hors marché, par le biais de réseaux privés et d'introductions directes.",
+      "title": "Immobilier Hors Marché & Acquisitions d'Entreprises Suisse | GKP",
+      "h1": "Immobilier Hors Marché & Acquisitions d'Entreprises",
+      "meta_description": "Accédez aux opportunités d'investissement immobilier et d'acquisition d'entreprises hors marché en Suisse. GKP connecte les acheteurs qualifiés avec des biens privés et des entreprises familiales à Zurich, Genève, Zoug, Bâle et Lucerne.",
+      "card_summary": "Accès privé aux propriétés hors marché et aux entreprises familiales en Suisse : résidentiel, commercial, hospitalité, terrains à développer et situations de succession.",
+      "intro": "Beaucoup des opportunités les plus attractives n'atteignent jamais les marchés publics. Dans l'immobilier, les acquisitions d'entreprises, les situations de succession, les actifs hôteliers et certains investissements privés sélectionnés, les transactions sont souvent menées de manière discrète par le biais de réseaux établis, de recommandations et de relations sectorielles de longue date.",
       "body": [
         {
-          "text": "GKP agit comme intermédiaire pour les acheteurs, vendeurs et investisseurs qualifiés qui préfèrent transiger sur une base privée. GKP entretient des relations avec des propriétaires, promoteurs, family offices et professionnels à travers la Suisse, qui contribuent à l'identification d'opportunités pertinentes."
+          "heading": "Immobilier Hors Marché",
+          "text": "Global Key Partners source et facilite l'accès à des opportunités immobilières hors marché en Suisse et sur certains marchés internationaux sélectionnés. Grâce à des relations avec des propriétaires, promoteurs, investisseurs, family offices et professionnels du secteur, les opportunités peuvent souvent être identifiées avant d'atteindre les canaux de marché plus larges."
+        },
+        {
+          "heading": "Pour les Acheteurs",
+          "text": "Les critères d'investissement, les objectifs d'acquisition, le profil financier et les préférences géographiques sont établis au début de chaque mandat. Les opportunités sont ensuite sourcées et présentées de manière sélective en fonction de leur adéquation, de la vérification de la propriété et de leur maturité transactionnelle."
+        },
+        {
+          "heading": "Pour les Vendeurs et Propriétaires",
+          "text": "Les propriétaires qui envisagent une vente, un refinancement, une recapitalisation ou l'apport de capital supplémentaire peuvent accéder à des investisseurs qualifiés, des family offices et des acheteurs privés recherchant des opportunités sur le marché. Les mandats sont menés avec discrétion et confidentialité tout au long du processus."
+        },
+        {
+          "heading": "Domaines de Concentration",
+          "bullets": [
+            "Propriétés résidentielles de luxe, y compris appartements, villas et chalets",
+            "Propriétés commerciales et d'investissement",
+            "Hôtels-boutiques, propriétés de villégiature et actifs hôteliers",
+            "Terrains à développer avec potentiel de planification",
+            "Propriétés d'investissement générant des revenus",
+            "Opportunités immobilières internationales sélectionnées"
+          ]
+        },
+        {
+          "heading": "Pourquoi le Hors Marché Compte",
+          "text": "Beaucoup des actifs les plus recherchés changent de mains de manière privée plutôt que par des annonces publiques. Pour les acheteurs, cela peut offrir un accès à des opportunités avant qu'elles ne soient largement connues. Pour les vendeurs, cela permet un processus plus ciblé, centré sur des contreparties qualifiées et la certitude transactionnelle."
+        },
+        {
+          "heading": "M&A Hors Marché & Succession d'Entreprises",
+          "text": "La Suisse et la région DACH au sens large connaissent une vague importante de succession d'entreprises, créant des opportunités pour les investisseurs, entrepreneurs et acheteurs stratégiques à la recherche d'entreprises établies aux fondations solides et au potentiel à long terme."
+        },
+        {
+          "text": "Global Key Partners travaille avec des propriétaires d'entreprises qui envisagent une succession ou une transition de propriété, ainsi qu'avec des acheteurs recherchant des opportunités d'acquisition en dehors d'un processus de vente publique."
+        },
+        {
+          "heading": "Pour les Acheteurs d'Entreprises",
+          "text": "Les relations avec les propriétaires d'entreprises, les conseillers en succession, les fiduciaires et les conseillers professionnels peuvent offrir une visibilité sur des opportunités avant qu'elles n'atteignent le marché élargi. Une fois les critères d'acquisition établis, les entreprises pertinentes sont identifiées et approchées de manière confidentielle."
+        },
+        {
+          "heading": "Pour les Propriétaires d'Entreprises",
+          "text": "Les propriétaires qui envisagent une solution de succession, une cession partielle, un partenariat stratégique, un management buy-in, un management buy-out ou une sortie complète peuvent accéder à des acheteurs, investisseurs et partenaires d'acquisition alignés sur leurs objectifs."
+        },
+        {
+          "heading": "Domaines de Concentration",
+          "bullets": [
+            "PME suisses et de la région DACH dirigées par leurs propriétaires",
+            "Situations de succession et de transition de propriété",
+            "Entreprises de l'hôtellerie, du luxe, des services et de la fabrication de niche",
+            "Opportunités d'acquisition transfrontalières",
+            "Acquisitions stratégiques et transactions de croissance"
+          ]
+        },
+        {
+          "heading": "Pourquoi la Succession Compte",
+          "text": "De nombreuses entreprises prospères abordent une transition générationnelle sans successeur naturel. Ces situations créent des opportunités pour les investisseurs et entrepreneurs à la recherche d'entreprises établies, d'équipes expérimentées et d'un potentiel de croissance à long terme."
+        },
+        {
+          "heading": "Comment Fonctionnent les Mandats de Transaction",
+          "text": "Chaque engagement commence par une compréhension claire de l'opportunité, des objectifs, des critères de transaction et du résultat souhaité. Sur la base de ces paramètres, les opportunités, acheteurs, vendeurs ou investisseurs appropriés sont identifiés et approchés de manière sélective lorsque cela est pertinent."
+        },
+        {
+          "text": "Le processus est mené avec discrétion, confidentialité et un objectif d'atteindre le bon résultat pour toutes les parties concernées."
+        },
+        {
+          "heading": "Positionnement réglementaire",
+          "text": "Global Key Partners agit en tant qu'introducteur et facilitateur d'opportunités de marché privées."
+        },
+        {
+          "text": "Toutes les discussions commerciales, négociations, due diligence, documentation et décisions de transaction relèvent de la responsabilité des parties concernées et de leurs conseillers professionnels."
+        },
+        {
+          "text": "Global Key Partners opère conformément à la réglementation suisse applicable et ne fournit pas de services réglementés de conseil en investissement, juridique, fiscal ou financier. Tout conseil de ce type est fourni exclusivement par des conseillers professionnels dûment qualifiés, engagés par les parties."
         }
       ],
       "faqs": [
@@ -242,545 +647,377 @@
           "a": "Les propriétés hors marché en Suisse sont accessibles via des intermédiaires de confiance disposant de relations établies auprès des propriétaires et des réseaux privés. GKP travaille sur mandat acheteur. Une fois vos critères compris, GKP recherche activement et vous présente des opportunités présélectionnées."
         },
         {
+          "q": "GKP gère-t-il à la fois les mandats d'achat et de vente ?",
+          "a": "Oui. GKP travaille à la fois avec des acheteurs recherchant un accès discret à des opportunités hors marché, et avec des propriétaires ou promoteurs recherchant des acheteurs qualifiés, des partenaires en capital ou des investisseurs pour leurs actifs. Les deux parties bénéficient de la même discrétion et du même soin professionnel."
+        },
+        {
           "q": "Les étrangers peuvent-ils acheter des biens en Suisse avec l'aide de GKP ?",
           "a": "La Suisse dispose de réglementations spécifiques sur la propriété étrangère dans le cadre de la Lex Koller. GKP peut vous informer sur les restrictions applicables et vous mettre en relation avec les conseils juridiques appropriés."
-        }
-      ],
-      "nav_title": "Immobilier Hors Marché"
-    }
-  },
-  {
-    "slug": "business-acquisitions",
-    "num": "03",
-    "hero_image": "swiss-local.jpg",
-    "de": {
-      "title": "Unternehmenskauf & Nachfolge Schweiz | Off-Market M&A | Global Key Partners",
-      "h1": "Off-Market M&A & Unternehmensnachfolge in der Schweiz",
-      "meta_description": "GKP unterstützt qualifizierte Käufer bei der Suche nach Off-Market-Unternehmen in der Schweiz und im DACH-Raum. Wir vertreten Nachfolgesituationen, inhabergeführte Betriebe und strategische M&A-Mandate mit voller Diskretion.",
-      "card_summary": "Off-Market M&A: Nachfolgesituationen, inhabergeführte Unternehmen und strategische Übernahmen in der Schweiz und im DACH-Raum, für Schweizer und internationale Käufer.",
-      "intro": "Die Schweiz und der weitere DACH-Raum befinden sich derzeit in einem bedeutenden Nachfolgeprozess; eine erhebliche Zahl inhabergeführter Unternehmen wird in den kommenden Jahren den Besitzer wechseln. Viele dieser Unternehmen sind etabliert und profitabel, und ein Teil davon wird nicht über einen klassischen Verkaufsprozess am Markt angeboten, sondern über direkte Kontakte übertragen.",
-      "body": [
-        {
-          "text": "Die Mehrheit der Mandate von GKP ist schweizerisch: Schweizer Privatpersonen und Unternehmen, die Off-Market-Gelegenheiten in der Schweiz suchen. GKP arbeitet auf beiden Seiten dieser Transaktionen: für Käufer, die Off-Market-Zielunternehmen nach strategischen und finanziellen Kriterien suchen, und für Eigentümer, die einen Übergang erwägen und passende Käufer ohne öffentlichen Verkaufsprozess identifizieren möchten."
         },
         {
-          "heading": "Für Käufer",
-          "text": "GKP pflegt Beziehungen zu Unternehmenseignern, Nachfolgeberatern, Treuhändern und Juristen, die Situationen vor deren öffentlicher Bekanntgabe sichtbar machen können. Sobald die Akquisitionskriterien, Branche, Grösse, Geografie, Finanzprofil und strategische Eignung, definiert sind, identifiziert und kontaktiert GKP passende Unternehmen im Auftrag des Kunden."
+          "q": "Quels types de biens immobiliers hors marché GKP traite-t-il ?",
+          "a": "GKP intervient dans l'immobilier résidentiel de luxe, commercial, hôtelier et les actifs de développement en Suisse. L'activité se concentre sur Zurich, Genève, Zoug, Lucerne et les marchés des stations alpines suisses ; des opportunités sélectionnées sont également sourcées à l'international, en Europe et en Asie du Sud-Est."
         },
         {
-          "heading": "Für Verkäufer und Unternehmer",
-          "text": "GKP arbeitet mit Inhabern zusammen, die einen Übergang erwägen (Vollverkauf, Teilbeteiligung, Management-Buy-in oder Eigenkapitalpartnerschaft), um ein geeignetes Käuferprofil zu definieren, Kontakte zu vorqualifizierten Parteien herzustellen und den Prozess bis zum Abschluss zu begleiten."
+          "q": "Quels honoraires GKP facture-t-il pour les introductions immobilières hors marché ?",
+          "a": "La structure des honoraires varie selon la nature et la complexité du mandat. Les engagements peuvent être structurés sur une base de succès, via des honoraires de mandat, ou une combinaison des deux. Toutes les conditions commerciales sont discutées et convenues avant le début de tout engagement."
         },
-        {
-          "heading": "Unser Fokus",
-          "bullets": [
-            "Schweizer und DACH-inhabergeführte KMU in Nachfolge oder Eigentümerwechsel",
-            "Profitable Unternehmen in Hospitality, Luxus, Dienstleistungen und Nischenfertigung",
-            "Grenzüberschreitende Akquisitionsmandate: europäische Käufer suchen Schweizer Assets",
-            "Management-Buy-outs und -Buy-ins mit externem Kapital",
-            "Strategische Übernahmen für Wachstum oder Markteintritt"
-          ]
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Wie finde ich Off-Market-Unternehmen zum Kauf in der Schweiz?",
-          "a": "Off-Market-Unternehmensübernahmemöglichkeiten in der Schweiz werden typischerweise über Beziehungen zu vertrauenswürdigen Vermittlern, Nachfolgeberatern, Treuhändern und Unternehmensnetzwerken erschlossen. GKP pflegt aktive Kontakte in diesen Kreisen und arbeitet auf Käuferauftrag, um passende Möglichkeiten zu erschliessen, bevor sie öffentlich inseriert werden."
-        },
-        {
-          "q": "Was ist eine Nachfolgesituation und warum ist sie relevant?",
-          "a": "Eine Nachfolgesituation bezeichnet ein inhabergeführtes Unternehmen, dessen Gründer oder Inhaber sich dem Ruhestand oder einem Übergang nähert und keinen natürlichen internen Nachfolger hat. Die Schweiz und Deutschland haben Tausende solcher Unternehmen, oft profitabel, langjährig etabliert und mit treuer Kundschaft. Sie stellen bedeutende Übernahmemöglichkeiten für strategische Käufer dar."
-        },
-        {
-          "q": "Bietet GKP Bewertungs- oder Due-Diligence-Dienstleistungen an?",
-          "a": "GKP konzentriert sich auf Deal-Sourcing, Kontaktherstellung und Begleitung, nicht auf Finanzbewertung oder rechtliche Due Diligence. Wir arbeiten mit vertrauenswürdigen Treuhändern, Revisoren und Rechtsberatern zusammen, die die technische Due Diligence übernehmen. Wir können im Rahmen des Engagements geeignete Spezialisten empfehlen."
-        },
-        {
-          "q": "Auf welche Branchen konzentriert sich GKP bei Übernahmen?",
-          "a": "GKP fokussiert sich primär auf Hospitality, Luxusdienstleistungen, Premium-Konsumgüter, immobiliennahe Unternehmen und ausgewählte Kanzleien in der Schweiz und im DACH-Raum. Wir sind besonders aktiv bei Mandaten mit einem Lifestyle-, Luxus- oder Premium-Positionierungselement."
-        },
-        {
-          "q": "Kann GKP bei grenzüberschreitenden Übernahmen helfen, internationale Käufer in der Schweiz?",
-          "a": "Ja. GKP arbeitet regelmässig mit internationalen Käufern, insbesondere aus Europa, dem Golf und Südostasien, zusammen, die Schweizer Übernahmeziele suchen. Wir verstehen den lokalen Markt, das regulatorische Umfeld und die kulturellen Besonderheiten, die für erfolgreiche grenzüberschreitende Übernahmen in der Schweiz entscheidend sind."
-        }
-      ],
-      "nav_title": "Off-Market M&A & Nachfolge"
-    },
-    "en": {
-      "title": "Off-Market M&A Switzerland | Business Acquisition & Succession | GKP",
-      "h1": "Off-Market M&A & Business Succession in Switzerland",
-      "meta_description": "GKP introduces qualified buyers to off-market business acquisition opportunities in Switzerland and DACH. SME succession situations, owner-operated companies, and strategic M&A.",
-      "card_summary": "Off-market M&A introductions: succession situations, owner-operated companies, and strategic acquisitions in Switzerland and DACH, for Swiss and international buyers.",
-      "intro": "Switzerland and the wider DACH region are currently undergoing a significant succession transition, with a substantial number of owner-operated businesses expected to change hands over the coming decade. Many of these are well-established and profitable, and a meaningful share are not brought to market through a conventional sale process; instead, they are transferred through direct introductions.",
-      "body": [
-        {
-          "text": "The majority of GKP's mandates are Swiss: Swiss individuals and companies seeking Swiss off-market opportunities. GKP works on both sides of these transactions, representing buyers seeking off-market acquisition targets matching their strategic and financial criteria, and working with owners considering a transition who wish to identify suitable buyers without conducting a public sale process."
-        },
-        {
-          "heading": "For buyers",
-          "text": "GKP maintains relationships with business owners, succession advisors, fiduciaries, and legal professionals, which can provide visibility of situations before they reach the broader market. Once a client's acquisition criteria are established, industry, size, geography, financial profile, and strategic fit, GKP identifies and approaches relevant businesses on the client's behalf."
-        },
-        {
-          "heading": "For sellers and business owners",
-          "text": "GKP works with owners exploring a transition, whether a full sale, partial stake, management buy-in, or equity partnership, to define a suitable buyer profile, facilitate introductions to pre-qualified parties, and support the process through to completion."
-        },
-        {
-          "heading": "What GKP focuses on",
-          "bullets": [
-            "Swiss and DACH owner-operated SMEs in succession or ownership transition",
-            "Profitable businesses in hospitality, luxury, services, and niche manufacturing",
-            "Cross-border acquisition mandates. European buyers seeking Swiss assets",
-            "Management buy-outs and buy-ins with external capital support",
-            "Strategic acquisitions for growth or market entry"
-          ]
-        }
-      ],
-      "faqs": [
-        {
-          "q": "How do I find off-market businesses for sale in Switzerland?",
-          "a": "Off-market business acquisition opportunities in Switzerland are typically surfaced through relationships with trusted intermediaries, succession advisors, fiduciaries, and business networks. GKP maintains active relationships in these circles and works on buyer mandates to actively source matching opportunities before they are publicly listed."
-        },
-        {
-          "q": "What is a succession situation and why is it relevant?",
-          "a": "A succession situation refers to an owner-operated business where the founder or owner is approaching retirement or a transition, and there is no natural internal successor. Switzerland and Germany have thousands of such businesses, often profitable, long-established, and with loyal client bases. These represent significant acquisition opportunities for strategic buyers."
-        },
-        {
-          "q": "Does GKP provide valuation or due diligence services?",
-          "a": "GKP focuses on sourcing, introduction, and facilitation, not financial valuation or legal due diligence. We work alongside trusted fiduciaries, auditors, and legal advisors who handle technical due diligence. We can refer you to appropriate specialists as part of the engagement."
-        },
-        {
-          "q": "What industries does GKP focus on for acquisitions?",
-          "a": "GKP's primary focus is on hospitality, luxury services, premium consumer businesses, real estate-adjacent businesses, and select professional services firms in Switzerland and the DACH region. We are particularly active in mandates where there is a lifestyle, luxury, or premium positioning element."
-        },
-        {
-          "q": "Can GKP help with cross-border acquisitions, international buyers in Switzerland?",
-          "a": "Yes. GKP frequently works with international buyers, particularly from Europe, the Gulf, and Southeast Asia, who are seeking Swiss acquisition targets. We understand the local market, regulatory environment, and cultural nuances that are essential for successful cross-border acquisitions in Switzerland."
-        }
-      ],
-      "nav_title": "Off-Market M&A & Succession"
-    },
-    "fr": {
-      "title": "Acquisition d'Entreprises Suisse | M&A Hors Marché & Succession | GKP",
-      "h1": "M&A Hors Marché & Succession d'Entreprises en Suisse",
-      "meta_description": "GKP soutient les acheteurs qualifiés dans leur recherche d'entreprises hors marché en Suisse et dans la région DACH. Situations de succession, PME familiales et mandats M&A stratégiques.",
-      "card_summary": "Introductions M&A hors marché : situations de succession, entreprises familiales et acquisitions stratégiques en Suisse et dans la région DACH, pour acheteurs suisses et internationaux.",
-      "intro": "Le marché suisse des PME comprend un nombre significatif d'entreprises de qualité qui ne font pas l'objet d'une annonce publique. GKP identifie et facilite l'accès à des opportunités d'acquisition hors marché, notamment des situations de succession au sein de PME suisses rentables et dirigées par leurs propriétaires.",
-      "body": [
-        {
-          "text": "La majorité des mandats de GKP sont suisses : des particuliers et des entreprises suisses à la recherche d'opportunités hors marché en Suisse. GKP travaille avec des acheteurs stratégiques et financiers qualifiés à la recherche d'entreprises suisses hors marché. Son réseau couvre des secteurs tels que la fabrication de précision, les services professionnels, la technologie, la santé et l'hôtellerie."
-        }
-      ],
-      "faqs": [
         {
           "q": "Comment trouver des entreprises hors marché à vendre en Suisse ?",
           "a": "Les opportunités d'acquisition hors marché en Suisse s'obtiennent via des intermédiaires de confiance ayant des réseaux établis auprès des propriétaires d'entreprises et de leurs conseillers. GKP source et facilite ces introductions."
+        },
+        {
+          "q": "Qu'est-ce qu'une situation de succession et pourquoi est-elle pertinente ?",
+          "a": "Une situation de succession désigne une entreprise dirigée par son propriétaire, dont le fondateur ou le propriétaire approche de la retraite ou d'une transition, sans successeur interne naturel. En Suisse et dans la région DACH au sens large, de nombreuses entreprises de ce type recherchent des solutions de propriété à long terme."
+        },
+        {
+          "q": "GKP fournit-il des services d'évaluation ou de due diligence ?",
+          "a": "GKP se concentre sur le sourcing, les introductions et la facilitation de transactions, plutôt que sur l'évaluation financière, la structuration fiscale ou la due diligence juridique. Les engagements sont généralement accompagnés par des fiduciaires, des auditeurs, des conseillers juridiques et d'autres spécialistes."
+        },
+        {
+          "q": "GKP peut-il aider pour des acquisitions transfrontalières et des acheteurs internationaux en Suisse ?",
+          "a": "Oui. GKP travaille régulièrement avec des acheteurs internationaux à la recherche d'opportunités d'acquisition en Suisse. L'activité implique fréquemment des contreparties d'Europe, de la région du Golfe et d'Asie du Sud-Est."
         }
       ],
-      "nav_title": "M&A Hors Marché & Succession"
+      "nav_title": "Off-Market Sourcing"
     }
   },
   {
-    "slug": "capital-introduction",
-    "num": "04",
-    "hero_image": "swiss-property-view.jpg",
-    "en": {
-      "title": "Capital Introduction Switzerland | Startup & Growth Investor Access | GKP",
-      "h1": "Capital & Startup Investor Introductions in Switzerland",
-      "meta_description": "GKP introduces founders, startups, and asset owners to qualified private investors and family offices in Switzerland. Curated investor introductions, not fundraising or placement.",
-      "card_summary": "Introducing founders, startups, and asset owners to qualified private investors and family offices, strictly as an introducer, never as a fundraiser.",
-      "intro": "Switzerland holds one of the highest concentrations of private capital globally, including family offices, UHNWIs, and institutional investors active in off-market opportunities. For founders and asset owners, the principal challenge is typically not the availability of capital, but identifying and reaching the appropriate capital holder through an established channel.",
-      "body": [
-        {
-          "text": "GKP works with investors, business owners, real estate principals, and asset owners seeking introductions to relevant private capital parties, outside of a public process. GKP facilitates the introduction; all subsequent commercial negotiations and documentation are conducted directly between the parties. Introductions are made to decision-makers with the relevant mandate and investment appetite."
-        },
-        {
-          "heading": "Startup & growth capital introductions",
-          "text": "Founders of startups and growth-stage companies increasingly look beyond the conventional venture capital route. Swiss family offices, UHNWIs, and strategic investors offer patient capital, operating experience, and networks that a fund cannot replicate. GKP identifies which of these investors are genuinely relevant to a founder's stage, sector, and ambitions, and facilitates a direct, personal introduction. The conversation, the terms, and the decision belong entirely to the parties."
-        },
-        {
-          "heading": "What GKP offers",
-          "bullets": [
-            "Direct access to family offices and UHNWIs actively deploying private capital",
-            "Introductions to strategic investors who bring more than money, expertise, networks, and operating experience",
-            "Support for real estate equity raises, growth-stage investments, and asset-backed financing",
-            "Representation in international capital markets. Switzerland, Europe, Gulf, and Southeast Asia"
-          ]
-        },
-        {
-          "heading": "Who GKP works with on the capital side",
-          "text": "GKP maintains relationships with Swiss and international family offices, UHNWI investors, and select institutional parties allocating to off-market opportunities. These investors generally place value on discretion, pre-qualification of opportunities, and an initial level of review conducted by GKP before an introduction is made."
-        },
-        {
-          "heading": "How a capital introduction mandate works",
-          "text": "GKP first establishes an understanding of the opportunity, the underlying asset or business, the capital requirement, the investor profile sought, and the relevant timeline. It then identifies relevant parties within its network, approaches them directly, and facilitates an initial conversation. GKP does not conduct investor roadshows or broad outreach campaigns; the relevance of an introduction is prioritised over the number made."
-        },
-        {
-          "heading": "Regulatory positioning",
-          "text": "GKP acts exclusively as an introducer. GKP does not raise capital on behalf of clients, does not publicly solicit investments, does not place financial instruments, and does not provide investment advice within the meaning of Swiss financial market legislation (FinSA/FIDLEG). All negotiations, documentation, and investment decisions take place directly between the parties and their professional advisors."
-        }
-      ],
-      "faqs": [
-        {
-          "q": "What is capital introduction and how does it differ from fundraising?",
-          "a": "Capital introduction refers to a targeted, relationship-based approach to connecting capital seekers with specific qualified investors. Unlike broad fundraising campaigns or investor roadshows, capital introduction is discreet, direct, and relies on the introducer's trusted relationships with both sides. GKP makes introductions only when both parties have been pre-qualified and there is genuine bilateral interest."
-        },
-        {
-          "q": "Who are GKP's typical capital introduction clients?",
-          "a": "GKP works with founders of growth-stage companies seeking strategic investment, real estate developers raising equity for specific projects, asset owners seeking equity partners or debt financing, and businesses undergoing succession or ownership transition. We focus on mandates with a clear investment thesis and a well-defined investor profile."
-        },
-        {
-          "q": "Does GKP help startups raise capital?",
-          "a": "GKP introduces founders to relevant private investors, family offices, UHNWIs, and strategic investors, where there is a credible story and a defined investor profile. GKP acts solely as an introducer: it does not conduct fundraising, placement, or investment advice. For founders seeking a strategic private investor rather than a typical VC process, GKP can be the right door."
-        },
-        {
-          "q": "How long does a capital introduction process typically take?",
-          "a": "Private capital introduction in Switzerland typically moves on relationship timelines, faster than formal fund processes, but still measured in months rather than weeks. Decision-makers in family offices and UHNWI circles act when trust is established and the opportunity is right, not on an artificial deadline. GKP manages expectations on timing transparently from the outset."
-        },
-        {
-          "q": "What information does GKP need before starting a capital introduction mandate?",
-          "a": "GKP typically requires a clear investment memorandum or summary, key financial data (historical and projected), a defined use of capital, and clarity on what kind of investor and relationship you are seeking. For asset-backed mandates, key asset documentation and valuation support are needed. Confidentiality is fully protected throughout."
-        }
-      ],
-      "nav_title": "Capital & Investor Introductions"
-    },
-    "de": {
-      "title": "Kapitalvermittlung Schweiz | Investorenzugang für Start-ups & Wachstum | GKP",
-      "h1": "Kapital- & Investorenkontakte für Gründer in der Schweiz",
-      "meta_description": "GKP vermittelt Gründern, Start-ups und Vermögensinhabern Kontakte zu qualifizierten Privatinvestoren und Family Offices in der Schweiz. Kontaktvermittlung, kein Fundraising, keine Platzierung.",
-      "card_summary": "Kontaktvermittlung zwischen Gründern, Start-ups und Vermögensinhabern und qualifizierten Privatinvestoren und Family Offices, ausschliesslich als Vermittler von Kontakten.",
-      "intro": "Die Schweiz verfügt über eine der höchsten Konzentrationen an Privatkapital weltweit, darunter Family Offices, sehr vermögende Privatpersonen und institutionelle Investoren, die in Off-Market-Gelegenheiten aktiv sind.",
-      "body": [
-        {
-          "text": "GKP arbeitet mit Gründern, wachstumsstarken Unternehmen, Immobilienentwicklern und Vermögensinhabern, die Zugang zu privatem Kapital suchen, ausserhalb eines öffentlichen Fundraising-Prozesses."
-        },
-        {
-          "heading": "Start-up- und Wachstumskapital: Kontakte zu Investoren",
-          "text": "Gründer von Start-ups und Wachstumsunternehmen suchen zunehmend Alternativen zum klassischen Venture-Capital-Weg. Schweizer Family Offices, sehr vermögende Privatpersonen und strategische Investoren bieten geduldiges Kapital, operative Erfahrung und Netzwerke, die ein Fonds nicht abbilden kann. GKP identifiziert, welche dieser Investoren für Phase, Branche und Ambitionen eines Gründers tatsächlich relevant sind, und stellt den direkten, persönlichen Kontakt her. Gespräch, Konditionen und Entscheidung liegen vollständig bei den Parteien."
-        },
-        {
-          "heading": "Was wir anbieten",
-          "bullets": [
-            "Direkter Zugang zu Family Offices und vermögenden Privatinvestoren, die aktiv Privatkapital einsetzen",
-            "Kontakte zu strategischen Investoren, die mehr als Geld mitbringen",
-            "Unterstützung bei Immobilien-Eigenkapitalbeschaffung und wachstumsorientierten Investitionen",
-            "Vertretung in internationalen Kapitalmärkten. Schweiz, Europa, Golf und Südostasien"
-          ]
-        },
-        {
-          "heading": "Regulatorische Einordnung",
-          "text": "GKP handelt ausschliesslich als Vermittler von Kontakten. GKP beschafft kein Kapital im Auftrag von Kunden, betreibt keine öffentliche Anwerbung von Investoren, platziert keine Finanzinstrumente und erbringt keine Anlageberatung im Sinne der schweizerischen Finanzmarktgesetzgebung (FIDLEG). Verhandlungen, Dokumentation und Anlageentscheide erfolgen direkt zwischen den Parteien und ihren Beratern."
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Was ist Kapitalvermittlung?",
-          "a": "Kapitalvermittlung bezeichnet einen gezielten, beziehungsbasierten Ansatz, um Kapitalsuchende mit spezifischen qualifizierten Investoren zu verbinden. Im Gegensatz zu breiten Fundraising-Kampagnen ist die Kapitalvermittlung diskret, direkt und beruht auf den Vertrauensbeziehungen des Vermittlers zu beiden Seiten."
-        },
-        {
-          "q": "Wer sind die typischen Kunden von GKP bei der Kapitalvermittlung?",
-          "a": "GKP arbeitet mit Gründern von wachstumsstarken Unternehmen, Immobilienentwicklern, Vermögensinhabern und Unternehmen in Nachfolge- oder Eigentümerübergangssituationen zusammen."
-        }
-      ],
-      "nav_title": "Kapital- & Investorenkontakte"
-    },
-    "fr": {
-      "title": "Introduction en Capital Suisse | Accès Investisseurs pour Start-ups | GKP",
-      "h1": "Introductions en Capital & Accès aux Investisseurs en Suisse",
-      "meta_description": "GKP introduit fondateurs, start-ups et propriétaires d'actifs auprès d'investisseurs privés qualifiés et de family offices en Suisse. Introductions, ni levée de fonds ni placement.",
-      "card_summary": "Introductions entre fondateurs, start-ups, propriétaires d'actifs et investisseurs privés qualifiés, strictement en qualité d'intermédiaire de mise en relation.",
-      "intro": "L'accès aux capitaux privés en Suisse repose largement sur les réseaux plutôt que sur des plateformes. GKP met en relation fondateurs et propriétaires d'actifs avec des investisseurs pertinents, family offices, UHNWI et capital privé institutionnel, par le biais d'introductions directes et qualifiées.",
-      "body": [
-        {
-          "text": "GKP travaille avec des fondateurs, entrepreneurs et propriétaires d'actifs recherchant un accès à des capitaux privés qualifiés en Suisse. GKP facilite des introductions ciblées auprès d'investisseurs actifs dans le secteur concerné, sur la base de relations établies."
-        },
-        {
-          "heading": "Start-ups et capital de croissance",
-          "text": "Les fondateurs de start-ups et d'entreprises en croissance cherchent de plus en plus des alternatives au capital-risque classique. Les family offices suisses, les particuliers fortunés et les investisseurs stratégiques offrent un capital patient, une expérience opérationnelle et des réseaux qu'un fonds ne peut répliquer. GKP identifie les investisseurs réellement pertinents pour le stade, le secteur et les ambitions du fondateur, puis facilite une introduction directe et personnelle. La discussion, les conditions et la décision appartiennent entièrement aux parties."
-        },
-        {
-          "heading": "Positionnement réglementaire",
-          "text": "GKP agit exclusivement en qualité d'intermédiaire de mise en relation. GKP ne lève pas de capitaux pour le compte de clients, ne sollicite pas publiquement des investissements, ne place pas d'instruments financiers et ne fournit pas de conseil en placement au sens de la législation suisse sur les marchés financiers (LSFin). Les négociations, la documentation et les décisions d'investissement relèvent directement des parties et de leurs conseillers."
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Qu'est-ce que l'introduction en capital et en quoi diffère-t-elle de la levée de fonds ?",
-          "a": "L'introduction en capital est la facilitation de connexions directes et qualifiées entre porteurs de projets et investisseurs privés, sans roadshow public ni processus de levée de fonds structuré. GKP procède à des introductions ciblées auprès d'investisseurs connus et actifs."
-        }
-      ],
-      "nav_title": "Introductions en Capital"
-    }
-  },
-  {
-    "slug": "luxury-brand-partnerships",
-    "num": "05",
+    "slug": "strategic-partnerships",
+    "num": "03",
     "hero_image": "hospitality-drinks.jpg",
     "en": {
-      "title": "Luxury Brand Partnerships Switzerland | Strategic Brand & Investor Introductions | GKP",
-      "h1": "Luxury Brand Partnerships & Market Access",
-      "meta_description": "GKP connects luxury and premium brands with investors, strategic partners, and market access across Switzerland, Europe, the Gulf, and Southeast Asia. Introductions built on trust, not databases.",
-      "card_summary": "Connecting luxury and premium brands with investors, strategic partners, and the rooms where decisions are made, from heritage houses to emerging maisons.",
-      "intro": "The most valuable luxury brands no longer compete on product alone. They compete on access: the partnerships, places, and people that define their next chapter. A hotel can be copied; a trusted relationship cannot. GKP operates at this intersection, connecting luxury and premium brands with the investors and partners who understand what brand equity is truly worth.",
+      "title": "Luxury Brand Partnerships & Hospitality Investments Switzerland | GKP",
+      "h1": "Strategic Partnerships: Luxury Brands & Hospitality",
+      "meta_description": "GKP connects luxury and premium brands with investors, strategic partners, and market access, and facilitates off-market hospitality investment opportunities, across Switzerland, Europe, the Gulf, and Southeast Asia.",
+      "card_summary": "Connecting luxury brands, hospitality operators, and private capital, from heritage houses and boutique hotels to emerging maisons and resort developments.",
+      "intro": "Many of the most valuable opportunities are created through the right partnership. Across industries, markets, and geographies, trusted relationships continue to play a decisive role in business growth, market positioning, investment opportunities, and long-term value creation.",
       "body": [
         {
-          "text": "GKP's roots are in the Swiss luxury industry. The firm understands how heritage houses think, how founder-led maisons grow, and how investors evaluate brand equity as an asset class. This perspective shapes every introduction GKP makes in the luxury space."
+          "heading": "Strategic Partnerships: Luxury Brands & Hospitality",
+          "text": "Global Key Partners supports the development of strategic partnerships across luxury, hospitality, private investment, and premium consumer sectors, bringing together complementary businesses, investors, brands, and industry leaders."
         },
         {
-          "heading": "What GKP facilitates",
+          "heading": "Luxury Brands & Strategic Partnerships",
+          "text": "Luxury and premium brands are built on reputation, positioning, and credibility. Access to the right investors, commercial partners, and decision-makers often plays a defining role in long-term growth and value creation."
+        },
+        {
+          "text": "Drawing on experience within the Swiss luxury industry, Global Key Partners supports partnerships, investment opportunities, ownership transitions, and commercial collaborations involving premium and luxury brands."
+        },
+        {
+          "heading": "Areas of Focus",
           "bullets": [
-            "Introductions between luxury brands and private investors or family offices seeking exposure to brand equity",
-            "Strategic brand partnerships and collaborations, hospitality, motorsport, art, and experience-led platforms",
-            "Market entry introductions for international brands entering Switzerland, and Swiss brands entering the Gulf and Southeast Asia",
-            "Connections between brands and exclusive venues, hotels, residences, and private clubs, where embedded brand experiences are built",
-            "Succession and ownership transitions for owner-operated luxury and premium businesses"
+            "Luxury and premium brands",
+            "Strategic investors and family offices",
+            "Founder-led and heritage brands",
+            "Hospitality groups and premium venues",
+            "Succession and ownership transition opportunities"
           ]
         },
         {
-          "heading": "Who GKP works with",
-          "text": "GKP works with heritage luxury houses, founder-led premium brands, family offices and UHNWIs allocating to luxury as an asset class, and hospitality groups seeking brand partnerships that cannot be bought through a sponsorship pitch. The common thread: parties for whom discretion and brand permission matter more than reach."
+          "heading": "Who Global Key Partners Works With",
+          "text": "Relationships span heritage luxury houses, founder-led premium brands, family offices, UHNWI investors, and hospitality groups seeking long-term strategic alignment. The common thread is a shared emphasis on discretion, brand value, and commercial relevance."
         },
         {
-          "heading": "Why luxury runs on introductions",
-          "text": "The defining deals in luxury, brand investments, licensing partnerships, flagship placements, are rarely announced and never publicly tendered. They happen between principals who trust each other, often introduced by someone both sides already know. GKP is built to be that introduction: each connection is reviewed and made under the firm's name, with reputation as the only currency that matters."
+          "heading": "Why Luxury Runs on Relationships",
+          "text": "Many of the most significant developments in luxury, whether investments, collaborations, licensing agreements, ownership transitions, or flagship opportunities, are shaped through trusted relationships built over time. Reputation, credibility, and discretion remain essential components of successful partnerships."
+        },
+        {
+          "heading": "Hospitality & Lifestyle Partnerships",
+          "text": "Many of the most attractive hospitality opportunities remain privately held and are identified through industry relationships, referrals, and direct access."
+        },
+        {
+          "text": "Global Key Partners works with hospitality owners, operators, investors, and developers on opportunities ranging from acquisitions and investment situations to commercial partnerships, growth initiatives, and cross-border collaborations."
+        },
+        {
+          "heading": "Areas of Focus",
+          "bullets": [
+            "Boutique hotels and resort properties",
+            "Hospitality and lifestyle investments",
+            "Private members' clubs",
+            "Hospitality development opportunities",
+            "Cross-border hospitality partnerships"
+          ]
+        },
+        {
+          "heading": "Private Events & Relationship Platforms",
+          "text": "Relationships are often established long before transactions take place. Through curated gatherings, private events, industry forums, and selected introductions, meaningful connections can be created between investors, entrepreneurs, business owners, and industry leaders."
+        },
+        {
+          "text": "These environments support relationship building, knowledge exchange, business development, and future collaboration."
+        },
+        {
+          "heading": "Southeast Asia & International Partnerships",
+          "text": "Through relationships across Singapore, Thailand, Bali, Hong Kong, Dubai, and selected international markets, Global Key Partners supports cross-border partnerships, investment opportunities, and commercial relationships between European and international counterparties."
+        },
+        {
+          "text": "The focus remains on creating meaningful connections between businesses, investors, and decision-makers across key international markets."
+        },
+        {
+          "heading": "Why Partnerships Matter",
+          "text": "Strategic partnerships often create opportunities that would be difficult to access through conventional channels. They can accelerate growth, strengthen market positioning, unlock new commercial opportunities, and create long-term value for all parties involved."
+        },
+        {
+          "text": "Global Key Partners focuses on helping create the relationships and partnerships that make these opportunities possible."
         }
       ],
       "faqs": [
         {
           "q": "What is a luxury brand partnership introduction?",
-          "a": "It is a curated connection between a luxury or premium brand and a counterpart who can create strategic value: an investor, a partner brand, a venue, or a market-entry partner. GKP identifies genuine mutual interest before any introduction is made, and the parties take the relationship forward directly."
+          "a": "A luxury brand partnership introduction is a curated connection between a luxury or premium brand and a counterparty capable of creating strategic value, whether an investor, strategic partner, venue, hospitality group, or market-entry partner. Introductions are facilitated only where there is a credible basis for mutual interest and long-term alignment."
         },
         {
           "q": "Does GKP work with emerging brands or only established houses?",
-          "a": "Both. Established houses typically seek partnerships, venues, and new market access. Founder-led and emerging maisons more often seek strategic investors or distribution partners. GKP assesses each mandate on the strength of the brand and the clarity of the objective."
+          "a": "Both. Established luxury houses often seek strategic partnerships, new market access, and brand extensions. Founder-led and emerging maisons may seek strategic investors, distribution relationships, or growth opportunities. Each engagement is assessed based on the strength of the brand, the opportunity, and the clarity of the objective."
         },
         {
           "q": "Can investors approach GKP for access to luxury brand opportunities?",
-          "a": "Yes. Family offices and private investors increasingly treat luxury brands, and adjacent assets such as hospitality and collectibles, as a distinct allocation. GKP introduces qualified investors to relevant off-market situations: ownership transitions, growth capital needs, and partnership opportunities."
+          "a": "Yes. Family offices and private investors increasingly view luxury brands, hospitality businesses, and other premium assets as a distinct investment category. Global Key Partners facilitates introductions relating to ownership transitions, strategic partnerships, growth opportunities, and other off-market situations involving luxury and premium businesses."
         },
         {
           "q": "Does GKP negotiate or structure brand deals?",
-          "a": "No. GKP facilitates the introduction and remains available to both sides during the early conversations. Commercial negotiation, structuring, and documentation are handled directly between the parties and their advisors."
-        }
-      ],
-      "nav_title": "Luxury Brand Partnerships"
-    },
-    "de": {
-      "title": "Luxusmarken-Partnerschaften Schweiz | Strategische Marken- & Investorenkontakte | GKP",
-      "h1": "Luxusmarken-Partnerschaften & Marktzugang",
-      "meta_description": "GKP verbindet Luxus- und Premiummarken mit Investoren, strategischen Partnern und Marktzugang in der Schweiz, Europa, am Golf und in Südostasien. Kontaktvermittlung auf Vertrauensbasis.",
-      "card_summary": "Verbindung von Luxus- und Premiummarken mit Investoren, strategischen Partnern und den Räumen, in denen Entscheidungen fallen, von Traditionshäusern bis zu jungen Maisons.",
-      "intro": "Die wertvollsten Luxusmarken konkurrieren längst nicht mehr nur über das Produkt. Sie konkurrieren über Zugang: über Partnerschaften, Orte und Menschen, die ihr nächstes Kapitel prägen. Ein Hotel lässt sich kopieren, eine gewachsene Beziehung nicht. GKP arbeitet an dieser Schnittstelle und verbindet Luxus- und Premiummarken mit Investoren und Partnern, die den Wert von Markensubstanz wirklich verstehen.",
-      "body": [
-        {
-          "text": "Die Wurzeln von GKP liegen in der Schweizer Luxusindustrie. Die Firma versteht, wie Traditionshäuser denken, wie gründergeführte Maisons wachsen und wie Investoren Markenwert als Anlageklasse bewerten. Diese Perspektive prägt jede Kontaktvermittlung von GKP im Luxussegment."
+          "a": "No. Global Key Partners facilitates introductions and remains available during initial discussions where appropriate. Commercial negotiations, transaction structuring, legal documentation, and final agreements are handled directly between the parties and their professional advisors."
         },
         {
-          "heading": "Was GKP vermittelt",
+          "q": "What types of hospitality assets does GKP work with?",
+          "a": "Global Key Partners focuses primarily on boutique hotels, alpine and mountain resort properties, lakeside and waterfront assets, private members' clubs, and lifestyle food and beverage concepts. Activity is concentrated in the premium and luxury segment across Switzerland, the wider Alpine region, and Southeast Asia."
+        },
+        {
+          "q": "Can I invest in hospitality projects through GKP?",
+          "a": "For qualified investors, Global Key Partners facilitates introductions relating to hospitality investment opportunities, including selected co-investment situations, development projects, and other private market opportunities. All opportunities are considered on a case-by-case basis and subject to independent evaluation by the parties involved."
+        },
+        {
+          "q": "Does GKP have hospitality opportunities in Southeast Asia?",
+          "a": "Yes. Global Key Partners maintains active relationships across Thailand, Singapore, Bali, and the wider Southeast Asian market. Opportunities may include boutique hospitality assets, resort properties, lifestyle ventures, and selected development projects."
+        },
+        {
+          "q": "How does GKP identify off-market hospitality assets?",
+          "a": "Many hospitality transactions within the firm's focus markets originate through established relationships with hotel owners, operators, developers, advisors, and industry participants. Opportunities are typically introduced through trusted networks rather than public databases or broad-market processes, with discretion and relationship quality remaining central to the process."
+        }
+      ],
+      "nav_title": "Strategic Partnerships"
+    },
+    "de": {
+      "title": "Luxusmarken-Partnerschaften & Hospitality-Investments Schweiz | GKP",
+      "h1": "Strategische Partnerschaften: Luxusmarken & Hospitality",
+      "meta_description": "GKP verbindet Luxus- und Premiummarken mit Investoren, strategischen Partnern und Marktzugang und vermittelt Off-Market-Hospitality-Investitionen in der Schweiz, Europa, am Golf und in Südostasien.",
+      "card_summary": "Verbindung von Luxusmarken, Hospitality-Betreibern und privatem Kapital, von Traditionshäusern und Boutique-Hotels bis zu jungen Maisons und Resort-Entwicklungen.",
+      "intro": "Langfristige Partnerschaften entstehen selten zufällig. In den Bereichen Luxus, Hospitality und private Märkte spielen Vertrauen, Reputation und persönliche Beziehungen weiterhin eine entscheidende Rolle bei der Entwicklung neuer Geschäftsmöglichkeiten, Investitionen und strategischer Kooperationen.",
+      "body": [
+        {
+          "heading": "Strategische Partnerschaften: Luxusmarken & Hospitality",
+          "text": "Global Key Partners bringt Unternehmen, Investoren, Family Offices, Marken und Entscheidungsträger zusammen, wo eine nachvollziehbare Grundlage für eine langfristige Zusammenarbeit besteht."
+        },
+        {
+          "heading": "Luxusmarken & Strategische Partnerschaften",
+          "text": "Luxus- und Premiummarken basieren auf Reputation, Positionierung und Glaubwürdigkeit. Der Zugang zu relevanten Investoren, kommerziellen Partnern und Entscheidungsträgern kann entscheidend für die Weiterentwicklung einer Marke sein."
+        },
+        {
+          "text": "Aufbauend auf Erfahrung in der Schweizer Luxusindustrie begleitet Global Key Partners Partnerschaften, Eigentümerwechsel, Investitionssituationen und kommerzielle Kooperationen im Umfeld von Luxus- und Premiummarken."
+        },
+        {
+          "heading": "Schwerpunkte",
           "bullets": [
-            "Kontakte zwischen Luxusmarken und Privatinvestoren oder Family Offices, die in Markensubstanz investieren möchten",
-            "Strategische Markenpartnerschaften und Kooperationen, Hospitality, Motorsport, Kunst und erlebnisorientierte Plattformen",
-            "Markteintritt: internationale Marken in die Schweiz, Schweizer Marken an den Golf und nach Südostasien",
-            "Verbindungen zwischen Marken und exklusiven Orten, Hotels, Residenzen und privaten Clubs, wo Markenerlebnisse entstehen",
-            "Nachfolge- und Eigentumsübergänge bei inhabergeführten Luxus- und Premiumunternehmen"
+            "Luxus und Premiummarken",
+            "Strategische Investoren und Family Offices",
+            "Gründergeführte und traditionsreiche Marken",
+            "Hospitality Gruppen und Premium Venues",
+            "Nachfolge und Eigentümerwechsel"
           ]
         },
         {
-          "heading": "Mit wem GKP arbeitet",
-          "text": "GKP arbeitet mit traditionsreichen Luxushäusern, gründergeführten Premiummarken, Family Offices und sehr vermögenden Privatpersonen, die Luxus als Anlageklasse betrachten, sowie mit Hospitality-Gruppen, die Markenpartnerschaften suchen, die sich nicht über ein Sponsoring kaufen lassen. Der gemeinsame Nenner: Parteien, denen Diskretion und Markenpassung wichtiger sind als Reichweite."
+          "heading": "Mit wem Global Key Partners arbeitet",
+          "text": "Die Beziehungen umfassen traditionsreiche Luxushäuser, gründergeführte Premiummarken, Family Offices, private Investoren und Hospitality Gruppen. Im Mittelpunkt stehen Diskretion, langfristige Perspektiven und eine klare strategische Passung."
         },
         {
-          "heading": "Warum Luxus über Kontakte funktioniert",
-          "text": "Die prägenden Transaktionen im Luxussegment, Markenbeteiligungen, Lizenzpartnerschaften, Flagship-Platzierungen, werden selten angekündigt und nie öffentlich ausgeschrieben. Sie entstehen zwischen Prinzipalen, die einander vertrauen, oft vermittelt durch jemanden, den beide Seiten bereits kennen. Genau diese Rolle nimmt GKP ein: Jeder Kontakt wird geprüft und im Namen der Firma hergestellt."
+          "heading": "Warum Luxus auf Beziehungen beruht",
+          "text": "Viele bedeutende Entwicklungen im Luxussegment, sei es eine Beteiligung, eine Kooperation, ein Eigentümerwechsel oder eine kommerzielle Partnerschaft, entstehen auf Grundlage langjähriger Beziehungen. Reputation, Glaubwürdigkeit und Vertrauen bleiben dabei entscheidende Faktoren."
+        },
+        {
+          "heading": "Hospitality & Lifestyle Partnerschaften",
+          "text": "Viele attraktive Hospitality Assets und Beteiligungsmöglichkeiten werden ausserhalb öffentlicher Prozesse identifiziert. Häufig entstehen sie über bestehende Beziehungen, Empfehlungen und direkte Kontakte innerhalb der Branche."
+        },
+        {
+          "text": "Global Key Partners arbeitet mit Eigentümern, Betreibern, Investoren und Entwicklern zusammen und begleitet die Kontaktvermittlung rund um Hospitality Projekte, Beteiligungen, Kooperationen und Wachstumsinitiativen."
+        },
+        {
+          "heading": "Schwerpunkte",
+          "bullets": [
+            "Boutique Hotels und Ferienimmobilien",
+            "Hospitality und Lifestyle Investments",
+            "Private Members Clubs",
+            "Hospitality Entwicklungsprojekte",
+            "Grenzüberschreitende Kooperationen im Hospitality-Bereich"
+          ]
+        },
+        {
+          "heading": "Private Events & Beziehungsplattformen",
+          "text": "Geschäftsbeziehungen entstehen häufig lange bevor konkrete Transaktionen stattfinden. Kuratierte Veranstaltungen, private Zusammenkünfte und ausgewählte Branchenformate schaffen einen Rahmen für den Austausch zwischen Investoren, Unternehmern, Family Offices und Entscheidungsträgern."
+        },
+        {
+          "text": "Im Vordergrund stehen langfristige Beziehungen, Wissenstransfer und die Entwicklung neuer Geschäftsmöglichkeiten."
+        },
+        {
+          "heading": "Südostasien & Internationale Partnerschaften",
+          "text": "Über Beziehungen in Singapur, Thailand, Bali, Hongkong, Dubai und weiteren internationalen Märkten unterstützt Global Key Partners die Kontaktvermittlung zwischen europäischen und internationalen Unternehmen, Investoren und Entscheidungsträgern."
+        },
+        {
+          "text": "Der Fokus liegt auf der Identifikation relevanter Kontakte und der Förderung langfristiger Geschäftsbeziehungen über Ländergrenzen hinweg."
+        },
+        {
+          "heading": "Warum Partnerschaften wichtig sind",
+          "text": "Strategische Partnerschaften können neue Geschäftsmöglichkeiten eröffnen, den Zugang zu Märkten erleichtern und langfristigen geschäftlichen Mehrwert schaffen. Besonders in den Bereichen Luxus, Hospitality und private Märkte entstehen viele Kooperationen auf Grundlage persönlicher Beziehungen und gegenseitigen Vertrauens."
+        },
+        {
+          "text": "Global Key Partners konzentriert sich auf die Identifikation relevanter Kontakte und die Vermittlung langfristiger Geschäftsbeziehungen."
         }
       ],
       "faqs": [
         {
-          "q": "Was ist eine Luxusmarken-Partnerschaftsvermittlung?",
-          "a": "Eine kuratierte Verbindung zwischen einer Luxus- oder Premiummarke und einem Gegenüber, das strategischen Wert schaffen kann: ein Investor, eine Partnermarke, ein Standort oder ein Markteintrittspartner. GKP prüft das beidseitige Interesse, bevor ein Kontakt hergestellt wird; die Parteien führen die Beziehung danach direkt weiter."
+          "q": "Was versteht man unter einer strategischen Partnerschaft im Luxussegment?",
+          "a": "Strategische Partnerschaften im Luxussegment verbinden Marken mit Investoren, kommerziellen Partnern, Hospitality Gruppen, Vertriebspartnern oder anderen relevanten Gegenparteien. Ziel ist die Schaffung langfristiger geschäftlicher Beziehungen, die Wachstum, Marktpositionierung oder neue Entwicklungsmöglichkeiten unterstützen können."
         },
         {
-          "q": "Arbeitet GKP mit jungen Marken oder nur mit etablierten Häusern?",
-          "a": "Mit beiden. Etablierte Häuser suchen meist Partnerschaften, Standorte und neue Märkte. Gründergeführte und junge Maisons suchen häufiger strategische Investoren oder Vertriebspartner. GKP beurteilt jedes Mandat nach der Substanz der Marke und der Klarheit des Ziels."
+          "q": "Arbeitet GKP mit aufstrebenden Marken oder ausschliesslich mit etablierten Unternehmen?",
+          "a": "GKP arbeitet sowohl mit etablierten Luxus- und Premiummarken als auch mit ausgewählten gründergeführten Unternehmen. Während etablierte Marken häufig Partnerschaften, Expansionen oder neue Marktzugänge prüfen, suchen jüngere Unternehmen oftmals Investoren, strategische Partner oder Vertriebsbeziehungen zur Unterstützung ihres Wachstums."
         },
         {
-          "q": "Können Investoren GKP für Zugang zu Luxusmarken-Gelegenheiten ansprechen?",
-          "a": "Ja. Family Offices und Privatinvestoren betrachten Luxusmarken, und angrenzende Bereiche wie Hospitality und Sammlerstücke, zunehmend als eigene Allokation. GKP vermittelt qualifizierten Investoren Kontakte zu relevanten Off-Market-Situationen: Eigentumsübergänge, Wachstumskapitalbedarf und Partnerschaftsgelegenheiten."
+          "q": "Können Investoren über GKP Zugang zu Marken und Hospitality Beteiligungen erhalten?",
+          "a": "Ja. Family Offices, private Investoren und strategische Kapitalpartner prüfen zunehmend Beteiligungen an Luxusmarken, Hospitality Unternehmen und weiteren Premium Assets. GKP vermittelt Kontakte im Zusammenhang mit Eigentümerwechseln, Partnerschaften, Wachstumsinitiativen und ausgewählten privaten Markttransaktionen."
         },
         {
-          "q": "Verhandelt oder strukturiert GKP Markentransaktionen?",
-          "a": "Nein. GKP stellt den Kontakt her und bleibt in den ersten Gesprächen für beide Seiten ansprechbar. Verhandlung, Strukturierung und Dokumentation erfolgen direkt zwischen den Parteien und ihren Beratern."
+          "q": "Verhandelt oder strukturiert GKP Transaktionen oder Partnerschaften?",
+          "a": "Nein. Global Key Partners konzentriert sich auf die Identifikation relevanter Kontakte und die Vermittlung zwischen den beteiligten Parteien. Verhandlungen, Transaktionsstrukturen, rechtliche Dokumentationen und vertragliche Vereinbarungen erfolgen direkt zwischen den Parteien und deren professionellen Beratern."
+        },
+        {
+          "q": "Mit welchen Hospitality Assets arbeitet GKP?",
+          "a": "Global Key Partners konzentriert sich auf Boutique Hotels, Resorts, See- und Wasserlagen, Private Members Clubs sowie ausgewählte Hospitality- und Lifestyle-Projekte. Der Schwerpunkt liegt auf dem Premium- und Luxussegment in der Schweiz, im Alpenraum und in Südostasien."
+        },
+        {
+          "q": "Kann über GKP Zugang zu Hospitality Investitionsmöglichkeiten erfolgen?",
+          "a": "GKP vermittelt Kontakte zu ausgewählten Hospitality Investitionsmöglichkeiten, Entwicklungsprojekten, Beteiligungen und weiteren privaten Markttransaktionen. Jede Situation wird individuell beurteilt und auf ihre Eignung für potenzielle Investoren geprüft."
+        },
+        {
+          "q": "Verfügt GKP über Hospitality Beziehungen in Südostasien?",
+          "a": "Ja. Global Key Partners pflegt Beziehungen in Thailand, Singapur, Bali und weiteren Märkten in Südostasien. Dazu gehören Kontakte im Bereich Hospitality, Tourismus, Immobilienentwicklung und private Investitionen."
+        },
+        {
+          "q": "Wie identifiziert GKP Hospitality Möglichkeiten ausserhalb öffentlicher Märkte?",
+          "a": "Viele Hospitality Transaktionen entstehen über bestehende Beziehungen zu Eigentümern, Betreibern, Entwicklern, Beratern und weiteren Marktteilnehmern. Relevante Möglichkeiten werden häufig über etablierte Netzwerke identifiziert und nicht über öffentliche Plattformen oder Datenbanken."
         }
       ],
-      "nav_title": "Luxusmarken-Partnerschaften"
+      "nav_title": "Strategische Partnerschaften"
     },
     "fr": {
-      "title": "Partenariats de Marques de Luxe Suisse | Introductions Stratégiques | GKP",
-      "h1": "Partenariats de Marques de Luxe & Accès au Marché",
-      "meta_description": "GKP connecte les marques de luxe et premium avec des investisseurs, des partenaires stratégiques et un accès au marché en Suisse, en Europe, dans le Golfe et en Asie du Sud-Est.",
-      "card_summary": "Connecter les marques de luxe et premium avec des investisseurs, des partenaires stratégiques et les lieux où se prennent les décisions, des maisons historiques aux maisons émergentes.",
-      "intro": "Les marques de luxe les plus précieuses ne se disputent plus seulement le produit. Elles se disputent l'accès : les partenariats, les lieux et les personnes qui définissent leur prochain chapitre. Un hôtel peut être copié ; une relation de confiance, non. GKP opère à cette intersection, en connectant les marques de luxe et premium avec les investisseurs et partenaires qui comprennent la vraie valeur d'une marque.",
+      "title": "Partenariats de Marques de Luxe & Investissements Hôteliers Suisse | GKP",
+      "h1": "Partenariats Stratégiques : Marques de Luxe & Hôtellerie",
+      "meta_description": "GKP connecte les marques de luxe et premium avec des investisseurs, des partenaires stratégiques et un accès au marché, et facilite les investissements hôteliers hors marché, en Suisse, en Europe, dans le Golfe et en Asie du Sud-Est.",
+      "card_summary": "Connecter les marques de luxe, les opérateurs hôteliers et les capitaux privés, des maisons historiques et hôtels-boutiques aux maisons émergentes et projets de villégiature.",
+      "intro": "Beaucoup des opportunités les plus précieuses naissent du bon partenariat. Tous secteurs, marchés et géographies confondus, les relations de confiance continuent de jouer un rôle déterminant dans la croissance des entreprises, le positionnement de marché, les opportunités d'investissement et la création de valeur à long terme.",
       "body": [
         {
-          "text": "Les racines de GKP se trouvent dans l'industrie suisse du luxe. La société comprend comment pensent les maisons historiques, comment grandissent les maisons fondées par leurs créateurs, et comment les investisseurs évaluent la valeur de marque comme classe d'actifs."
+          "heading": "Partenariats Stratégiques : Marques de Luxe & Hôtellerie",
+          "text": "Global Key Partners soutient le développement de partenariats stratégiques dans les secteurs du luxe, de l'hôtellerie, de l'investissement privé et de la consommation premium, en réunissant des entreprises, investisseurs, marques et leaders du secteur complémentaires."
         },
         {
-          "heading": "Ce que GKP facilite",
+          "heading": "Marques de Luxe & Partenariats Stratégiques",
+          "text": "Les marques de luxe et premium se construisent sur la réputation, le positionnement et la crédibilité. L'accès aux bons investisseurs, partenaires commerciaux et décideurs joue souvent un rôle déterminant dans la croissance à long terme et la création de valeur."
+        },
+        {
+          "text": "S'appuyant sur son expérience au sein de l'industrie suisse du luxe, Global Key Partners soutient les partenariats, les opportunités d'investissement, les transitions de propriété et les collaborations commerciales impliquant des marques premium et de luxe."
+        },
+        {
+          "heading": "Domaines de Concentration",
           "bullets": [
-            "Introductions entre marques de luxe et investisseurs privés ou family offices recherchant une exposition à la valeur de marque",
-            "Partenariats stratégiques de marques et collaborations, hôtellerie, sport automobile, art et plateformes expérientielles",
-            "Entrée sur le marché : marques internationales en Suisse, marques suisses dans le Golfe et en Asie du Sud-Est",
-            "Connexions entre marques et lieux exclusifs, hôtels, résidences et clubs privés",
-            "Successions et transmissions d'entreprises de luxe et premium détenues par leurs fondateurs"
+            "Marques de luxe et premium",
+            "Investisseurs stratégiques et family offices",
+            "Marques fondées par leurs créateurs et patrimoniales",
+            "Groupes hôteliers et lieux premium",
+            "Opportunités de succession et de transition de propriété"
           ]
         },
         {
-          "heading": "Avec qui GKP travaille",
-          "text": "GKP travaille avec des maisons de luxe historiques, des marques premium fondées par leurs créateurs, des family offices et des particuliers fortunés qui considèrent le luxe comme une classe d'actifs, ainsi qu'avec des groupes hôteliers recherchant des partenariats de marques qui ne s'achètent pas par un simple sponsoring."
+          "heading": "Avec qui Global Key Partners travaille",
+          "text": "Les relations couvrent des maisons de luxe patrimoniales, des marques premium fondées par leurs créateurs, des family offices, des investisseurs UHNWI et des groupes hôteliers recherchant un alignement stratégique à long terme. Le fil conducteur est une importance partagée accordée à la discrétion, à la valeur de marque et à la pertinence commerciale."
         },
         {
-          "heading": "Pourquoi le luxe fonctionne par introductions",
-          "text": "Les transactions déterminantes du luxe, participations dans des marques, partenariats de licence, implantations phares, sont rarement annoncées et jamais mises en concurrence publiquement. Elles naissent entre dirigeants qui se font confiance, souvent présentés par quelqu'un que les deux parties connaissent déjà. C'est exactement le rôle de GKP : chaque mise en relation est examinée et effectuée au nom de la société."
+          "heading": "Pourquoi le Luxe Repose sur les Relations",
+          "text": "Nombre des développements les plus significatifs dans le luxe, qu'il s'agisse d'investissements, de collaborations, d'accords de licence, de transitions de propriété ou d'opportunités phares, se construisent par le biais de relations de confiance établies dans le temps. La réputation, la crédibilité et la discrétion demeurent des composantes essentielles des partenariats réussis."
+        },
+        {
+          "heading": "Partenariats Hôteliers & Lifestyle",
+          "text": "Beaucoup des opportunités hôtelières les plus attractives restent détenues de manière privée et sont identifiées par le biais de relations sectorielles, de recommandations et d'accès direct."
+        },
+        {
+          "text": "Global Key Partners travaille avec des propriétaires, exploitants, investisseurs et promoteurs hôteliers sur des opportunités allant des acquisitions et situations d'investissement aux partenariats commerciaux, initiatives de croissance et collaborations transfrontalières."
+        },
+        {
+          "heading": "Domaines de Concentration",
+          "bullets": [
+            "Hôtels-boutiques et propriétés de villégiature",
+            "Investissements hôteliers et lifestyle",
+            "Clubs privés",
+            "Opportunités de développement hôtelier",
+            "Partenariats hôteliers transfrontaliers"
+          ]
+        },
+        {
+          "heading": "Événements Privés & Plateformes Relationnelles",
+          "text": "Les relations s'établissent souvent longtemps avant que les transactions n'aient lieu. Par le biais de rencontres organisées, d'événements privés, de forums sectoriels et d'introductions sélectionnées, des connexions significatives peuvent être créées entre investisseurs, entrepreneurs, propriétaires d'entreprises et leaders du secteur."
+        },
+        {
+          "text": "Ces environnements favorisent le développement relationnel, l'échange de connaissances, le développement commercial et la collaboration future."
+        },
+        {
+          "heading": "Asie du Sud-Est & Partenariats Internationaux",
+          "text": "Grâce à des relations établies à Singapour, en Thaïlande, à Bali, à Hong Kong, à Dubaï et sur certains marchés internationaux sélectionnés, Global Key Partners soutient des partenariats transfrontaliers, des opportunités d'investissement et des relations commerciales entre contreparties européennes et internationales."
+        },
+        {
+          "text": "L'accent reste mis sur la création de connexions significatives entre entreprises, investisseurs et décideurs sur les principaux marchés internationaux."
+        },
+        {
+          "heading": "Pourquoi les Partenariats Comptent",
+          "text": "Les partenariats stratégiques créent souvent des opportunités qui seraient difficiles à atteindre par les canaux conventionnels. Ils peuvent accélérer la croissance, renforcer le positionnement de marché, débloquer de nouvelles opportunités commerciales et créer une valeur à long terme pour toutes les parties concernées."
+        },
+        {
+          "text": "Global Key Partners se concentre sur la création des relations et partenariats qui rendent ces opportunités possibles."
         }
       ],
       "faqs": [
         {
           "q": "Qu'est-ce qu'une introduction de partenariat de marque de luxe ?",
-          "a": "Une mise en relation sélective entre une marque de luxe ou premium et une contrepartie capable de créer de la valeur stratégique : un investisseur, une marque partenaire, un lieu ou un partenaire d'entrée sur le marché. GKP vérifie l'intérêt mutuel avant toute introduction ; les parties poursuivent ensuite la relation directement."
+          "a": "Une introduction de partenariat de marque de luxe est une mise en relation sur mesure entre une marque de luxe ou premium et une contrepartie capable de créer de la valeur stratégique, qu'il s'agisse d'un investisseur, d'un partenaire stratégique, d'un lieu, d'un groupe hôtelier ou d'un partenaire d'entrée sur le marché."
         },
         {
-          "q": "Les investisseurs peuvent-ils s'adresser à GKP pour accéder à des opportunités de marques de luxe ?",
-          "a": "Oui. Les family offices et investisseurs privés considèrent de plus en plus les marques de luxe, et les actifs adjacents comme l'hôtellerie et les objets de collection, comme une allocation distincte. GKP introduit des investisseurs qualifiés auprès de situations hors marché pertinentes."
+          "q": "GKP travaille-t-il avec des marques émergentes ou uniquement avec des maisons établies ?",
+          "a": "Les deux. Les maisons de luxe établies recherchent souvent des partenariats stratégiques, de nouveaux accès au marché et des extensions de marque. Les maisons émergentes et fondées par leurs créateurs peuvent rechercher des investisseurs stratégiques, des relations de distribution ou des opportunités de croissance."
         },
         {
-          "q": "GKP négocie-t-il ou structure-t-il les transactions de marques ?",
-          "a": "Non. GKP facilite l'introduction et reste disponible pour les deux parties lors des premiers échanges. La négociation, la structuration et la documentation relèvent directement des parties et de leurs conseillers."
-        }
-      ],
-      "nav_title": "Partenariats de Marques de Luxe"
-    }
-  },
-  {
-    "slug": "hospitality-investments",
-    "num": "06",
-    "hero_image": "hospitality-drinks.jpg",
-    "de": {
-      "title": "Hospitality-Investmentberatung Schweiz & Europa | Global Key Partners",
-      "h1": "Hospitality & Lifestyle Investment Access",
-      "meta_description": "GKP erschliesst Off-Market-Hospitality-Investitionen. Boutique-Hotels, Ferienimmobilien und F&B-Assets, in der Schweiz, Europa und Südostasien.",
-      "card_summary": "Off-Market-Zugang zu Boutique-Hotels, Ferienimmobilien und Lifestyle-Hospitality-Assets in der Schweiz, Europa und Südostasien.",
-      "intro": "Hospitality-Assets, Boutique-Hotels, Alpenresorts, Seelagen und ausgewählte Gastronomiekonzepte, zählen zu den gefragten Anlageklassen im privaten Marktsegment. Ein grosser Teil dieser Objekte befindet sich in privater Hand und wird über bestehende Beziehungen gehandelt.",
-      "body": [
-        {
-          "text": "GKP unterhält Beziehungen im Schweizer und europäischen Hospitalitysektor sowie ein Netzwerk in Südostasien. Es identifiziert Übernahmemöglichkeiten, Eigenkapital-Co-Investment-Positionen und Entwicklungsprojekte, die nicht öffentlich verfügbar sind, und vermittelt diese an qualifizierte Investoren und Käufer."
+          "q": "Les investisseurs peuvent-ils s'adresser à GKP pour accéder aux opportunités de marques de luxe ?",
+          "a": "Oui. Les family offices et les investisseurs privés considèrent de plus en plus les marques de luxe, les entreprises hôtelières et autres actifs premium comme une catégorie d'investissement distincte. Global Key Partners facilite les introductions relatives aux transitions de propriété, aux partenariats stratégiques et aux opportunités de croissance."
         },
         {
-          "heading": "Womit wir arbeiten",
-          "bullets": [
-            "Boutique-Hotels und Gästehäuser in der Schweiz, Österreich und den Alpen",
-            "Luxusferienimmobilien und Skipisten-Chalets in erstklassigen Bergdestinationen",
-            "Wasser- und Seelagenobjekte in den Schweizer Seenregionen",
-            "Hospitality-Betriebe in Südostasien. Thailand, Bali, Singapur",
-            "Restaurantgruppen, Private Members Clubs und Lifestyle-F&B-Konzepte",
-            "Hospitality-Entwicklungsprojekte auf der Suche nach Eigenkapitalpartnern"
-          ]
+          "q": "GKP négocie-t-il ou structure-t-il les accords de marque ?",
+          "a": "Non. Global Key Partners facilite les introductions et reste disponible lors des discussions initiales le cas échéant. Les négociations commerciales, la structuration des transactions, la documentation juridique et les accords finaux sont gérés directement entre les parties et leurs conseillers professionnels."
         },
-        {
-          "heading": "Eigenkapitalbeteiligung",
-          "text": "Bei ausgewählten Hospitality-Projekten beteiligt sich GKP direkt an Eigenkapital- und Umsatzvereinbarungen neben seinen Investitionspartnern. Diese Interessenausrichtung spiegelt die Einschätzung von GKP zu den jeweiligen Projekten wider."
-        },
-        {
-          "heading": "Fokus Südostasien",
-          "text": "Über seine Netzwerke in Thailand, Singapur und dem weiteren südostasiatischen Markt verfolgt GKP eine wachsende Zahl von Hospitality-Möglichkeiten, die mit regionalem Vermögenswachstum, zunehmendem Tourismus und lifestyle-orientierten Investitionen asiatischer Family Offices in Verbindung stehen. GKP vermittelt zwischen europäischem Kapital und asiatischen Hospitality-Möglichkeiten in beide Richtungen."
-        }
-      ],
-      "faqs": [
-        {
-          "q": "Mit welchen Hospitality-Assets arbeitet GKP?",
-          "a": "GKP arbeitet hauptsächlich mit Boutique-Hotels, Alpen- und Bergferienimmobilien, See- und Wasserlageobjekten, Private Members Clubs und Lifestyle-F&B-Konzepten. GKP konzentriert sich auf das Premium- und Luxussegment in der Schweiz, den Alpen und Südostasien."
-        },
-        {
-          "q": "Kann ich über GKP in Hospitality-Projekte investieren?",
-          "a": "Für qualifizierte Investoren erleichtert GKP den Zugang zu Hospitality-Investitionsmöglichkeiten, einschliesslich Eigenkapital-Co-Investment, Wandelstrukturen und Entwicklungsprojektbeteiligungen. GKP beteiligt sich gelegentlich an Eigenkapitalpositionen neben Investoren in Projekten, von denen es überzeugt ist."
-        },
-        {
-          "q": "Hat GKP Hospitality-Möglichkeiten in Südostasien?",
-          "a": "Ja. GKP verfügt über ein aktives Netzwerk in Thailand, Singapur und Bali, wo es Boutique-Hospitality-Assets und Entwicklungsprojekte erschliesst. Diese Märkte bieten überzeugende Rendite- und Lifestyle-Eigenschaften für europäische und internationale Investoren."
-        },
-        {
-          "q": "Wie identifiziert GKP Off-Market-Hospitality-Assets?",
-          "a": "Off-Market-Hospitality-Transaktionen in den Fokusmärkten von GKP entstehen durch direkte Beziehungen zu Hotelbesitzern, Betreibern, Entwicklern und lokalen Maklern, die GKP vertrauen, ihre Assets dem richtigen Käufer zu präsentieren. Wir beziehen Assets nicht kalt aus Datenbanken. Jedes Mandat kommt über eine bestehende Vertrauensbeziehung."
-        }
-      ],
-      "nav_title": "Hospitality Investments"
-    },
-    "en": {
-      "title": "Hospitality Investment Opportunities Switzerland | Boutique Hotels & Resorts | GKP",
-      "h1": "Hospitality & Lifestyle Investment Access",
-      "meta_description": "Access off-market hospitality investment opportunities in Switzerland and Europe, boutique hotels, alpine resorts, and lifestyle assets. GKP connects investors with private hospitality deals.",
-      "card_summary": "Off-market access to boutique hotels, resort properties, and lifestyle hospitality assets in Switzerland, Europe, and Southeast Asia.",
-      "intro": "Hospitality assets, boutique hotels, alpine resorts, waterfront properties, and curated food and beverage operations, represent some of the most sought-after private market investments in the world. The best opportunities are invariably held in private hands and transacted through trusted channels.",
-      "body": [
-        {
-          "text": "GKP maintains deep relationships in the Swiss and European hospitality sector, as well as a growing network across Southeast Asian markets. GKP sources acquisition opportunities, equity co-investment positions, and development projects that are not publicly available, and connects them with qualified investors and buyers who understand the space."
-        },
-        {
-          "heading": "What GKP works with",
-          "bullets": [
-            "Boutique hotels and guesthouses in Switzerland, Austria, and the Alps",
-            "Luxury resort properties and ski chalets in premier mountain destinations",
-            "Waterfront and lakeside properties in the Swiss lake regions",
-            "Hospitality operations in Southeast Asia. Thailand, Bali, Singapore",
-            "Restaurant groups, private members clubs, and lifestyle F&B concepts",
-            "Hospitality development projects seeking equity partners or capital"
-          ]
-        },
-        {
-          "heading": "Equity participation",
-          "text": "For selected hospitality projects, GKP participates directly in equity and revenue arrangements alongside its investment partners. This alignment of interest, where GKP has skin in the game, is a mark of its conviction in the opportunities it represents and ensures it acts in the interests of all parties."
-        },
-        {
-          "heading": "Southeast Asia focus",
-          "text": "Through its networks in Thailand, Singapore, and the wider Southeast Asian market, GKP accesses a growing pipeline of hospitality opportunities driven by regional wealth creation, tourism growth, and the emergence of lifestyle-oriented investment from Asian family offices. We act as a bridge between European capital and Asian hospitality opportunities, and vice versa."
-        }
-      ],
-      "faqs": [
-        {
-          "q": "What types of hospitality assets does GKP work with?",
-          "a": "GKP works primarily with boutique hotels, alpine and mountain resort properties, lakeside and waterfront assets, private members clubs, and lifestyle F&B concepts. We focus on the premium and luxury segment in Switzerland, the wider Alps, and Southeast Asia. We do not work with budget or midscale hospitality assets."
-        },
-        {
-          "q": "Can I invest in hospitality projects through GKP?",
-          "a": "For qualifying investors, GKP facilitates access to hospitality investment opportunities including equity co-investment, convertible structures, and development project participation. GKP sometimes participates in equity positions alongside investors in projects it has high conviction in. All opportunities are presented with full disclosure of structure and risk factors."
-        },
-        {
-          "q": "Does GKP have hospitality opportunities in Southeast Asia?",
-          "a": "Yes. GKP has an active network in Thailand, Singapore, and Bali, where it sources boutique hospitality assets and development projects. These markets offer compelling yield and lifestyle characteristics for European and international investors who understand the space."
-        },
-        {
-          "q": "How does GKP identify off-market hospitality assets?",
-          "a": "Off-market hospitality transactions in GKP's focus markets come from direct relationships with hotel owners, operators, developers, and local brokers who trust GKP to present their assets to the right buyers. We do not cold-source assets from databases. Every mandate comes through an existing trusted relationship."
-        }
-      ],
-      "nav_title": "Hospitality Investments"
-    },
-    "fr": {
-      "title": "Opportunités d'Investissement Hôtelier Suisse | Hôtels Boutique & Resorts | GKP",
-      "h1": "Accès aux Investissements Hôteliers & Lifestyle",
-      "meta_description": "GKP donne accès aux investissements hôteliers hors marché, hôtels boutique, propriétés de vacances et actifs F&B, en Suisse, en Europe et en Asie du Sud-Est.",
-      "card_summary": "Accès hors marché aux hôtels boutique, resorts et actifs hospitalité en Suisse, dans les Alpes et en Asie du Sud-Est.",
-      "intro": "Le secteur de l'hôtellerie et du lifestyle combine actifs tangibles, rendement opérationnel et usage personnel potentiel, ce qui en fait un segment d'intérêt pour certains investisseurs privés. GKP facilite l'accès à des opportunités d'investissement hôtelier hors marché en Suisse, dans les Alpes et en Asie du Sud-Est.",
-      "body": [
-        {
-          "text": "GKP travaille avec des investisseurs privés, des family offices et des opérateurs souhaitant acquérir ou co-investir dans des actifs d'hôtellerie et de lifestyle, des hôtels boutique alpins aux propriétés de resort en Thaïlande et en Asie du Sud-Est."
-        }
-      ],
-      "faqs": [
         {
           "q": "Quels types d'actifs hôteliers GKP prend-il en charge ?",
-          "a": "GKP travaille avec des hôtels boutique, des resorts, des résidences de marque, des chalets alpins exploités et des actifs F&B sélectionnés en Suisse, dans les Alpes, en Thaïlande, en Malaisie et en Asie du Sud-Est plus large."
+          "a": "Global Key Partners se concentre principalement sur les hôtels-boutiques, les propriétés de villégiature alpines et de montagne, les actifs en bord de lac et en bord de l'eau, les clubs privés et les concepts de restauration lifestyle."
+        },
+        {
+          "q": "Puis-je investir dans des projets hôteliers via GKP ?",
+          "a": "Pour les investisseurs qualifiés, Global Key Partners facilite les introductions relatives aux opportunités d'investissement hôtelier, y compris certaines situations de co-investissement, projets de développement et autres opportunités de marchés privés. Toutes les opportunités sont considérées au cas par cas."
+        },
+        {
+          "q": "GKP a-t-il des opportunités hôtelières en Asie du Sud-Est ?",
+          "a": "Oui. Global Key Partners entretient des relations actives en Thaïlande, à Singapour, à Bali et sur le marché plus large de l'Asie du Sud-Est. Les opportunités peuvent inclure des actifs hôteliers boutique, des propriétés de villégiature, des projets lifestyle et certains projets de développement."
+        },
+        {
+          "q": "Comment GKP identifie-t-il les actifs hôteliers hors marché ?",
+          "a": "De nombreuses transactions hôtelières sur les marchés cibles de la firme naissent de relations établies avec des propriétaires d'hôtels, des exploitants, des promoteurs, des conseillers et des acteurs du secteur. Les opportunités sont généralement présentées par des réseaux de confiance plutôt que par des bases de données publiques."
         }
       ],
-      "nav_title": "Investissements Hôteliers"
+      "nav_title": "Partenariats Stratégiques"
     }
   }
 ]

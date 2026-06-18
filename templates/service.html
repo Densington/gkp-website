@@ -37,7 +37,7 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"{{ 'Home' if lang=='en' else 'Startseite' }}","item":"{{ config.site_url }}{{ '/' if lang=='en' else '/de/' }}"},
-    {"@type":"ListItem","position":2,"name":"{{ 'Services' if lang=='en' else 'Leistungen' }}","item":"{{ config.site_url }}{{ prefix }}/services/"},
+    {"@type":"ListItem","position":2,"name":"Services","item":"{{ config.site_url }}{{ prefix }}/services/"},
     {"@type":"ListItem","position":3,"name":"{{ content.h1 }}","item":"{{ config.site_url }}{{ canonical }}"}
   ]
 }
@@ -50,13 +50,13 @@
 <section class="hero hero--page" aria-labelledby="page-heading"{% if service.hero_image %} style="background-image: linear-gradient(rgba(12,20,14,.82), rgba(12,20,14,.80)), url('/assets/images/{{ service.hero_image }}'); background-size: cover; background-position: center;"{% endif %}>
   <div class="container">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="{{ '/' if lang == 'en' else '/de/' }}">{{ ui.breadcrumb_home }}</a>
+      <a href="{{ '/' if lang == 'en' else ('/de/' if lang == 'de' else '/fr/') }}">{{ ui.breadcrumb_home }}</a>
       <span class="sep" aria-hidden="true">/</span>
-      <a href="{{ prefix }}/services/">{{ 'Services' if lang == 'en' else 'Leistungen' }}</a>
+      <a href="{{ prefix }}/services/">Services</a>
       <span class="sep" aria-hidden="true">/</span>
       <span aria-current="page">{{ content.h1 | truncate(40) }}</span>
     </nav>
-    <span class="hero-eyebrow">{{ service.num }} &nbsp;·&nbsp; {{ 'GKP Services' if lang == 'en' else ('GKP Leistungen' if lang == 'de' else 'Services GKP') }}</span>
+    <span class="hero-eyebrow">{{ service.num }} &nbsp;·&nbsp; {{ 'GKP Services' if lang == 'en' else ('GKP Services' if lang == 'de' else 'Services GKP') }}</span>
     <h1 id="page-heading">{{ content.h1 }}</h1>
     <p class="hero-sub" style="max-width:580px;">{{ content.intro }}</p>
     <a href="{{ prefix }}/contact/" class="btn btn-gold" style="margin-top:8px;">{{ ui.contact_cta }}</a>
@@ -113,8 +113,8 @@
 
       <aside class="sidebar">
         <div class="sidebar-cta" style="margin-bottom:32px;">
-          <h4>{{ 'Discuss a mandate' if lang == 'en' else 'Mandat besprechen' }}</h4>
-          <p>{{ 'Reach out for a confidential initial conversation.' if lang == 'en' else 'Kontaktieren Sie uns für ein vertrauliches Erstgespräch.' }}</p>
+          <h4>{{ 'Discuss a mandate' if lang == 'en' else ('Mandat besprechen' if lang == 'de' else 'Discuter d\'un mandat') }}</h4>
+          <p>{{ 'Reach out for a confidential initial conversation.' if lang == 'en' else ('Kontaktieren Sie uns für ein vertrauliches Erstgespräch.' if lang == 'de' else 'Contactez-nous pour un entretien initial confidentiel.') }}</p>
           <a href="{{ prefix }}/contact/" class="btn btn-gold" style="width:100%; justify-content:center;">{{ ui.contact_cta }}</a>
         </div>
 
@@ -136,8 +136,8 @@
 
 <section class="section section--dark cta-band" aria-labelledby="svc-cta">
   <div class="container" style="max-width:560px;">
-    <h2 id="svc-cta">{{ 'Ready to explore this further?' if lang == 'en' else 'Bereit, dies weiter zu erkunden?' }}</h2>
-    <p>{{ 'Get in touch for a confidential initial conversation.' if lang == 'en' else 'Nehmen Sie Kontakt für ein vertrauliches Erstgespräch auf.' }}</p>
+    <h2 id="svc-cta">{{ 'Ready to explore this further?' if lang == 'en' else ('Bereit, dies weiter zu erkunden?' if lang == 'de' else 'Prêt à approfondir le sujet ?') }}</h2>
+    <p>{{ 'Get in touch for a confidential initial conversation.' if lang == 'en' else ('Nehmen Sie Kontakt für ein vertrauliches Erstgespräch auf.' if lang == 'de' else 'Contactez-nous pour un entretien initial confidentiel.') }}</p>
     <a href="{{ prefix }}/contact/" class="btn btn-gold">{{ ui.contact_cta }}</a>
   </div>
 </section>

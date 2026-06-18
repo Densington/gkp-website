@@ -129,21 +129,21 @@
       <!-- Sidebar -->
       <aside class="sidebar">
         {% set svc_map = {
-          'property':      'off-market-real-estate',
-          'business':      'business-acquisitions',
-          'family-office': 'capital-introduction',
+          'property':      'off-market-sourcing',
+          'business':      'off-market-sourcing',
+          'family-office': 'strategic-introductions',
           'corridor':      'strategic-introductions'
         } %}
         {% set svc_names = {
-          'off-market-real-estate':  {'en': 'Off-Market Real Estate',            'de': 'Off-Market Immobilien',                  'fr': 'Immobilier Hors Marché'},
-          'business-acquisitions':   {'en': 'Off-Market M&A & Succession',       'de': 'Off-Market M&A & Nachfolge',             'fr': 'M&A Hors Marché & Succession'},
-          'capital-introduction':    {'en': 'Capital & Investor Introductions',  'de': 'Kapital- & Investorenkontakte',          'fr': 'Introductions en Capital'},
-          'strategic-introductions': {'en': 'Strategic Introductions',           'de': 'Strategische Kontaktvermittlung',        'fr': 'Mises en relation stratégiques'}
+          'off-market-sourcing':      {'en': 'Off-Market Sourcing',     'de': 'Off-Market Sourcing',              'fr': 'Sourcing Hors Marché'},
+          'strategic-introductions':  {'en': 'Strategic Introductions', 'de': 'Strategische Kontaktvermittlung',  'fr': 'Mises en relation stratégiques'},
+          'strategic-partnerships':   {'en': 'Strategic Partnerships',  'de': 'Strategische Partnerschaften',     'fr': 'Partenariats Stratégiques'}
         } %}
-        {% set rel_slug = article.get('related_service') or svc_map.get(article.get('topic', 'general'), 'strategic-introductions') %}
-        {% set rel_name = svc_names[rel_slug][lang] if rel_slug in svc_names else svc_names['strategic-introductions'][lang] %}
+        {% set rel_slug_raw = article.get('related_service') or svc_map.get(article.get('topic', 'general'), 'strategic-introductions') %}
+        {% set rel_slug = rel_slug_raw if rel_slug_raw in svc_names else 'strategic-introductions' %}
+        {% set rel_name = svc_names[rel_slug][lang] %}
         <div class="cta-block" style="margin-bottom:24px;">
-          <h4>{{ 'How GKP can help' if lang == 'en' else ('Wie GKP helfen kann' if lang == 'de' else 'Comment GKP peut aider') }}</h4>
+          <h4>{{ 'How Global Key Partners can help' if lang == 'en' else ('Wie Global Key Partners helfen kann' if lang == 'de' else 'Comment Global Key Partners peut aider') }}</h4>
           <p>{{ 'This topic is part of our work in ' if lang == 'en' else ('Dieses Thema gehört zu unserer Arbeit im Bereich ' if lang == 'de' else 'Ce sujet fait partie de notre travail en ') }}{{ rel_name }}.</p>
           <a href="{{ prefix }}/services/{{ rel_slug }}/" class="btn btn-gold-outline" style="width:100%; justify-content:center; margin-bottom:8px;">{{ rel_name }} &rarr;</a>
           <a href="{{ prefix }}/contact/" class="btn btn-gold-outline" style="width:100%; justify-content:center;">{{ ui.contact_cta }}</a>
@@ -166,13 +166,10 @@
         {% endif %}
 
         <div class="sidebar-block">
-          <span class="sidebar-block-label">{{ 'Our services' if lang == 'en' else ('Unsere Leistungen' if lang == 'de' else 'Nos services') }}</span>
-          <a href="{{ prefix }}/services/strategic-introductions/" class="sidebar-link">{{ '01&ensp;Strategic Introductions' if lang == 'en' else ('01&ensp;Strategische Kontaktvermittlung' if lang == 'de' else '01&ensp;Mises en relation stratégiques') }}</a>
-          <a href="{{ prefix }}/services/off-market-real-estate/" class="sidebar-link">{{ '02&ensp;Off-Market Real Estate' if lang == 'en' else ('02&ensp;Off-Market Immobilien' if lang == 'de' else '02&ensp;Immobilier Hors Marché') }}</a>
-          <a href="{{ prefix }}/services/business-acquisitions/" class="sidebar-link">{{ '03&ensp;Off-Market M&A & Succession' if lang == 'en' else ('03&ensp;Off-Market M&A & Nachfolge' if lang == 'de' else '03&ensp;M&A Hors Marché & Succession') }}</a>
-          <a href="{{ prefix }}/services/capital-introduction/" class="sidebar-link">{{ '04&ensp;Capital & Investor Introductions' if lang == 'en' else ('04&ensp;Kapital- & Investorenkontakte' if lang == 'de' else '04&ensp;Introductions en Capital') }}</a>
-          <a href="{{ prefix }}/services/luxury-brand-partnerships/" class="sidebar-link">{{ '05&ensp;Luxury Brand Partnerships' if lang == 'en' else ('05&ensp;Luxusmarken-Partnerschaften' if lang == 'de' else '05&ensp;Partenariats de Marques de Luxe') }}</a>
-          <a href="{{ prefix }}/services/hospitality-investments/" class="sidebar-link">{{ '06&ensp;Hospitality Investments' if lang == 'en' else ('06&ensp;Hospitality Investments' if lang == 'de' else '06&ensp;Investissements Hôteliers') }}</a>
+          <span class="sidebar-block-label">{{ 'Our services' if lang == 'en' else ('Unsere Services' if lang == 'de' else 'Nos services') }}</span>
+          <a href="{{ prefix }}/services/strategic-introductions/" class="sidebar-link">{{ '01 Strategic Introductions' if lang == 'en' else ('01 Strategische Kontaktvermittlung' if lang == 'de' else '01 Mises en relation stratégiques') }}</a>
+          <a href="{{ prefix }}/services/off-market-sourcing/" class="sidebar-link">{{ '02 Off-Market Sourcing' if lang == 'en' else ('02 Off-Market Sourcing' if lang == 'de' else '02 Sourcing Hors Marché') }}</a>
+          <a href="{{ prefix }}/services/strategic-partnerships/" class="sidebar-link">{{ '03 Strategic Partnerships' if lang == 'en' else ('03 Strategische Partnerschaften' if lang == 'de' else '03 Partenariats Stratégiques') }}</a>
         </div>
       </aside>
 

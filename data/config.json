@@ -2,9 +2,9 @@
   "site_url": "https://globalkeypartners.com",
   "site_name": "Global Key Partners",
   "tagline": {
-    "en": "Off-Market Investment Opportunities. Private Capital Access. Switzerland.",
-    "de": "Off-Market-Investments. Zugang zu privatem Kapital. Schweiz.",
-    "fr": "Opportunités d'investissement hors marché. Accès aux capitaux privés. Suisse."
+    "en": "Exclusivity. Trust. Global Access.",
+    "de": "Exklusivität. Vertrauen. Globaler Zugang.",
+    "fr": "Exclusivité. Confiance. Accès global."
   },
   "description": {
     "en": "GKP connects UHNWIs, family offices, and private investors with curated off-market investment opportunities in Swiss real estate, hospitality, business acquisitions, and private markets. Trusted access partner, based in Zug.",
@@ -19,18 +19,18 @@
     "country": "Switzerland",
     "country_code": "CH"
   },
-  "email": "business@globalkeypartners.com",
+  "uid": "CHE-290.002.830",
   "social": {
-    "linkedin": "https://www.linkedin.com/company/global-key-partners"
+    "linkedin": "https://www.linkedin.com/company/globalkeypartners"
   },
   "founders": [
     {
       "name": "Dennis Tong",
-      "role": "Managing Partner"
+      "role": "Co-Founder & Managing Partner"
     },
     {
       "name": "Vlora Rexhepi",
-      "role": "Managing Partner"
+      "role": "Co-Founder & Managing Partner"
     }
   ],
   "formspree_id": "mojzlkdd",
@@ -41,10 +41,6 @@
       {
         "label": "Services",
         "href": "/services/"
-      },
-      {
-        "label": "Markets",
-        "href": "/markets/"
       },
       {
         "label": "Insights",
@@ -62,12 +58,8 @@
     ],
     "de": [
       {
-        "label": "Leistungen",
+        "label": "Services",
         "href": "/de/services/"
-      },
-      {
-        "label": "Märkte",
-        "href": "/de/markets/"
       },
       {
         "label": "Einblicke",
@@ -89,10 +81,6 @@
         "href": "/fr/services/"
       },
       {
-        "label": "Marchés",
-        "href": "/fr/markets/"
-      },
-      {
         "label": "Analyses",
         "href": "/fr/insights/"
       },
@@ -111,7 +99,7 @@
     "en": {
       "read_more": "Learn more",
       "view_all_services": "All services",
-      "view_all_locations": "All markets",
+      "view_all_locations": "Where we operate",
       "view_all_insights": "All insights",
       "contact_cta": "Get in touch",
       "breadcrumb_home": "Home",
@@ -122,20 +110,20 @@
     },
     "de": {
       "read_more": "Mehr erfahren",
-      "view_all_services": "Alle Leistungen",
-      "view_all_locations": "Alle Märkte",
+      "view_all_services": "Alle Services",
+      "view_all_locations": "Wo wir tätig sind",
       "view_all_insights": "Alle Einblicke",
       "contact_cta": "Kontakt aufnehmen",
       "breadcrumb_home": "Startseite",
       "faq_heading": "Häufig gestellte Fragen",
-      "related_services": "Verwandte Leistungen",
+      "related_services": "Verwandte Services",
       "locations_served": "Unsere Standorte",
       "back_to_insights": "Zurück zu Einblicken"
     },
     "fr": {
       "read_more": "En savoir plus",
       "view_all_services": "Tous les services",
-      "view_all_locations": "Tous les marchés",
+      "view_all_locations": "Où nous opérons",
       "view_all_insights": "Toutes les analyses",
       "contact_cta": "Nous contacter",
       "breadcrumb_home": "Accueil",

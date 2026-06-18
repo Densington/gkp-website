@@ -81,7 +81,7 @@ def canonical_and_hreflang(lang: str, path: str) -> tuple[str, str, str]:
 # ──────────────────────────────────────────────────────────────
 # Page builders
 # ──────────────────────────────────────────────────────────────
-def build_home(lang, cfg, services, locations, articles):
+def build_home(lang, cfg, services, where_we_operate, articles):
     prefix  = PREFIXES[lang]
     path    = f"{prefix}index.html"
     canon   = f"/{prefix}"
@@ -91,7 +91,7 @@ def build_home(lang, cfg, services, locations, articles):
            canonical=canon, hreflang_en='/', hreflang_de='/de/', hreflang_fr='/fr/',
            page_title=f"Global Key Partners | {titles.get(lang, titles['en'])}",
            meta_description=cfg['description'].get(lang) or cfg['description']['en'],
-           services=services, locations=locations, articles=articles[:3])
+           services=services, where_we_operate=where_we_operate, articles=articles[:3])
 
 
 def build_about(lang, cfg):
@@ -161,17 +161,17 @@ def build_privacy(lang, cfg):
            meta_description=metas.get(lang, metas['en']))
 
 
-def build_services(lang, cfg, services, locations):
+def build_services(lang, cfg, services):
     prefix   = PREFIXES[lang]
     svc_base = 'services/'
 
     # Index
     canon = f"/{prefix}{svc_base}"
-    idx_titles = {'en': 'Services | Global Key Partners', 'de': 'Leistungen | Global Key Partners', 'fr': 'Services | Global Key Partners'}
+    idx_titles = {'en': 'Services | Global Key Partners', 'de': 'Services | Global Key Partners', 'fr': 'Services | Global Key Partners'}
     idx_metas  = {
-        'en': 'Specialist access and introductions from GKP: off-market real estate, capital introduction, strategic introductions, and more, Switzerland and globally.',
-        'de': 'Spezialisierter Zugang und Kontaktvermittlung von GKP: Off-Market Immobilien, Kapitalvermittlung, strategische Kontaktvermittlung und mehr, Schweiz und weltweit.',
-        'fr': 'Accès et introductions spécialisés de GKP : immobilier hors marché, introduction en capital, mises en relation stratégiques et plus, Suisse et international.',
+        'en': 'Specialist access and introductions from GKP: strategic introductions, off-market sourcing, and strategic partnerships, Switzerland and globally.',
+        'de': 'Spezialisierter Zugang und Kontaktvermittlung von GKP: strategische Kontaktvermittlung, Off-Market-Beschaffung und strategische Partnerschaften, Schweiz und weltweit.',
+        'fr': 'Accès et introductions spécialisés de GKP : introductions stratégiques, sourcing hors marché et partenariats stratégiques, Suisse et international.',
     }
     render('services_index.html', f"{prefix}{svc_base}index.html",
            lang=lang, config=cfg,
@@ -194,53 +194,21 @@ def build_services(lang, cfg, services, locations):
                page_title=content['title'],
                meta_description=content['meta_description'],
                service=svc, content=content,
-               all_services=services, all_locations=locations)
+               all_services=services)
 
 
-def build_locations(lang, cfg, locations, services, articles=None):
-    prefix   = PREFIXES[lang]
-    loc_base = 'markets/'
-
-    # Index
-    canon = f"/{prefix}{loc_base}"
-    idx_titles = {'en': 'Markets | Global Key Partners', 'de': 'Märkte | Global Key Partners', 'fr': 'Marchés | Global Key Partners'}
-    idx_metas  = {
-        'en': 'GKP connects private capital from Singapore, Dubai, Hong Kong, London, and Southeast Asia with off-market investment opportunities in Switzerland.',
-        'de': 'GKP verbindet Privatkapital aus Singapur, Dubai, Hongkong, London und Südostasien mit Off-Market-Investitionsmöglichkeiten in der Schweiz.',
-        'fr': 'GKP connecte les capitaux privés de Singapour, Dubaï, Hong Kong, Londres et d\'Asie du Sud-Est avec des opportunités d\'investissement hors marché en Suisse.',
-    }
-    render('locations_index.html', f"{prefix}{loc_base}index.html",
+def build_where_we_operate(lang, cfg, where_we_operate):
+    prefix  = PREFIXES[lang]
+    core    = 'where-we-operate/'
+    canon   = f"/{prefix}{core}"
+    content = where_we_operate.get(lang) or where_we_operate['en']
+    render('where_we_operate.html', f"{prefix}{core}index.html",
            lang=lang, config=cfg,
            canonical=canon,
-           hreflang_en=f"/{loc_base}", hreflang_de=f"/de/{loc_base}", hreflang_fr=f"/fr/{loc_base}",
-           page_title=idx_titles.get(lang, idx_titles['en']),
-           meta_description=idx_metas.get(lang, idx_metas['en']),
-           locations=locations)
-
-    # Individual location pages
-    articles = articles or []
-    for loc in locations:
-        content = loc.get(lang) or loc.get('en')
-        slug    = loc['slug']
-        core    = f"{loc_base}{slug}/"
-        canon   = f"/{prefix}{core}"
-
-        # Curated cross-links: prefer articles whose slug names this country/region,
-        # then fill with corridor/property/family-office topic articles.
-        country_matches = [a for a in articles if slug in a['slug']]
-        seen = {a['slug'] for a in country_matches}
-        topic_fill = [a for a in articles if a['slug'] not in seen and a.get('topic') in ('corridor', 'property', 'family-office')]
-        loc_articles = (country_matches + topic_fill)[:3]
-
-        render('location.html', f"{prefix}{core}index.html",
-               lang=lang, config=cfg,
-               canonical=canon,
-               hreflang_en=f"/{core}", hreflang_de=f"/de/{core}", hreflang_fr=f"/fr/{core}",
-               page_title=content['title'],
-               meta_description=content['meta_description'],
-               location=loc, content=content,
-               all_services=services, all_locations=locations,
-               loc_articles=loc_articles)
+           hreflang_en=f"/{core}", hreflang_de=f"/de/{core}", hreflang_fr=f"/fr/{core}",
+           page_title=content['title'],
+           meta_description=content['meta_description'],
+           where_we_operate=where_we_operate)
 
 
 def build_articles(lang, cfg, articles):
@@ -265,14 +233,34 @@ def build_articles(lang, cfg, articles):
 
     # Individual articles
     for art in articles:
-        content = art.get(lang) or art.get('en')
-        slug    = art['slug']
-        core    = f"{art_base}{slug}/"
-        canon   = f"/{prefix}{core}"
+        content   = art.get(lang) or art.get('en')
+        slug      = art['slug']
+        core      = f"{art_base}{slug}/"
+        en_url    = f"/{core}"
+        de_url    = f"/de/{core}"
+        fr_url    = f"/fr/{core}"
+
+        # Not every article is translated into all 3 languages yet. For a
+        # language with no genuine translation we still render a page at
+        # that URL (so existing internal links/nav keep working), but:
+        #   - its canonical points back to the English original, so it
+        #     doesn't compete with it as duplicate content
+        #   - it's excluded from the hreflang set (hreflang must only list
+        #     genuine alternate-language versions, not English fallbacks)
+        #   - it's marked noindex so search engines consolidate on the
+        #     canonical English page instead of indexing 3 copies
+        available     = [l for l in ('en', 'de', 'fr') if l in art]
+        is_translated = lang in available
+        canon         = f"/{prefix}{core}" if is_translated else en_url
+
         render('article.html', f"{prefix}{core}index.html",
                lang=lang, config=cfg,
                canonical=canon,
-               hreflang_en=f"/{core}", hreflang_de=f"/de/{core}", hreflang_fr=f"/fr/{core}",
+               hreflang_en=en_url,
+               hreflang_de=de_url if 'de' in available else None,
+               hreflang_fr=fr_url if 'fr' in available else None,
+               lang_switch_de=de_url, lang_switch_fr=fr_url,
+               noindex=not is_translated,
                page_title=content['title'],
                meta_description=content['meta_description'],
                article=art, content=content, all_articles=articles)
@@ -281,7 +269,7 @@ def build_articles(lang, cfg, articles):
 # ──────────────────────────────────────────────────────────────
 # Sitemap
 # ──────────────────────────────────────────────────────────────
-def build_sitemap(cfg, services, locations, articles):
+def build_sitemap(cfg, services, where_we_operate, articles):
     base = cfg['site_url'].rstrip('/')
     now  = datetime.now(timezone.utc).strftime('%Y-%m-%d')
     urls = []
@@ -292,20 +280,18 @@ def build_sitemap(cfg, services, locations, articles):
 
     for lang in ('en', 'de', 'fr'):
         p = PREFIXES[lang]
-        add(f"/{p}",                priority='1.0', freq='weekly')
-        add(f"/{p}about/",          priority='0.6')
-        add(f"/{p}contact/",        priority='0.7')
-        add(f"/{p}services/",       priority='0.8')
-        add(f"/{p}disclaimer/",     priority='0.3')
-        add(f"/{p}privacy-policy/", priority='0.3')
-        add(f"/{p}markets/",       priority='0.8')
-        add(f"/{p}insights/",       priority='0.7', freq='weekly')
+        add(f"/{p}",                    priority='1.0', freq='weekly')
+        add(f"/{p}about/",              priority='0.6')
+        add(f"/{p}contact/",            priority='0.7')
+        add(f"/{p}services/",           priority='0.8')
+        add(f"/{p}disclaimer/",         priority='0.3')
+        add(f"/{p}privacy-policy/",     priority='0.3')
+        add(f"/{p}insights/",           priority='0.7', freq='weekly')
         for svc in services:
             add(f"/{p}services/{svc['slug']}/",         priority='0.9')
-        for loc in locations:
-            add(f"/{p}markets/{loc['slug']}/",         priority='0.9')
         for art in articles:
-            add(f"/{p}insights/{art['slug']}/",         priority='0.8', freq='weekly')
+            if lang in art:  # only sitemap genuine translations, not English fallbacks
+                add(f"/{p}insights/{art['slug']}/",      priority='0.8', freq='weekly')
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -323,7 +309,7 @@ def build_sitemap(cfg, services, locations, articles):
     print('    sitemap.xml')
 
 
-def build_llms_txt(cfg, services, locations, articles):
+def build_llms_txt(cfg, services, where_we_operate, articles):
     """Generate llms.txt, a concise, AI-readable map of the site (https://llmstxt.org)."""
     base = cfg['site_url'].rstrip('/')
     L = []
@@ -334,20 +320,13 @@ def build_llms_txt(cfg, services, locations, articles):
              'real estate, hospitality, business acquisitions, and private markets. GKP acts exclusively as an introducer '
              'and business consultant; it is not a bank, asset manager, or financial adviser and is not supervised by FINMA.')
     L.append('')
-    L.append('Site languages: English (default), German (/de/), French (/fr/). Contact: business@globalkeypartners.com')
+    L.append('Site languages: English (default), German (/de/), French (/fr/). Contact: ' + base + '/contact/')
     L.append('')
     L.append('## Services')
     L.append('')
     for svc in services:
         c = svc['en']
         L.append(f"- [{c['h1']}]({base}/services/{svc['slug']}/): {c.get('meta_description','')}")
-    L.append('')
-    L.append('## Markets')
-    L.append('')
-    for loc in locations:
-        c = loc.get('en') or {}
-        h1 = c.get('h1') or (loc.get('name') or {}).get('en', loc['slug'])
-        L.append(f"- [{h1}]({base}/markets/{loc['slug']}/): {c.get('meta_description','')}")
     L.append('')
     L.append('## Insights')
     L.append('')
@@ -398,28 +377,27 @@ def build():
     print('  ✓ assets/')
 
     # Data
-    cfg       = load('config.json')
-    services  = load('services.json')
-    locations = load('locations.json')
-    articles  = load('articles.json')
+    cfg              = load('config.json')
+    services         = load('services.json')
+    where_we_operate = load('where_we_operate.json')
+    articles         = load('articles.json')
 
     # Build pages per language
     for lang in ('en', 'de', 'fr'):
         label = {'en': '🇬🇧 EN', 'de': '🇩🇪 DE', 'fr': '🇫🇷 FR'}[lang]
         print(f'\n  {label}')
-        build_home(lang, cfg, services, locations, articles)
+        build_home(lang, cfg, services, where_we_operate, articles)
         build_about(lang, cfg)
         build_contact(lang, cfg)
         build_disclaimer(lang, cfg)
         build_privacy(lang, cfg)
-        build_services(lang, cfg, services, locations)
-        build_locations(lang, cfg, locations, services, articles)
+        build_services(lang, cfg, services)
         build_articles(lang, cfg, articles)
 
     # Global
     print('\n  🌐 Global')
-    build_sitemap(cfg, services, locations, articles)
-    build_llms_txt(cfg, services, locations, articles)
+    build_sitemap(cfg, services, where_we_operate, articles)
+    build_llms_txt(cfg, services, where_we_operate, articles)
 
     # Static files
     for fname in ('robots.txt', 'agents.md'):
@@ -432,13 +410,17 @@ def build():
     (DIST_DIR / 'CNAME').write_text('globalkeypartners.com\n', encoding='utf-8')
     print('    CNAME')
 
-    # 404 page
+    # 404 page (single global file, not language-prefixed — hosts serve this
+    # for any unmatched path regardless of /de/ or /fr/. No genuine /de/404.html
+    # or /fr/404.html exist, so don't advertise them via hreflang; noindex since
+    # error pages should never be indexed; language switcher sends a lost
+    # visitor to the relevant homepage instead of a 404-on-a-404.)
     render('404.html', '404.html',
            lang='en', config=cfg,
            canonical='/404.html',
            hreflang_en='/404.html',
-           hreflang_de='/de/404.html',
-           hreflang_fr='/fr/404.html',
+           lang_switch_de='/de/', lang_switch_fr='/fr/',
+           noindex=True,
            page_title='Page Not Found | Global Key Partners',
            meta_description='The page you are looking for does not exist.')
     print('    404.html')

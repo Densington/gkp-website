@@ -7,22 +7,46 @@
     'title': 'Services | Global Key Partners. Swiss Boutique Access & Introductions',
     'h1': 'Our Services',
     'eyebrow': 'What we do',
-    'sub': 'GKP provides specialist access and introductions across off-market real estate, off-market M&A and succession, capital and startup investor introductions, luxury brand partnerships, and hospitality investments. Everything we do is relationship-driven and mandate-specific.',
-    'meta': 'Specialist access and introduction services from GKP: off-market real estate, off-market M&A, capital and startup investor introductions, luxury brand partnerships, and hospitality investments in Switzerland and globally.'
+    'sub': 'GKP provides specialist access and introductions across three core areas: strategic introductions for capital and investors, off-market sourcing in real estate and business acquisitions, and strategic partnerships in luxury brands and hospitality. Everything we do is relationship-driven and mandate-specific.',
+    'meta': 'Specialist access and introduction services from GKP: strategic introductions, off-market sourcing, and strategic partnerships in Switzerland and globally.',
+    'how_eyebrow': 'How we work',
+    'how_h2': 'From Mandate to Introduction',
+    'step1_h': 'Understand the mandate',
+    'step1_p': 'Every engagement begins with a confidential conversation to understand your objectives, timeline, and the outcome you’re seeking.',
+    'step2_h': 'Identify the right counterparties',
+    'step2_p': 'We draw on GKP’s network across Switzerland, Europe, and Southeast Asia to find principals, partners, or opportunities that genuinely fit the mandate.',
+    'step3_h': 'Facilitate a discreet introduction',
+    'step3_p': 'We make the introduction personally and stay involved as needed, so the relationship is built on trust from the first conversation.'
   },
   'de': {
-    'title': 'Leistungen | Global Key Partners. Schweizer Boutique-Zugang & Kontaktvermittlung',
-    'h1': 'Unsere Leistungen',
+    'title': 'Services | Global Key Partners. Schweizer Boutique-Zugang & Kontaktvermittlung',
+    'h1': 'Services',
     'eyebrow': 'Was wir tun',
-    'sub': 'GKP bietet spezialisierten Zugang und Kontaktvermittlung für Off-Market-Immobilien, Off-Market M&A und Nachfolge, Kapital- und Investorenkontakte für Start-ups, Luxusmarken-Partnerschaften und Hospitality-Investments. Alles, was wir tun, ist beziehungsgetrieben und mandatsspezifisch.',
-    'meta': 'Spezialisierter Zugang und Kontaktvermittlung von GKP: Off-Market Immobilien, Off-Market M&A, Investorenkontakte für Start-ups, Luxusmarken-Partnerschaften und Hospitality-Investments in der Schweiz und weltweit.'
+    'sub': 'Die Aktivitäten von GKP konzentrieren sich auf drei Kernbereiche: strategische Kontaktvermittlung und Kapitalzugang, Off Market Möglichkeiten in Immobilien und Unternehmensübernahmen sowie strategische Partnerschaften in den Bereichen Luxus und Hospitality. Sämtliche Mandate basieren auf langfristigen Beziehungen, Diskretion und einem sorgfältig aufgebauten internationalen Netzwerk.',
+    'meta': 'Spezialisierter Zugang und Kontaktvermittlung von GKP: strategische Kontaktvermittlung, Off-Market-Beschaffung und strategische Partnerschaften in der Schweiz und weltweit.',
+    'how_eyebrow': 'Der Global Key Partners Ansatz',
+    'how_h2': 'Vom Mandat zur Kontaktvermittlung',
+    'step1_h': 'Verstehen des Mandats',
+    'step1_p': 'Jedes Engagement beginnt mit einem vertraulichen Gespräch zur Definition von Zielen, Prioritäten, Zeitrahmen und dem gewünschten Ergebnis.',
+    'step2_h': 'Identifikation relevanter Kontakte',
+    'step2_p': 'Auf Basis des Netzwerks von GKP in der Schweiz, Europa und Südostasien werden potenzielle Investoren, Partner, Käufer, Verkäufer oder Opportunitäten identifiziert, die den Anforderungen des Mandats entsprechen.',
+    'step3_h': 'Diskrete Kontaktvermittlung',
+    'step3_p': 'Die Kontaktvermittlung erfolgt selektiv und persönlich. Bei Bedarf begleitet GKP den Prozess weiter, um eine vertrauensvolle Grundlage für die weitere Zusammenarbeit zu schaffen.'
   },
   'fr': {
     'title': 'Services | Global Key Partners. Accès Boutique Suisse',
     'h1': 'Nos Services',
     'eyebrow': 'Ce que nous faisons',
-    'sub': 'GKP offre un accès spécialisé et des introductions en immobilier hors marché, M&A hors marché et succession, introductions en capital pour start-ups, partenariats de marques de luxe et investissements hôteliers. Tout ce que nous faisons est fondé sur les relations et spécifique au mandat.',
-    'meta': 'Services d\'accès et d\'introductions de GKP : immobilier hors marché, M&A hors marché, introductions en capital pour start-ups, partenariats de marques de luxe et investissements hôteliers en Suisse et à l\'international.'
+    'sub': 'GKP offre un accès spécialisé et des introductions dans trois domaines clés : les introductions stratégiques pour capitaux et investisseurs, le sourcing hors marché en immobilier et acquisitions d\'entreprises, et les partenariats stratégiques dans les marques de luxe et l\'hôtellerie. Tout ce que nous faisons est fondé sur les relations et spécifique au mandat.',
+    'meta': 'Services d\'accès et d\'introductions de GKP : introductions stratégiques, sourcing hors marché et partenariats stratégiques en Suisse et à l\'international.',
+    'how_eyebrow': 'Comment nous travaillons',
+    'how_h2': 'Du mandat à la mise en relation',
+    'step1_h': 'Comprendre le mandat',
+    'step1_p': 'Chaque mission commence par une conversation confidentielle visant à comprendre vos objectifs, le calendrier et le résultat recherché.',
+    'step2_h': 'Identifier les bonnes contreparties',
+    'step2_p': 'Nous nous appuyons sur le réseau de GKP en Suisse, en Europe et en Asie du Sud-Est pour identifier les donneurs d\'ordre, partenaires ou opportunités qui correspondent réellement au mandat.',
+    'step3_h': 'Faciliter une mise en relation discrète',
+    'step3_p': 'Nous établissons la mise en relation personnellement et restons impliqués si nécessaire, afin que la relation repose sur la confiance dès la première conversation.'
   }
 }.get(lang) or {} %}
 
@@ -41,7 +65,7 @@
 
 {% block content %}
 
-<section class="hero hero--page" aria-labelledby="services-heading">
+<section class="hero hero--page hero--page--img hero--page-eq" style="--hero-img: url('/assets/images/services-hero.jpg');" aria-labelledby="services-heading">
   <div class="container">
     <span class="hero-eyebrow">{{ t.eyebrow }}</span>
     <h1 id="services-heading">{{ t.h1 }}</h1>
@@ -54,20 +78,56 @@
     <div class="svc-index-list">
       {% for svc in services %}
       {% set content = svc.get(lang) or svc.get('en') %}
+      {% set bullet_blocks = content.body | selectattr('bullets', 'defined') | list %}
+      {% set bullet_block = bullet_blocks[0] if bullet_blocks else none %}
       <article class="svc-index-row">
         <div class="svc-index-left">
-          <span class="svc-index-num">{{ '%02d' % loop.index }}</span>
-          <span class="svc-index-icon" aria-hidden="true">{{ svc.icon }}</span>
+          <span class="svc-index-num">{{ svc.num }}</span>
         </div>
         <div class="svc-index-body">
-          <h2 class="svc-index-title">{{ content.h1 }}</h2>
-          <p class="svc-index-desc">{{ content.card_summary }}</p>
-          <a href="{{ prefix }}/services/{{ svc.slug }}/" class="svc-index-link">
-            {{ ui.read_more }} <span aria-hidden="true">→</span>
-          </a>
+          <div class="svc-index-media">
+            {% if svc.hero_image %}
+            <img src="/assets/images/{{ svc.hero_image }}" alt="{{ content.h1 }}" loading="lazy" width="200" height="150">
+            {% endif %}
+            <div>
+              <h2 class="svc-index-title">{{ content.h1 }}</h2>
+              <p class="svc-index-desc">{{ content.intro }}</p>
+              {% if bullet_block %}
+              <div class="prose" style="margin-bottom:28px;">
+                <span class="sidebar-block-label" style="margin-bottom:10px;">{{ bullet_block.heading }}</span>
+                <ul style="margin:0;">{% for b in bullet_block.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+              </div>
+              {% endif %}
+              <a href="{{ prefix }}/services/{{ svc.slug }}/" class="svc-index-link">
+                {{ ui.read_more }} <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
         </div>
       </article>
       {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--gray" aria-labelledby="how-we-work-heading">
+  <div class="container">
+    <span class="section-label">{{ t.how_eyebrow }}</span>
+    <h2 class="section-title" id="how-we-work-heading">{{ t.how_h2 }}</h2>
+    <div class="principles" style="margin-top:40px;">
+      <div class="principles-grid">
+        {% for step in [
+          {'num': '01', 'h': t.step1_h, 'p': t.step1_p},
+          {'num': '02', 'h': t.step2_h, 'p': t.step2_p},
+          {'num': '03', 'h': t.step3_h, 'p': t.step3_p}
+        ] %}
+        <div class="principle">
+          <span class="principle-num">{{ step.num }}</span>
+          <h3{% if step.num == '02' and lang == 'en' %} style="font-size:1.3rem; white-space:nowrap;"{% endif %}>{{ step.h }}</h3>
+          <p>{{ step.p }}</p>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>

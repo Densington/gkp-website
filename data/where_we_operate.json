@@ -1,0 +1,474 @@
+{
+  "hero_image": "swiss-property-view.jpg",
+  "en": {
+    "title": "Where We Operate | Global Key Partners. Swiss Access, Global Reach",
+    "h1": "Where We Operate",
+    "eyebrow": "Switzerland-based · Globally connected",
+    "meta_description": "Global Key Partners is headquartered in Cham, Zug, Switzerland. We connect private capital with off-market opportunities across Switzerland, Asia, the Middle East, and Europe.",
+    "intro": "Global Key Partners is headquartered in Cham, Zug, Switzerland, and does not maintain offices abroad. That is by design: GKP's value lies in its embedded Swiss presence and trusted relationships across each market it serves, not in a network of branch offices. For international clients, this means a single, permanently resident partner who understands both the Swiss private market and the priorities of capital moving in and out of it. The sections below outline where GKP is active, both as a Swiss-based access point for international capital and as a guide for Swiss principals looking abroad.",
+    "regions": [
+      {
+        "id": "switzerland",
+        "label": "Home market",
+        "name": "Switzerland",
+        "blurb": "Our home market. GKP is active across Zurich, Geneva, Zug, Basel, Lucerne, and the wider Swiss private market.",
+        "paragraphs": [
+          "Switzerland is GKP's home market and the center of gravity for everything the firm does. Our deal flow, relationships, and mandates are Switzerland-focused, built on years of presence in the country's private wealth, real estate, and business succession circles.",
+          "Switzerland's combination of political stability, currency strength, legal certainty, and discretion continues to attract private capital from around the world. GKP acts as the trusted local partner for that capital, and as the access point for Swiss principals, family businesses, and investors looking to deploy capital or pursue opportunities beyond Swiss borders.",
+          "Foreign individuals and entities seeking to acquire Swiss real estate should be aware of Lex Koller, the Swiss federal act restricting the acquisition of Swiss property by persons abroad. GKP helps clients understand which structures and exemptions may apply, while always recommending qualified Swiss legal counsel for the formal assessment."
+        ],
+        "bullets": [
+          "Off-market residential and commercial real estate sourcing and disposals",
+          "Off-market M&A and succession planning introductions for owner-managed businesses",
+          "Capital introductions between investors and Swiss opportunities",
+          "Guidance for foreign buyers navigating Lex Koller and Swiss acquisition structures"
+        ],
+        "cities": [
+          {
+            "name": "Zurich",
+            "note": "Switzerland's financial capital and the country's largest hub for family offices, private banking, and institutional capital."
+          },
+          {
+            "name": "Geneva",
+            "note": "An international city built around private banking, multinational organizations, and a deeply international client base."
+          },
+          {
+            "name": "Zug",
+            "note": "GKP's home base. A low-tax, business-friendly canton and the center of Switzerland's 'Crypto Valley' and holding-company landscape."
+          },
+          {
+            "name": "Lucerne",
+            "note": "A center of traditional Swiss wealth, hospitality, and tourism, with a private market that prizes discretion and long relationships."
+          },
+          {
+            "name": "Basel",
+            "note": "A tri-border hub for pharmaceuticals, life sciences, and the art world, sitting at the meeting point of Switzerland, Germany, and France."
+          }
+        ]
+      },
+      {
+        "id": "singapore",
+        "label": "Asia hub",
+        "name": "Singapore",
+        "blurb": "Singapore is a primary gateway for Asian family offices and institutional capital looking toward Swiss opportunities.",
+        "paragraphs": [
+          "Singapore has become Asia's leading hub for family offices, private banking, and cross-border capital allocation. GKP works with Singapore-based family offices, multi-family offices, and private investors who view Switzerland as a natural complement to their Asian holdings: a stable, discreet jurisdiction for real estate, business succession opportunities, and long-term capital preservation.",
+          "GKP does not maintain an office in Singapore. Engagement happens through direct relationships, regular travel, and digital channels, with all execution and local diligence conducted by GKP's Swiss-based team and its network of qualified local professionals."
+        ]
+      },
+      {
+        "id": "hong-kong",
+        "label": "Asia hub",
+        "name": "Hong Kong",
+        "blurb": "Hong Kong-based family offices and private capital regularly look to Switzerland for diversification and discretion.",
+        "paragraphs": [
+          "Hong Kong remains one of Asia's most important centers for private banking and family office capital. GKP works with Hong Kong-based principals seeking diversification into Swiss real estate, off-market business opportunities, and capital introductions, drawing on the same discretion and relationship-driven approach that defines GKP's work in Switzerland.",
+          "As with Singapore, GKP has no physical office in Hong Kong; relationships are maintained through direct contact and travel, with all Swiss-side execution handled by GKP's team in Switzerland."
+        ]
+      },
+      {
+        "id": "dubai",
+        "label": "Middle East hub",
+        "name": "Dubai",
+        "blurb": "Dubai is a growing source of private capital looking for Swiss real estate access and off-market opportunities.",
+        "paragraphs": [
+          "Dubai has grown into a major hub for private wealth, family offices, and entrepreneurs across the Middle East, South Asia, and beyond. GKP works with Dubai-based principals interested in Swiss real estate, business acquisitions, and capital introductions, offering a trusted Swiss counterpart for capital that values stability and discretion.",
+          "GKP does not operate a local office in Dubai. All engagement is relationship-based, supported by regular travel and digital communication, with execution handled from Switzerland."
+        ]
+      },
+      {
+        "id": "malaysia",
+        "label": "Asia hub",
+        "name": "Malaysia",
+        "blurb": "Malaysian family businesses and private investors use GKP as a bridge to Swiss opportunities and succession expertise.",
+        "paragraphs": [
+          "Malaysia's family-owned businesses and private investors increasingly look beyond the region for diversification, succession planning expertise, and stable real estate markets. GKP serves as a bridge between Malaysian principals and Swiss opportunities, drawing on its experience in off-market real estate and business succession.",
+          "GKP has no office in Malaysia. Relationships are built and maintained directly, with Swiss-side work carried out by GKP's team in Switzerland."
+        ]
+      },
+      {
+        "id": "thailand",
+        "label": "Asia hub",
+        "name": "Thailand",
+        "blurb": "Thai private capital and family businesses look to GKP for access to Swiss real estate and succession opportunities.",
+        "paragraphs": [
+          "Thailand's private capital and family business owners are an increasingly active source of interest in Swiss real estate and long-term wealth structures. GKP supports Thailand-based principals in accessing Swiss off-market opportunities and navigating the considerations relevant to foreign buyers, including Lex Koller.",
+          "As elsewhere in the region, GKP does not maintain a physical office in Thailand; engagement is direct and relationship-based, with all Swiss execution handled in Switzerland."
+        ]
+      },
+      {
+        "id": "europe",
+        "label": "European markets",
+        "name": "Europe",
+        "blurb": "Beyond Switzerland, GKP is active in Germany, Austria, and the United Kingdom, with a focus on the markets closest to Swiss capital flows.",
+        "paragraphs": [
+          "Switzerland's neighboring markets and London are a natural extension of GKP's work, both for Swiss principals looking to deploy capital abroad and for European investors and family offices looking toward Switzerland.",
+          "GKP does not operate offices in these markets. Engagement is handled directly by GKP's Swiss-based team, supported by regular travel and a network of trusted local professionals."
+        ],
+        "bullets": [
+          "Germany: focused on the Basel–Stuttgart–Munich corridor, where cross-border business ties with Switzerland are strongest",
+          "Austria: focused on the Vorarlberg–St. Gallen gateway, a long-standing corridor for cross-border family business and real estate activity",
+          "United Kingdom: international capital markets and London real estate, with particular relevance for non-dom investors and internationally mobile capital"
+        ]
+      },
+      {
+        "id": "london",
+        "label": "United Kingdom",
+        "name": "London",
+        "blurb": "London-based capital, including non-dom investors, regularly looks to Switzerland for real estate access and discretion.",
+        "paragraphs": [
+          "London remains one of the world's most important centers for international capital, including non-domiciled investors and internationally mobile family wealth. GKP works with London-based principals seeking access to Swiss real estate, business opportunities, and the discretion that the Swiss private market is known for.",
+          "GKP does not maintain an office in London. All Swiss-side execution is carried out by GKP's team in Switzerland, supported by direct relationships and regular travel."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does GKP have local offices abroad?",
+        "a": "No. GKP is headquartered exclusively in Cham, Zug, Switzerland, and does not maintain offices in any of the international markets it serves, including Singapore, Hong Kong, Dubai, Malaysia, Thailand, Germany, Austria, or the United Kingdom. Engagement with clients in these markets happens through direct relationships, regular travel, and digital communication, with all Swiss-side execution handled by GKP's Switzerland-based team."
+      },
+      {
+        "q": "What is Lex Koller, and how does it affect foreign buyers of Swiss property?",
+        "a": "Lex Koller is the Swiss federal act that restricts the acquisition of Swiss real estate by persons and entities domiciled abroad. It applies differently depending on the type of property, its use, and the buyer's residency status. GKP helps clients understand which structures and exemptions may be relevant to their situation, but always recommends engaging qualified Swiss legal counsel for a formal assessment before proceeding with any acquisition."
+      },
+      {
+        "q": "Which Swiss cities and regions does GKP operate in?",
+        "a": "GKP is active across Switzerland, with particular depth in Zurich, Geneva, Zug, Basel, and Lucerne. Zurich is the country's financial capital and largest family office hub; Geneva is internationally oriented with deep private banking roots; Zug, GKP's home base, anchors the firm's holding-company and Crypto Valley network; Lucerne represents traditional Swiss wealth and hospitality; and Basel serves as a tri-border hub for pharmaceuticals, life sciences, and the art world."
+      },
+      {
+        "q": "What off-market opportunities does GKP source in Switzerland?",
+        "a": "GKP sources off-market residential and commercial real estate, introduces buyers and sellers in business acquisitions and succession situations, and facilitates capital introductions between investors and Swiss opportunities. All of this work is relationship-driven and mandate-specific, reflecting the discretion that defines the Swiss private market."
+      },
+      {
+        "q": "Does GKP work with investors from Asia and the Middle East?",
+        "a": "Yes. GKP regularly works with family offices, private investors, and principals based in Singapore, Hong Kong, Dubai, Malaysia, and Thailand who are looking to diversify into Swiss real estate, business opportunities, or long-term capital structures. GKP does not maintain offices in these markets, but engages directly with clients through ongoing relationships and travel."
+      },
+      {
+        "q": "Does GKP help Swiss or European businesses access opportunities in Asia?",
+        "a": "Yes. In addition to bringing international capital into Switzerland, GKP supports Swiss and European principals who are looking to access opportunities in Asian markets such as Singapore, Hong Kong, Malaysia, and Thailand, drawing on its network of relationships across the region."
+      },
+      {
+        "q": "Which European markets does GKP cover beyond Switzerland?",
+        "a": "Beyond Switzerland, GKP is active in Germany (particularly the Basel–Stuttgart–Munich corridor), Austria (the Vorarlberg–St. Gallen gateway), and the United Kingdom, with a focus on London real estate and international capital, including non-domiciled investors. These markets are a natural extension of the cross-border relationships GKP maintains from its Swiss base."
+      },
+      {
+        "q": "Can foreign investors buy Swiss property through GKP?",
+        "a": "Foreign investors can pursue Swiss real estate opportunities through GKP, subject to the restrictions and exemptions set out under Lex Koller. GKP helps clients understand the landscape and identify suitable opportunities, while recommending qualified Swiss legal counsel to confirm eligibility and structure any acquisition correctly."
+      }
+    ]
+  },
+  "de": {
+    "title": "Wo wir tätig sind | Global Key Partners. Schweizer Zugang, globale Reichweite",
+    "h1": "Wo wir tätig sind",
+    "eyebrow": "Schweiz-basiert · Global vernetzt",
+    "meta_description": "Global Key Partners hat seinen Hauptsitz in Cham, Zug, Schweiz. Wir verbinden Privatkapital mit Off-Market-Gelegenheiten in der Schweiz, Asien, dem Nahen Osten und Europa.",
+    "intro": "Global Key Partners hat seinen Hauptsitz in Cham, Zug, Schweiz, und unterhält keine Büros im Ausland. Das ist Absatz: Der Wert von GKP liegt in seiner verankerten Schweizer Präsenz und den vertrauensvollen Beziehungen in jedem bedienten Markt, nicht in einem Netz von Zweigstellen. Für internationale Kunden bedeutet dies einen einzigen, dauerhaft ansässigen Partner, der sowohl den Schweizer Privatmarkt als auch die Prioritäten des grenzüberschreitenden Kapitalflusses versteht. Die folgenden Abschnitte zeigen, wo GKP aktiv ist – sowohl als Schweizer Zugangspunkt für internationales Kapital als auch als Wegweiser für Schweizer Auftraggeber mit Blick ins Ausland.",
+    "regions": [
+      {
+        "id": "switzerland",
+        "label": "Heimmarkt",
+        "name": "Schweiz",
+        "blurb": "Unser Heimmarkt. GKP ist aktiv in Zürich, Genf, Zug, Basel, Luzern und dem breiteren Schweizer Privatmarkt.",
+        "paragraphs": [
+          "Die Schweiz ist der Heimmarkt von GKP und der Mittelpunkt aller Aktivitäten der Firma. Unser Deal Flow, unsere Beziehungen und unsere Mandate sind auf die Schweiz ausgerichtet und bauen auf jahrelanger Präsenz in den Kreisen des Schweizer Privatvermögens, der Immobilien- und der Nachfolgeplanung auf.",
+          "Die Kombination aus politischer Stabilität, starker Währung, Rechtssicherheit und Diskretion macht die Schweiz weiterhin attraktiv für Privatkapital aus aller Welt. GKP fungiert als vertrauenswürdiger lokaler Partner für dieses Kapital und als Zugangspunkt für Schweizer Auftraggeber, Familienunternehmen und Investoren, die Kapital einsetzen oder Gelegenheiten jenseits der Schweizer Grenzen verfolgen möchten.",
+          "Ausländische Personen und Gesellschaften, die Schweizer Immobilien erwerben möchten, sollten sich der Lex Koller bewusst sein – dem Bundesgesetz, das den Erwerb von Schweizer Grundstücken durch Personen im Ausland einschränkt. GKP hilft Kunden, relevante Strukturen und Ausnahmen zu verstehen, empfiehlt jedoch stets eine qualifizierte Schweizer Rechtsberatung für die formelle Prüfung."
+        ],
+        "bullets": [
+          "Beschaffung und Verkauf von Off-Market-Wohn- und Gewerbeimmobilien",
+          "Kontaktvermittlung für Off-Market M&A und Nachfolgeplanung bei inhabergeführten Unternehmen",
+          "Kapitalvermittlung zwischen Investoren und Schweizer Gelegenheiten",
+          "Beratung für ausländische Käufer zu Lex Koller und Erwerbsstrukturen"
+        ],
+        "cities": [
+          {
+            "name": "Zürich",
+            "note": "Die Finanzmetropole der Schweiz und das grösste Zentrum des Landes für Family Offices, Private Banking und institutionelles Kapital."
+          },
+          {
+            "name": "Genf",
+            "note": "Eine international ausgerichtete Stadt mit starkem Private-Banking-Fundament, internationalen Organisationen und einer global geprägten Kundschaft."
+          },
+          {
+            "name": "Zug",
+            "note": "Der Heimatstandort von GKP. Ein steuergünstiger, unternehmensfreundlicher Kanton und Zentrum des Schweizer 'Crypto Valley' sowie der Holdinggesellschaften."
+          },
+          {
+            "name": "Luzern",
+            "note": "Ein Zentrum traditionellen Schweizer Vermögens, der Hotellerie und des Tourismus, mit einem Privatmarkt, der Diskretion und langjährige Beziehungen schätzt."
+          },
+          {
+            "name": "Basel",
+            "note": "Ein Drei-Länder-Zentrum für Pharma, Life Sciences und die Kunstwelt, an der Schnittstelle von Schweiz, Deutschland und Frankreich."
+          }
+        ]
+      },
+      {
+        "id": "singapore",
+        "label": "Asien-Hub",
+        "name": "Singapur",
+        "blurb": "Singapur ist ein wichtiges Tor für asiatische Family Offices und institutionelles Kapital mit Blick auf Schweizer Gelegenheiten.",
+        "paragraphs": [
+          "Singapur hat sich zu Asiens führendem Zentrum für Family Offices, Private Banking und grenzüberschreitende Kapitalallokation entwickelt. GKP arbeitet mit Family Offices, Multi-Family-Offices und Privatinvestoren aus Singapur zusammen, die die Schweiz als natürliche Ergänzung zu ihren asiatischen Vermögenswerten betrachten: eine stabile, diskrete Jurisdiktion für Immobilien, Unternehmensnachfolgen und langfristigen Vermögenserhalt.",
+          "GKP unterhält kein Büro in Singapur. Der Kontakt erfolgt über direkte Beziehungen, regelmässige Reisen und digitale Kanäle, während die gesamte Umsetzung und lokale Prüfung von GKPs Schweizer Team und seinem Netzwerk qualifizierter lokaler Fachleute durchgeführt wird."
+        ]
+      },
+      {
+        "id": "hong-kong",
+        "label": "Asien-Hub",
+        "name": "Hongkong",
+        "blurb": "Family Offices und Privatkapital aus Hongkong suchen regelmässig die Schweiz für Diversifikation und Diskretion.",
+        "paragraphs": [
+          "Hongkong bleibt eines der wichtigsten Zentren Asiens für Private Banking und Family-Office-Kapital. GKP arbeitet mit Auftraggebern aus Hongkong zusammen, die eine Diversifikation in Schweizer Immobilien, Off-Market-Geschäftsgelegenheiten und Kapitalvermittlung anstreben – mit derselben Diskretion und beziehungsorientierten Vorgehensweise, die GKPs Arbeit in der Schweiz prägt.",
+          "Wie in Singapur unterhält GKP auch in Hongkong kein physisches Büro; Beziehungen werden durch direkten Kontakt und Reisen gepflegt, während die gesamte Umsetzung auf Schweizer Seite vom Team in der Schweiz übernommen wird."
+        ]
+      },
+      {
+        "id": "dubai",
+        "label": "Nahost-Hub",
+        "name": "Dubai",
+        "blurb": "Dubai ist eine wachsende Quelle für Privatkapital mit Interesse an Schweizer Immobilienzugang und Off-Market-Gelegenheiten.",
+        "paragraphs": [
+          "Dubai hat sich zu einem bedeutenden Zentrum für Privatvermögen, Family Offices und Unternehmer aus dem Nahen Osten, Südasien und darüber hinaus entwickelt. GKP arbeitet mit Auftraggebern aus Dubai zusammen, die an Schweizer Immobilien, Unternehmensakquisitionen und Kapitalvermittlung interessiert sind, und bietet einen vertrauenswürdigen Schweizer Counterpart für Kapital, das Stabilität und Diskretion schätzt.",
+          "GKP betreibt kein lokales Büro in Dubai. Der gesamte Kontakt erfolgt beziehungsbasiert, unterstützt durch regelmässige Reisen und digitale Kommunikation, wobei die Umsetzung aus der Schweiz erfolgt."
+        ]
+      },
+      {
+        "id": "malaysia",
+        "label": "Asien-Hub",
+        "name": "Malaysia",
+        "blurb": "Malaysische Familienunternehmen und Privatinvestoren nutzen GKP als Brücke zu Schweizer Gelegenheiten und Nachfolge-Expertise.",
+        "paragraphs": [
+          "Malaysias familiengeführte Unternehmen und Privatinvestoren blicken zunehmend über die Region hinaus, auf der Suche nach Diversifikation, Nachfolgeplanung-Expertise und stabilen Immobilienmärkten. GKP dient als Brücke zwischen malaysischen Auftraggebern und Schweizer Gelegenheiten, gestützt auf seine Erfahrung in Off-Market-Immobilien und Unternehmensnachfolge.",
+          "GKP hat kein Büro in Malaysia. Beziehungen werden direkt aufgebaut und gepflegt, während die Arbeit auf Schweizer Seite vom Team in der Schweiz ausgeführt wird."
+        ]
+      },
+      {
+        "id": "thailand",
+        "label": "Asien-Hub",
+        "name": "Thailand",
+        "blurb": "Thailändisches Privatkapital und Familienunternehmen suchen über GKP Zugang zu Schweizer Immobilien- und Nachfolgegelegenheiten.",
+        "paragraphs": [
+          "Thailands Privatkapital und Inhaber von Familienunternehmen interessieren sich zunehmend für Schweizer Immobilien und langfristige Vermögensstrukturen. GKP unterstützt Auftraggeber aus Thailand beim Zugang zu Schweizer Off-Market-Gelegenheiten und bei der Orientierung zu relevanten Aspekten für ausländische Käufer, einschliesslich der Lex Koller.",
+          "Wie auch sonst in der Region unterhält GKP kein physisches Büro in Thailand; der Kontakt ist direkt und beziehungsbasiert, während die gesamte Umsetzung in der Schweiz erfolgt."
+        ]
+      },
+      {
+        "id": "europe",
+        "label": "Europäische Märkte",
+        "name": "Europa",
+        "blurb": "Über die Schweiz hinaus ist GKP in Deutschland, Österreich und dem Vereinigten Königreich aktiv, mit Fokus auf die Märkte, die dem Schweizer Kapitalfluss am nächsten stehen.",
+        "paragraphs": [
+          "Die an die Schweiz angrenzenden Märkte und London sind eine natürliche Erweiterung der Arbeit von GKP – sowohl für Schweizer Auftraggeber, die Kapital im Ausland einsetzen möchten, als auch für europäische Investoren und Family Offices mit Blick auf die Schweiz.",
+          "GKP betreibt in diesen Märkten keine eigenen Büros. Der Kontakt wird direkt vom Schweizer Team von GKP betreut, unterstützt durch regelmässige Reisen und ein Netzwerk vertrauenswürdiger lokaler Fachleute."
+        ],
+        "bullets": [
+          "Deutschland: Fokus auf den Korridor Basel–Stuttgart–München, wo die grenzüberschreitenden Geschäftsbeziehungen mit der Schweiz am stärksten sind",
+          "Österreich: Fokus auf das Tor Vorarlberg–St. Gallen, einen langjährigen Korridor für grenzüberschreitende Familienunternehmen und Immobilienaktivität",
+          "Vereinigtes Königreich: internationale Kapitalmärkte und Immobilien in London, mit besonderer Relevanz für Non-Dom-Investoren und international mobiles Kapital"
+        ]
+      },
+      {
+        "id": "london",
+        "label": "Vereinigtes Königreich",
+        "name": "London",
+        "blurb": "Kapital aus London, einschliesslich Non-Dom-Investoren, sucht regelmässig die Schweiz für Immobilienzugang und Diskretion.",
+        "paragraphs": [
+          "London bleibt eines der wichtigsten Zentren der Welt für internationales Kapital, einschliesslich nicht ansässiger Investoren (Non-Doms) und international mobiles Familienvermögen. GKP arbeitet mit Auftraggebern aus London zusammen, die Zugang zu Schweizer Immobilien, Geschäftsgelegenheiten und der für den Schweizer Privatmarkt bekannten Diskretion suchen.",
+          "GKP unterhält kein Büro in London. Die gesamte Umsetzung auf Schweizer Seite wird vom Team von GKP in der Schweiz durchgeführt, unterstützt durch direkte Beziehungen und regelmässige Reisen."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hat GKP lokale Büros im Ausland?",
+        "a": "Nein. GKP hat seinen Hauptsitz ausschliesslich in Cham, Zug, Schweiz, und unterhält keine Büros in den internationalen Märkten, die das Unternehmen bedient, einschliesslich Singapur, Hongkong, Dubai, Malaysia, Thailand, Deutschland, Österreich und dem Vereinigten Königreich. Der Kontakt mit Kunden in diesen Märkten erfolgt über direkte Beziehungen, regelmässige Reisen und digitale Kommunikation, wobei die gesamte Umsetzung auf Schweizer Seite vom Team in der Schweiz übernommen wird."
+      },
+      {
+        "q": "Was ist die Lex Koller und wie betrifft sie ausländische Käufer von Schweizer Immobilien?",
+        "a": "Die Lex Koller ist das Bundesgesetz, das den Erwerb von Schweizer Grundstücken durch Personen und Gesellschaften mit Sitz im Ausland einschränkt. Sie gilt je nach Art der Immobilie, deren Nutzung und dem Wohnsitzstatus des Käufers unterschiedlich. GKP hilft Kunden, relevante Strukturen und Ausnahmen zu verstehen, empfiehlt jedoch stets, vor jedem Erwerb eine qualifizierte Schweizer Rechtsberatung für eine formelle Prüfung einzubeziehen."
+      },
+      {
+        "q": "In welchen Schweizer Städten und Regionen ist GKP tätig?",
+        "a": "GKP ist in der gesamten Schweiz aktiv, mit besonderer Tiefe in Zürich, Genf, Zug, Basel und Luzern. Zürich ist die Finanzmetropole und das grösste Family-Office-Zentrum des Landes; Genf ist international ausgerichtet mit tiefen Private-Banking-Wurzeln; Zug, der Heimatstandort von GKP, verankert das Holding- und Crypto-Valley-Netzwerk der Firma; Luzern steht für traditionelles Schweizer Vermögen und Hotellerie; und Basel dient als Drei-Länder-Zentrum für Pharma, Life Sciences und die Kunstwelt."
+      },
+      {
+        "q": "Welche Off-Market-Gelegenheiten beschafft GKP in der Schweiz?",
+        "a": "GKP beschafft Off-Market-Wohn- und Gewerbeimmobilien, vermittelt Käufer und Verkäufer bei Unternehmensakquisitionen und Nachfolgesituationen und vermittelt Kapital zwischen Investoren und Schweizer Gelegenheiten. Diese Arbeit ist durchgehend beziehungsgetrieben und mandatsspezifisch und spiegelt die Diskretion wider, die den Schweizer Privatmarkt prägt."
+      },
+      {
+        "q": "Arbeitet GKP mit Investoren aus Asien und dem Nahen Osten zusammen?",
+        "a": "Ja. GKP arbeitet regelmässig mit Family Offices, Privatinvestoren und Auftraggebern aus Singapur, Hongkong, Dubai, Malaysia und Thailand zusammen, die eine Diversifikation in Schweizer Immobilien, Geschäftsgelegenheiten oder langfristige Kapitalstrukturen anstreben. GKP unterhält in diesen Märkten keine Büros, pflegt jedoch direkten Kontakt mit Kunden durch fortlaufende Beziehungen und Reisen."
+      },
+      {
+        "q": "Hilft GKP Schweizer oder europäischen Unternehmen beim Zugang zu Gelegenheiten in Asien?",
+        "a": "Ja. Neben der Vermittlung internationalen Kapitals in die Schweiz unterstützt GKP auch Schweizer und europäische Auftraggeber, die Zugang zu Gelegenheiten in asiatischen Märkten wie Singapur, Hongkong, Malaysia und Thailand suchen, gestützt auf das Beziehungsnetzwerk von GKP in der Region."
+      },
+      {
+        "q": "Welche europäischen Märkte deckt GKP über die Schweiz hinaus ab?",
+        "a": "Über die Schweiz hinaus ist GKP in Deutschland (insbesondere im Korridor Basel–Stuttgart–München), Österreich (dem Tor Vorarlberg–St. Gallen) und dem Vereinigten Königreich aktiv, mit Fokus auf Immobilien in London und internationales Kapital, einschliesslich nicht ansässiger Investoren. Diese Märkte sind eine natürliche Erweiterung der grenzüberschreitenden Beziehungen, die GKP von seiner Schweizer Basis aus unterhält."
+      },
+      {
+        "q": "Können ausländische Investoren über GKP Schweizer Immobilien erwerben?",
+        "a": "Ausländische Investoren können über GKP Schweizer Immobiliengelegenheiten verfolgen, vorbehaltlich der Einschränkungen und Ausnahmen gemäss der Lex Koller. GKP hilft Kunden, die Lage zu verstehen und geeignete Gelegenheiten zu identifizieren, empfiehlt jedoch eine qualifizierte Schweizer Rechtsberatung, um die Berechtigung zu bestätigen und jeden Erwerb korrekt zu strukturieren."
+      }
+    ]
+  },
+  "fr": {
+    "title": "Où nous opérons | Global Key Partners. Accès suisse, portée mondiale",
+    "h1": "Où nous opérons",
+    "eyebrow": "Basé en Suisse · Connecté globalement",
+    "meta_description": "Global Key Partners a son siège à Cham, Zoug, en Suisse. Nous connectons les capitaux privés avec des opportunités hors marché en Suisse, en Asie, au Moyen-Orient et en Europe.",
+    "intro": "Global Key Partners a son siège à Cham, Zoug, en Suisse, et ne maintient pas de bureaux à l'étranger. C'est un choix délibéré : la valeur de GKP réside dans sa présence suisse ancrée et ses relations de confiance dans chaque marché qu'elle dessert, et non dans un réseau de succursales. Pour les clients internationaux, cela signifie un seul partenaire, résident permanent, qui comprend à la fois le marché privé suisse et les priorités des capitaux qui y entrent et en sortent. Les sections ci-dessous présentent les marchés où GKP est active, à la fois comme point d'accès suisse pour les capitaux internationaux et comme guide pour les mandants suisses regardant vers l'étranger.",
+    "regions": [
+      {
+        "id": "switzerland",
+        "label": "Marché d'origine",
+        "name": "Suisse",
+        "blurb": "Notre marché d'origine. GKP est active à Zurich, Genève, Zoug, Bâle, Lucerne et plus largement sur le marché privé suisse.",
+        "paragraphs": [
+          "La Suisse est le marché d'origine de GKP et le centre de gravité de toutes les activités de la firme. Notre flux de transactions, nos relations et nos mandats sont axés sur la Suisse, construits sur des années de présence dans les cercles suisses de la gestion de fortune privée, de l'immobilier et de la transmission d'entreprise.",
+          "La combinaison de stabilité politique, de force monétaire, de sécurité juridique et de discrétion continue d'attirer des capitaux privés du monde entier vers la Suisse. GKP agit comme le partenaire local de confiance pour ces capitaux, et comme point d'accès pour les mandants suisses, les entreprises familiales et les investisseurs souhaitant déployer des capitaux ou poursuivre des opportunités au-delà des frontières suisses.",
+          "Les personnes et entités étrangères souhaitant acquérir un bien immobilier suisse doivent être conscientes de la Lex Koller, la loi fédérale suisse restreignant l'acquisition d'immeubles suisses par des personnes à l'étranger. GKP aide les clients à comprendre quelles structures et exemptions peuvent s'appliquer, tout en recommandant systématiquement de recourir à un conseil juridique suisse qualifié pour l'évaluation formelle."
+        ],
+        "bullets": [
+          "Sourcing et cession de biens immobiliers résidentiels et commerciaux hors marché",
+          "Introductions pour M&A hors marché et planification de succession pour entreprises familiales",
+          "Introductions en capital entre investisseurs et opportunités suisses",
+          "Accompagnement des acheteurs étrangers sur la Lex Koller et les structures d'acquisition"
+        ],
+        "cities": [
+          {
+            "name": "Zurich",
+            "note": "La capitale financière de la Suisse et le plus grand centre du pays pour les family offices, la banque privée et les capitaux institutionnels."
+          },
+          {
+            "name": "Genève",
+            "note": "Une ville à vocation internationale, fondée sur la banque privée, les organisations multinationales et une clientèle profondément internationale."
+          },
+          {
+            "name": "Zoug",
+            "note": "La base de GKP. Un canton à fiscalité avantageuse et favorable aux entreprises, centre de la 'Crypto Valley' suisse et des sociétés holding."
+          },
+          {
+            "name": "Lucerne",
+            "note": "Un centre de la fortune suisse traditionnelle, de l'hôtellerie et du tourisme, avec un marché privé qui valorise la discrétion et les relations durables."
+          },
+          {
+            "name": "Bâle",
+            "note": "Un centre tri-frontalier pour la pharmacie, les sciences de la vie et le monde de l'art, au carrefour de la Suisse, de l'Allemagne et de la France."
+          }
+        ]
+      },
+      {
+        "id": "singapore",
+        "label": "Hub asiatique",
+        "name": "Singapour",
+        "blurb": "Singapour est une porte d'entrée majeure pour les family offices asiatiques et les capitaux institutionnels tournés vers la Suisse.",
+        "paragraphs": [
+          "Singapour est devenue le principal centre d'Asie pour les family offices, la banque privée et l'allocation de capitaux transfrontaliers. GKP travaille avec des family offices, des multi-family offices et des investisseurs privés basés à Singapour qui considèrent la Suisse comme un complément naturel à leurs avoirs asiatiques : une juridiction stable et discrète pour l'immobilier, les opportunités de transmission d'entreprise et la préservation du capital à long terme.",
+          "GKP ne maintient pas de bureau à Singapour. Les échanges se font par des relations directes, des déplacements réguliers et des canaux numériques, l'ensemble de l'exécution et de la diligence locale étant assuré par l'équipe suisse de GKP et son réseau de professionnels locaux qualifiés."
+        ]
+      },
+      {
+        "id": "hong-kong",
+        "label": "Hub asiatique",
+        "name": "Hong Kong",
+        "blurb": "Les family offices et capitaux privés de Hong Kong se tournent régulièrement vers la Suisse pour la diversification et la discrétion.",
+        "paragraphs": [
+          "Hong Kong demeure l'un des centres les plus importants d'Asie pour la banque privée et les capitaux des family offices. GKP travaille avec des mandants basés à Hong Kong cherchant à diversifier vers l'immobilier suisse, des opportunités d'affaires hors marché et des introductions en capital, avec la même discrétion et la même approche relationnelle qui caractérisent le travail de GKP en Suisse.",
+          "Comme à Singapour, GKP ne dispose pas de bureau physique à Hong Kong ; les relations sont entretenues par contact direct et déplacements, l'ensemble de l'exécution côté suisse étant assuré par l'équipe de GKP en Suisse."
+        ]
+      },
+      {
+        "id": "dubai",
+        "label": "Hub Moyen-Orient",
+        "name": "Dubaï",
+        "blurb": "Dubaï est une source croissante de capitaux privés recherchant un accès à l'immobilier suisse et des opportunités hors marché.",
+        "paragraphs": [
+          "Dubaï est devenue un centre majeur pour la fortune privée, les family offices et les entrepreneurs du Moyen-Orient, d'Asie du Sud et au-delà. GKP travaille avec des mandants basés à Dubaï intéressés par l'immobilier suisse, les acquisitions d'entreprises et les introductions en capital, offrant un partenaire suisse de confiance pour des capitaux qui valorisent la stabilité et la discrétion.",
+          "GKP n'exploite pas de bureau local à Dubaï. Tous les échanges sont fondés sur la relation, soutenus par des déplacements réguliers et une communication numérique, l'exécution étant assurée depuis la Suisse."
+        ]
+      },
+      {
+        "id": "malaysia",
+        "label": "Hub asiatique",
+        "name": "Malaisie",
+        "blurb": "Les entreprises familiales et investisseurs privés malaisiens utilisent GKP comme passerelle vers les opportunités suisses et l'expertise en transmission.",
+        "paragraphs": [
+          "Les entreprises familiales et investisseurs privés malaisiens regardent de plus en plus au-delà de la région, à la recherche de diversification, d'expertise en planification de succession et de marchés immobiliers stables. GKP sert de passerelle entre les mandants malaisiens et les opportunités suisses, s'appuyant sur son expérience en immobilier hors marché et en transmission d'entreprise.",
+          "GKP n'a pas de bureau en Malaisie. Les relations sont établies et entretenues directement, le travail côté suisse étant réalisé par l'équipe de GKP en Suisse."
+        ]
+      },
+      {
+        "id": "thailand",
+        "label": "Hub asiatique",
+        "name": "Thaïlande",
+        "blurb": "Les capitaux privés et entreprises familiales thaïlandais se tournent vers GKP pour accéder à l'immobilier suisse et aux opportunités de transmission.",
+        "paragraphs": [
+          "Les capitaux privés et propriétaires d'entreprises familiales thaïlandais sont une source d'intérêt de plus en plus active pour l'immobilier suisse et les structures de fortune à long terme. GKP accompagne les mandants basés en Thaïlande dans l'accès aux opportunités hors marché suisses et dans la prise en compte des considérations pertinentes pour les acheteurs étrangers, y compris la Lex Koller.",
+          "Comme ailleurs dans la région, GKP ne maintient pas de bureau physique en Thaïlande ; les échanges sont directs et fondés sur la relation, l'ensemble de l'exécution suisse étant assuré en Suisse."
+        ]
+      },
+      {
+        "id": "europe",
+        "label": "Marchés européens",
+        "name": "Europe",
+        "blurb": "Au-delà de la Suisse, GKP est active en Allemagne, en Autriche et au Royaume-Uni, avec un accent sur les marchés les plus proches des flux de capitaux suisses.",
+        "paragraphs": [
+          "Les marchés voisins de la Suisse et Londres constituent une extension naturelle du travail de GKP, à la fois pour les mandants suisses souhaitant déployer des capitaux à l'étranger et pour les investisseurs et family offices européens tournés vers la Suisse.",
+          "GKP n'exploite pas de bureaux dans ces marchés. Les échanges sont directement assurés par l'équipe suisse de GKP, soutenue par des déplacements réguliers et un réseau de professionnels locaux de confiance."
+        ],
+        "bullets": [
+          "Allemagne : accent sur le corridor Bâle–Stuttgart–Munich, où les liens commerciaux transfrontaliers avec la Suisse sont les plus forts",
+          "Autriche : accent sur la porte d'entrée Vorarlberg–Saint-Gall, un corridor de longue date pour les entreprises familiales et l'activité immobilière transfrontalières",
+          "Royaume-Uni : marchés de capitaux internationaux et immobilier londonien, particulièrement pertinent pour les investisseurs non-domiciliés et les capitaux internationalement mobiles"
+        ]
+      },
+      {
+        "id": "london",
+        "label": "Royaume-Uni",
+        "name": "Londres",
+        "blurb": "Les capitaux basés à Londres, y compris les investisseurs non-domiciliés, se tournent régulièrement vers la Suisse pour l'accès à l'immobilier et la discrétion.",
+        "paragraphs": [
+          "Londres demeure l'un des centres les plus importants au monde pour les capitaux internationaux, y compris les investisseurs non-domiciliés et les fortunes familiales internationalement mobiles. GKP travaille avec des mandants basés à Londres recherchant un accès à l'immobilier suisse, à des opportunités d'affaires et à la discrétion pour laquelle le marché privé suisse est reconnu.",
+          "GKP ne maintient pas de bureau à Londres. L'ensemble de l'exécution côté suisse est assuré par l'équipe de GKP en Suisse, soutenue par des relations directes et des déplacements réguliers."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "GKP a-t-il des bureaux locaux à l'étranger ?",
+        "a": "Non. GKP a son siège exclusivement à Cham, Zoug, en Suisse, et ne maintient pas de bureaux dans les marchés internationaux qu'elle dessert, y compris Singapour, Hong Kong, Dubaï, la Malaisie, la Thaïlande, l'Allemagne, l'Autriche ou le Royaume-Uni. Les échanges avec les clients de ces marchés se font par des relations directes, des déplacements réguliers et une communication numérique, l'ensemble de l'exécution côté suisse étant assuré par l'équipe de GKP en Suisse."
+      },
+      {
+        "q": "Qu'est-ce que la Lex Koller et comment affecte-t-elle les acheteurs étrangers de biens immobiliers suisses ?",
+        "a": "La Lex Koller est la loi fédérale suisse qui restreint l'acquisition d'immeubles suisses par des personnes et entités domiciliées à l'étranger. Elle s'applique différemment selon le type de bien, son usage et le statut de résidence de l'acheteur. GKP aide les clients à comprendre quelles structures et exemptions peuvent être pertinentes pour leur situation, mais recommande toujours de recourir à un conseil juridique suisse qualifié pour une évaluation formelle avant toute acquisition."
+      },
+      {
+        "q": "Dans quelles villes et régions suisses GKP opère-t-elle ?",
+        "a": "GKP est active à travers la Suisse, avec une présence particulièrement développée à Zurich, Genève, Zoug, Bâle et Lucerne. Zurich est la capitale financière du pays et son plus grand centre de family offices ; Genève est orientée internationalement avec de profondes racines en banque privée ; Zoug, la base de GKP, ancre le réseau de sociétés holding et de la Crypto Valley de la firme ; Lucerne représente la fortune suisse traditionnelle et l'hôtellerie ; et Bâle sert de centre tri-frontalier pour la pharmacie, les sciences de la vie et le monde de l'art."
+      },
+      {
+        "q": "Quelles opportunités hors marché GKP source-t-elle en Suisse ?",
+        "a": "GKP source des biens immobiliers résidentiels et commerciaux hors marché, met en relation acheteurs et vendeurs dans des acquisitions d'entreprises et des situations de transmission, et facilite les introductions en capital entre investisseurs et opportunités suisses. Ce travail est entièrement fondé sur les relations et spécifique au mandat, reflétant la discrétion qui caractérise le marché privé suisse."
+      },
+      {
+        "q": "GKP travaille-t-elle avec des investisseurs d'Asie et du Moyen-Orient ?",
+        "a": "Oui. GKP travaille régulièrement avec des family offices, des investisseurs privés et des mandants basés à Singapour, Hong Kong, Dubaï, en Malaisie et en Thaïlande qui cherchent à se diversifier vers l'immobilier suisse, des opportunités d'affaires ou des structures de capital à long terme. GKP ne maintient pas de bureaux dans ces marchés, mais s'engage directement avec les clients à travers des relations continues et des déplacements."
+      },
+      {
+        "q": "GKP aide-t-elle les entreprises suisses ou européennes à accéder à des opportunités en Asie ?",
+        "a": "Oui. En plus d'apporter des capitaux internationaux en Suisse, GKP accompagne les mandants suisses et européens qui souhaitent accéder à des opportunités sur des marchés asiatiques tels que Singapour, Hong Kong, la Malaisie et la Thaïlande, en s'appuyant sur son réseau de relations dans la région."
+      },
+      {
+        "q": "Quels marchés européens GKP couvre-t-elle au-delà de la Suisse ?",
+        "a": "Au-delà de la Suisse, GKP est active en Allemagne (notamment le corridor Bâle–Stuttgart–Munich), en Autriche (la porte d'entrée Vorarlberg–Saint-Gall) et au Royaume-Uni, avec un accent sur l'immobilier londonien et les capitaux internationaux, y compris les investisseurs non-domiciliés. Ces marchés constituent une extension naturelle des relations transfrontalières que GKP entretient depuis sa base suisse."
+      },
+      {
+        "q": "Les investisseurs étrangers peuvent-ils acheter des biens immobiliers suisses par l'intermédiaire de GKP ?",
+        "a": "Les investisseurs étrangers peuvent poursuivre des opportunités immobilières suisses par l'intermédiaire de GKP, sous réserve des restrictions et exemptions prévues par la Lex Koller. GKP aide les clients à comprendre le paysage et à identifier des opportunités appropriées, tout en recommandant un conseil juridique suisse qualifié pour confirmer l'éligibilité et structurer correctement toute acquisition."
+      }
+    ]
+  }
+}

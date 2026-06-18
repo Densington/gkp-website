@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% set ui = config.ui.get(lang) or config.ui['en'] %}
+{% set prefix = '' if lang == 'en' else ('/de' if lang == 'de' else '/fr') %}
+{% set content = where_we_operate.get(lang) or where_we_operate.get('en') %}
+
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ content.h1 }}",
+  "description": "{{ content.meta_description }}",
+  "provider": { "@id": "{{ config.site_url }}/#organization" },
+  "areaServed": [{% for region in content.regions %}"{{ region.name }}"{% if not loop.last %}, {% endif %}{% endfor %}],
+  "url": "{{ config.site_url }}{{ canonical }}"
+}
+</script>
+{% if content.faqs %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in content.faqs %}
+    {
+      "@type": "Question",
+      "name": {{ faq.q | tojson }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ faq.a | tojson }} }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"{{ 'Home' if lang=='en' else ('Startseite' if lang=='de' else 'Accueil') }}","item":"{{ config.site_url }}{{ '/' if lang=='en' else ('/de/' if lang=='de' else '/fr/') }}"},
+    {"@type":"ListItem","position":2,"name":"{{ content.h1 }}","item":"{{ config.site_url }}{{ canonical }}"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+
+<!-- ── Hero ───────────────────────────────────────────────── -->
+<section class="hero hero--page" aria-labelledby="page-heading"{% if where_we_operate.hero_image %} style="background-image: linear-gradient(rgba(12,20,14,.82), rgba(12,20,14,.80)), url('/assets/images/{{ where_we_operate.hero_image }}'); background-size: cover; background-position: center;"{% endif %}>
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' if lang == 'en' else ('/de/' if lang == 'de' else '/fr/') }}">{{ ui.breadcrumb_home }}</a>
+      <span class="sep" aria-hidden="true">/</span>
+      <span aria-current="page">{{ content.h1 }}</span>
+    </nav>
+    <span class="hero-eyebrow">{{ content.eyebrow }}</span>
+    <h1 id="page-heading">{{ content.h1 }}</h1>
+    <p class="hero-sub" style="max-width:640px;">{{ content.intro }}</p>
+  </div>
+</section>
+
+<!-- ── Region quick-nav ──────────────────────────────────── -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <nav class="wwo-jump-nav" aria-label="{{ content.h1 }}">
+      {% for region in content.regions %}
+      <a href="#{{ region.id }}">{{ region.name }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</section>
+
+<!-- ── Regions ────────────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="prose wwo-regions">
+      {% for region in content.regions %}
+      <div class="wwo-region" id="{{ region.id }}">
+        <span class="wwo-region-label">{{ region.label }}</span>
+        <h2>{{ region.name }}</h2>
+        <p class="wwo-region-blurb">{{ region.blurb }}</p>
+
+        {% for para in region.paragraphs %}
+        <p>{{ para }}</p>
+        {% endfor %}
+
+        {% if region.bullets %}
+        <ul>{% for bullet in region.bullets %}<li>{{ bullet }}</li>{% endfor %}</ul>
+        {% endif %}
+
+        {% if region.cities %}
+        <div class="wwo-cities-grid">
+          {% for city in region.cities %}
+          <div class="wwo-city-card">
+            <h3>{{ city.name }}</h3>
+            <p>{{ city.note }}</p>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% if not loop.last %}<hr class="wwo-region-divider">{% endif %}
+      {% endfor %}
+    </div>
+
+    {% if content.faqs %}
+    <div style="margin-top:64px;">
+      <h2 style="margin-bottom:36px;">{{ ui.faq_heading }}</h2>
+      <div class="faq-list">
+        {% for faq in content.faqs %}
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span class="faq-q-text">{{ faq.q }}</span>
+            <span class="faq-icon" aria-hidden="true">&#43;</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>{{ faq.a }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section section--dark cta-band" aria-labelledby="wwo-cta">
+  <div class="container" style="max-width:560px;">
+    <h2 id="wwo-cta">{{ 'Ready to explore this further?' if lang == 'en' else ('Bereit, dies weiter zu erkunden?' if lang == 'de' else 'Prêt à explorer davantage ?') }}</h2>
+    <p>{{ 'Get in touch for a confidential initial conversation.' if lang == 'en' else ('Nehmen Sie Kontakt für ein vertrauliches Erstgespräch auf.' if lang == 'de' else 'Contactez-nous pour un premier échange confidentiel.') }}</p>
+    <a href="{{ prefix }}/contact/" class="btn btn-gold">{{ ui.contact_cta }}</a>
+  </div>
+</section>
+
+{% endblock %}
