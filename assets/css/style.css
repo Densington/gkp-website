@@ -555,6 +555,13 @@ html[lang="fr"] #hero-heading {
   object-fit: cover;
   display: block;
 }
+/* Portrait variant: matches the served image's native ratio exactly so
+   object-fit: cover never has to crop. Used for the HSLU campus photo. */
+.split-image--portrait {
+  aspect-ratio: 900/993;
+  max-width: 480px;
+  margin: 0 auto;
+}
 .split-text {}
 .split-text h2 { margin-bottom: 24px; }
 .split-text p { font-size: .9rem; }
