@@ -14,8 +14,20 @@ const mobileNav = document.querySelector('.mobile-nav');
 if (hamburger && mobileNav) {
   hamburger.addEventListener('click', () => {
     const open = mobileNav.classList.toggle('open');
+    hamburger.classList.toggle('open', open);
     hamburger.setAttribute('aria-expanded', open);
+    hamburger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
     document.body.style.overflow = open ? 'hidden' : '';
+  });
+  // Close the drawer when a nav link inside it is tapped (e.g. same-page anchor)
+  mobileNav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileNav.classList.remove('open');
+      hamburger.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', false);
+      hamburger.setAttribute('aria-label', 'Open menu');
+      document.body.style.overflow = '';
+    });
   });
 }
 

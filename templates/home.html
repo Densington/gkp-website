@@ -345,7 +345,7 @@
         <p class="insight-meta">{{ art.published }} &nbsp;·&nbsp; {{ art.reading_time }} min</p>
         <h3 class="insight-title"><a href="{{ prefix }}/insights/{{ art.slug }}/" style="color:inherit;">{{ ac.h1 }}</a></h3>
         <p class="insight-summary">{{ ac.summary }}</p>
-        <a href="{{ prefix }}/insights/{{ art.slug }}/" class="insight-link">{{ ui.read_more }}</a>
+        <a href="{{ prefix }}/insights/{{ art.slug }}/" class="insight-link" aria-label="{{ ui.read_more }}: {{ ac.h1 }}">{{ ui.read_more }}</a>
       </article>
       {% endfor %}
     </div>

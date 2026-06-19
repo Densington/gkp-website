@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <title>{{ page_title }}</title>
   <meta name="description" content="{{ meta_description }}">
   <link rel="canonical" href="{{ config.site_url }}{{ canonical }}">
@@ -99,6 +101,13 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Google Fonts: loaded non-blocking (print-media swap trick) so it never
+       delays first paint. The @import that used to live in style.css forced
+       a serialized, render-blocking fetch — this fixes that. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap"></noscript>
+
   {% block head_extra %}{% endblock %}
 </head>
 <body>
@@ -168,7 +177,7 @@
       </div>
 
       <div class="footer-col">
-        <h4>Services</h4>
+        <h3>Services</h3>
         <nav class="footer-links" aria-label="Services">
           {% if lang == 'en' %}
           <a href="/services/strategic-introductions/">Strategic Introductions</a>
@@ -190,7 +199,7 @@
       </div>
 
       <div class="footer-col">
-        <h4>{{ 'Insights' if lang == 'en' else ('Einblicke' if lang == 'de' else 'Analyses') }}</h4>
+        <h3>{{ 'Insights' if lang == 'en' else ('Einblicke' if lang == 'de' else 'Analyses') }}</h3>
         <nav class="footer-links" aria-label="Insights">
           {% if lang == 'en' %}
           <a href="/insights/how-to-access-off-market-real-estate-switzerland/">Off-Market Real Estate Guide</a>
@@ -215,7 +224,7 @@
       </div>
 
       <div class="footer-col">
-        <h4>{{ 'Company' if lang == 'en' else ('Unternehmen' if lang == 'de' else 'Société') }}</h4>
+        <h3>{{ 'Company' if lang == 'en' else ('Unternehmen' if lang == 'de' else 'Société') }}</h3>
         <nav class="footer-links" aria-label="Company">
           {% if lang == 'en' %}
           <a href="/about/">About GKP</a>

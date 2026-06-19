@@ -98,7 +98,7 @@
                 <ul style="margin:0;">{% for b in bullet_block.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
               </div>
               {% endif %}
-              <a href="{{ prefix }}/services/{{ svc.slug }}/" class="svc-index-link">
+              <a href="{{ prefix }}/services/{{ svc.slug }}/" class="svc-index-link" aria-label="{{ ui.read_more }}: {{ content.h1 }}">
                 {{ ui.read_more }} <span aria-hidden="true">→</span>
               </a>
             </div>

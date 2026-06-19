@@ -143,7 +143,7 @@
         {% set rel_slug = rel_slug_raw if rel_slug_raw in svc_names else 'strategic-introductions' %}
         {% set rel_name = svc_names[rel_slug][lang] %}
         <div class="cta-block" style="margin-bottom:24px;">
-          <h4>{{ 'How Global Key Partners can help' if lang == 'en' else ('Wie Global Key Partners helfen kann' if lang == 'de' else 'Comment Global Key Partners peut aider') }}</h4>
+          <h3>{{ 'How Global Key Partners can help' if lang == 'en' else ('Wie Global Key Partners helfen kann' if lang == 'de' else 'Comment Global Key Partners peut aider') }}</h3>
           <p>{{ 'This topic is part of our work in ' if lang == 'en' else ('Dieses Thema gehört zu unserer Arbeit im Bereich ' if lang == 'de' else 'Ce sujet fait partie de notre travail en ') }}{{ rel_name }}.</p>
           <a href="{{ prefix }}/services/{{ rel_slug }}/" class="btn btn-gold-outline" style="width:100%; justify-content:center; margin-bottom:8px;">{{ rel_name }} &rarr;</a>
           <a href="{{ prefix }}/contact/" class="btn btn-gold-outline" style="width:100%; justify-content:center;">{{ ui.contact_cta }}</a>

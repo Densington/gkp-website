@@ -4,7 +4,8 @@
    Typography as architecture. Restraint over decoration.
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap');
+/* Google Fonts is now loaded via a non-blocking <link> in base.html
+   (print-media swap trick) instead of @import, which was render-blocking. */
 
 :root {
   --green-950: #080F0B;
@@ -15,6 +16,7 @@
   --gold:      #B89238;
   --gold-light:#D4AF5A;
   --gold-pale: #F7F0E2;
+  --gold-text: #8C6A1E;   /* darkened gold for static text on light backgrounds — passes WCAG AA (~5:1); decorative gold elements (rules, borders, buttons, text on dark bg) keep --gold */
   --white:     #FFFFFF;
   --cream:     #FAFAF8;   /* barely off-white, almost invisible tint */
   --cream-2:   #F7F5F2;   /* one step warmer, for subtle section breaks */
@@ -104,7 +106,7 @@ em { font-style: italic; }
   font-weight: 500;
   letter-spacing: .18em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--gold-text);
   margin-bottom: 18px;
 }
 .label--light { color: rgba(212,175,90,.8); }
@@ -152,10 +154,10 @@ em { font-style: italic; }
 .btn-gold {
   padding: 14px 32px;
   background: var(--gold);
-  color: var(--white);
+  color: var(--ink);   /* dark text on gold passes contrast (~6.5:1); white on gold did not (~2.9:1) */
   border: 1px solid var(--gold);
 }
-.btn-gold:hover { background: var(--green-800); border-color: var(--green-800); }
+.btn-gold:hover { background: var(--green-800); border-color: var(--green-800); color: var(--white); }
 .btn-text {
   padding: 0;
   color: var(--ink-mid);
@@ -244,16 +246,24 @@ em { font-style: italic; }
 .hamburger {
   display: none;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 5px;
-  padding: 4px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  flex-shrink: 0;
 }
 .hamburger span {
   display: block;
   width: 22px;
   height: 1px;
   background: var(--white);
-  transition: all 200ms;
+  transition: transform 200ms, opacity 200ms;
 }
+.hamburger.open span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 .mobile-nav {
   display: none;
   position: fixed;
@@ -329,10 +339,25 @@ em { font-style: italic; }
   position: absolute;
   inset: 0;
   background-image: url('/assets/images/hero-bg.jpg');
+  background-image: image-set(
+    url('/assets/images/hero-bg.webp') type('image/webp'),
+    url('/assets/images/hero-bg.jpg') type('image/jpeg')
+  );
   background-size: cover;
   background-position: center 40%;
   opacity: .62;
   mix-blend-mode: luminosity;
+}
+/* Serve a much smaller image on phones — the 1920px desktop version was
+   being downscaled in the browser, wasting bytes on mobile connections. */
+@media (max-width: 768px) {
+  .hero-bg {
+    background-image: url('/assets/images/hero-bg-mobile.jpg');
+    background-image: image-set(
+      url('/assets/images/hero-bg-mobile.webp') type('image/webp'),
+      url('/assets/images/hero-bg-mobile.jpg') type('image/jpeg')
+    );
+  }
 }
 .hero--home::after {
   content: '';
@@ -476,7 +501,7 @@ html[lang="fr"] #hero-heading {
   font-family: 'Cormorant Garamond', serif;
   font-size: .875rem;
   font-weight: 300;
-  color: var(--gold);
+  color: var(--gold-text);
   letter-spacing: .06em;
   padding-top: 8px;
 }
@@ -535,7 +560,7 @@ html[lang="fr"] #hero-heading {
   font-family: 'Cormorant Garamond', serif;
   font-size: .875rem;
   font-weight: 300;
-  color: var(--gold);
+  color: var(--gold-text);
   letter-spacing: .06em;
   margin-bottom: 24px;
   display: block;
@@ -774,7 +799,7 @@ html[lang="fr"] #hero-heading {
   background: var(--green-800);
   padding: 36px 28px;
 }
-.sidebar-cta h4 {
+.sidebar-cta h3 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.4rem;
   font-weight: 300;
@@ -795,7 +820,7 @@ html[lang="fr"] #hero-heading {
   font-weight: 500;
   letter-spacing: .16em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--gold-text);
   margin-bottom: 14px;
 }
 .section-title {
@@ -863,7 +888,7 @@ html[lang="fr"] #hero-heading {
   padding: 28px 26px;
   color: rgba(255,255,255,.75);
 }
-.cta-block h4 {
+.cta-block h3 {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
   font-size: 1.25rem;
@@ -984,7 +1009,7 @@ html[lang="fr"] #hero-heading {
   font-weight: 500;
   letter-spacing: .14em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--gold-text);
   margin-bottom: 18px;
   display: block;
 }
@@ -996,7 +1021,7 @@ html[lang="fr"] #hero-heading {
   font-weight: 500;
   letter-spacing: .08em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--gold-text);
   border-bottom: 1px solid var(--gold);
   padding-bottom: 2px;
   transition: opacity .15s ease;
@@ -1075,7 +1100,7 @@ html[lang="fr"] #hero-heading {
   margin-bottom: 20px;
   display: block;
 }
-.footer-col h4 {
+.footer-col h3 {
   font-size: .72rem;
   font-weight: 600;
   letter-spacing: .14em;
@@ -1196,12 +1221,21 @@ html[lang="fr"] #hero-heading {
   .service-arrow { display: none; }
   .site-nav { display: none; }
   .hamburger { display: flex; }
+  /* The EN/DE/FR switcher is duplicated inside .mobile-nav below — keeping
+     it in the header too left the logo + lang-switch + hamburger wider
+     than the viewport, which silently pushed the hamburger off-screen
+     (no overflow indicator, so the menu was effectively invisible/untappable
+     on real phones). Hide the header copy and let the drawer's copy do the job. */
+  .lang-switch { display: none; }
+  .header-inner { gap: 16px; }
+  .site-logo-text { font-size: .85rem; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-bottom { flex-direction: column; }
   .stats-row { grid-template-columns: 1fr; border: none; }
   .stat { border-right: none; border-bottom: 1px solid var(--line); padding-left: 0 !important; }
   .stat:last-child { border-bottom: none; }
   .location-list { margin-top: 24px; }
+  .form-input, .form-select, .form-textarea { font-size: 1rem; } /* prevents iOS Safari auto-zoom-on-focus below 16px */
 }
 @media (max-width: 480px) {
   h1 { font-size: 2rem; }
@@ -1245,7 +1279,7 @@ html[lang="fr"] #hero-heading {
   font-size: .65rem;
   font-weight: 600;
   letter-spacing: .15em;
-  color: var(--gold);
+  color: var(--gold-text);
 }
 .svc-index-icon {
   font-size: 1.6rem;
@@ -1484,7 +1518,7 @@ html[lang="fr"] #hero-heading {
   font-weight: 700;
   letter-spacing: .18em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--gold-text);
 }
 .wwo-region h2 { margin-top: 10px; }
 .wwo-region-blurb {
