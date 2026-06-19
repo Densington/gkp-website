@@ -150,6 +150,10 @@
       "summary": "Der Schweizer Premium-Immobilienmarkt ist bewusst intransparent. Die bedeutendsten Wohn-, Geschäfts- und Hotelobjekte wechseln den Besitzer, ohne je auf einer Plattform zu erscheinen. Dieser Leitfaden erklärt, wie das Off-Market-Segment funktioniert, wer den Zugang kontrolliert, und was es braucht, damit einem qualifizierten Käufer die richtigen Objekte gezeigt werden.",
       "body": [
         {
+          "type": "disclaimer",
+          "text": "Dieser Artikel dient ausschliesslich Informationszwecken und stellt keine Steuer-, Rechts- oder Anlageberatung dar. Leser sollten vor jeglichen Entscheidungen einen qualifizierten Schweizer Steuerberater, Anwalt oder Finanzfachmann konsultieren."
+        },
+        {
           "text": "Der Schweizer Premium-Immobilienmarkt funktioniert auf zwei Ebenen. Die erste ist sichtbar: Objekte auf Plattformen wie Homegate oder ImmoScout24, von Maklern vermarktet, für jedermann zugänglich. Die zweite, und für ernsthafte Käufer weitaus interessantere, ist unsichtbar: Transaktionen, die vollständig ausserhalb der Öffentlichkeit stattfinden, über private Beziehungen, vertrauenswürdige Vermittler und diskrete Empfehlungen. Wer eine Liegenschaft am Zürichsee, ein Entwicklungsgrundstück in Zug oder ein Boutique-Hotel in den Alpen sucht, wird das gewünschte Objekt mit hoher Wahrscheinlichkeit auf der zweiten Ebene finden, nicht auf der ersten. Dieser Leitfaden erklärt, wie dieser verdeckte Markt in der Praxis funktioniert und wie sich qualifizierte Käufer den Zugang erarbeiten."
         },
         {
@@ -238,6 +242,10 @@
       "meta_description": "A practical guide to off-market property in Switzerland, how the hidden market works, who controls deal flow, what sellers expect from buyers, and how qualified buyers gain access to premium assets before they are ever listed.",
       "summary": "Switzerland's premium real estate market is opaque by design. The most significant residential, commercial, and hospitality assets change hands without ever appearing on a listing platform. This guide explains how the off-market segment works, who controls access to it, and what it takes for a qualified buyer to be shown the right opportunities.",
       "body": [
+        {
+          "type": "disclaimer",
+          "text": "This article is for informational purposes only and does not constitute tax, legal, or investment advice. Readers should consult a qualified Swiss tax advisor, lawyer, or financial professional before making any decisions."
+        },
         {
           "text": "The Swiss premium real estate market operates on two distinct levels. The first is visible: properties listed on platforms such as Homegate or ImmoScout24, marketed by agencies, open to anyone. The second, and for serious buyers by far the more interesting, is invisible: transactions that take place entirely outside public view, through private relationships, trusted intermediaries, and discreet referrals. If you are looking for a lakefront property in Zurich, a development plot in Zug, or a boutique hotel in the Alps, the asset you actually want is far more likely to trade on the second level than the first. This guide explains how that hidden market works in practice, and how qualified buyers earn access to it."
         },
@@ -334,6 +342,10 @@
       "summary": "Family Offices stehen vor einem Paradox: reichlich Kapital, aber begrenzter hochwertiger Deal-Flow. Dieser Leitfaden erklärt, wie die effektivsten Family Offices proprietäre Deals in Schweizer Privatmärkten erschliessen.",
       "body": [
         {
+          "type": "disclaimer",
+          "text": "Dieser Artikel dient ausschliesslich Informationszwecken und stellt keine Steuer-, Rechts- oder Anlageberatung dar. Leser sollten vor jeglichen Entscheidungen einen qualifizierten Schweizer Steuerberater, Anwalt oder Finanzfachmann konsultieren."
+        },
+        {
           "text": "Family Offices, die erhebliches Privatkapital verwalten, stehen vor einer strukturellen Herausforderung: Die besten Investitionsmöglichkeiten. Off-Market-Unternehmen, private Immobilien, Co-Investment-Situationen, sind auf keiner Plattform gelistet. Sie existieren im Überschneidungsbereich vertrauenswürdiger Beziehungen, lokalen Marktkenntnissen und zeitnahen Informationen. Diesen Zugang aufzubauen ist die Arbeit von Jahren, nicht von Monaten."
         },
         {
@@ -383,6 +395,10 @@
       "meta_description": "A guide to how Swiss and European family offices access off-market deal flow, the channels, intermediaries, and relationship structures that underpin private capital deployment in Switzerland.",
       "summary": "Family offices face a paradox: abundant capital, limited high-quality deal flow. This guide explains how the most effective family offices source proprietary deals in Switzerland's private markets.",
       "body": [
+        {
+          "type": "disclaimer",
+          "text": "This article is for informational purposes only and does not constitute tax, legal, or investment advice. Readers should consult a qualified Swiss tax advisor, lawyer, or financial professional before making any decisions."
+        },
         {
           "text": "Family offices managing significant private capital face a structural challenge: the best investment opportunities, off-market businesses, private real estate, co-investment situations, are not listed on any platform. They exist in the overlap between trusted relationships, local market knowledge, and timely information. Building that access is the work of years, not months."
         },
@@ -441,6 +457,10 @@
       "summary": "Family-Office-Kontaktvermittlung ist die vertrauenskanalbasierte Alternative zum öffentlichen Fundraising. Dieser Leitfaden erklärt, wie sie im beziehungsgetriebenen Privatkapitalmarkt der Schweiz funktioniert.",
       "body": [
         {
+          "type": "disclaimer",
+          "text": "Dieser Artikel dient ausschliesslich Informationszwecken und stellt keine Steuer-, Rechts- oder Anlageberatung dar. Leser sollten vor jeglichen Entscheidungen einen qualifizierten Schweizer Steuerberater, Anwalt oder Finanzfachmann konsultieren."
+        },
+        {
           "text": "Die Schweiz beherbergt einen der weltweit konzentriertesten Pools von Privatkapital. Family Offices, vermögende Privatinvestoren und institutionelle Käufer verwalten kollektiv Vermögen in Billionen von CHF, und ein bedeutender Anteil davon sucht aktiv Off-Market-, beziehungsbasierte Investitionsmöglichkeiten. Für Gründer, Unternehmer und Vermögensinhaber mit überzeugenden Angeboten liegt die Herausforderung darin, dieses Kapital über den richtigen Kanal zu erreichen."
         },
         {
@@ -490,6 +510,10 @@
       "meta_description": "A practical guide to family office introduction in Switzerland, how it differs from fundraising, who the key capital holders are, and how founders and asset owners can access Swiss private capital.",
       "summary": "Family office introduction is the trusted-channel alternative to public fundraising. This guide explains how it works in Switzerland's relationship-driven private capital market.",
       "body": [
+        {
+          "type": "disclaimer",
+          "text": "This article is for informational purposes only and does not constitute tax, legal, or investment advice. Readers should consult a qualified Swiss tax advisor, lawyer, or financial professional before making any decisions."
+        },
         {
           "text": "Switzerland hosts one of the world's most concentrated pools of private capital. Family offices, UHNWI investors, and institutional buyers collectively manage assets in the trillions of CHF, and a meaningful proportion is actively seeking off-market, relationship-sourced investment opportunities. For founders, entrepreneurs, and asset owners with compelling propositions, the challenge is reaching this capital through the right channel."
         },
@@ -547,6 +571,10 @@
       "summary": "Die Schweiz befindet sich mitten in einer bedeutenden Nachfolgewelle. Die besten Übernahmemöglichkeiten erreichen nie einen Makler. Hier erfahren Sie, wie man sie findet.",
       "body": [
         {
+          "type": "disclaimer",
+          "text": "Dieser Artikel dient ausschliesslich Informationszwecken und stellt keine Steuer-, Rechts- oder Anlageberatung dar. Leser sollten vor jeglichen Entscheidungen einen qualifizierten Schweizer Steuerberater, Anwalt oder Finanzfachmann konsultieren."
+        },
+        {
           "text": "Die Schweiz und der gesamte DACH-Raum befinden sich inmitten eines der grössten Vermögenstransferereignisse der Wirtschaftsgeschichte. Im nächsten Jahrzehnt werden Hunderttausende von inhabergeführten Unternehmen, viele davon hochprofitabel, tief verwurzelt und mit treuer Kundschaft, die über Jahrzehnte aufgebaut wurde, den Besitzer wechseln, während ihre Gründer das Rentenalter erreichen. Die attraktivsten dieser Übergänge erscheinen nie auf öffentlichen Plattformen."
         },
         {
@@ -600,6 +628,10 @@
       "meta_description": "The Swiss and DACH region is undergoing a succession wave with thousands of profitable SMEs changing hands. This guide explains how qualified buyers can access off-market acquisition opportunities before they are publicly listed.",
       "summary": "Switzerland is in the middle of a significant succession wave. The best acquisition opportunities never reach a broker. Here is how to find them.",
       "body": [
+        {
+          "type": "disclaimer",
+          "text": "This article is for informational purposes only and does not constitute tax, legal, or investment advice. Readers should consult a qualified Swiss tax advisor, lawyer, or financial professional before making any decisions."
+        },
         {
           "text": "Switzerland and the wider DACH region are in the midst of one of the largest wealth transfer events in economic history. Over the next decade, hundreds of thousands of owner-operated businesses, many of them highly profitable, deeply established, and with loyal client bases built over decades, will change hands as their founders reach retirement age. The most attractive of these transitions never appear on public platforms. They are handled privately, through trusted relationships, by buyers who were in the right place at the right time."
         },
@@ -807,6 +839,10 @@
       "summary": "Asian family offices are among the most active allocators to Swiss private markets. This piece examines how family offices from Singapore, Hong Kong, and Malaysia are approaching Switzerland, what they seek, how they access it, and what GKP observes from its position in the market.",
       "body": [
         {
+          "type": "disclaimer",
+          "text": "This article is for informational purposes only and does not constitute tax, legal, or investment advice. Readers should consult a qualified Swiss tax advisor, lawyer, or financial professional before making any decisions."
+        },
+        {
           "text": "The flow of Asian private capital into Switzerland is not new, but it is accelerating. Singapore in particular has emerged as the primary booking and decision-making hub for Southeast Asian private wealth, and its family offices are increasingly active in Swiss real estate, business acquisitions, and co-investment opportunities. GKP, operating from Zug, observes this flow directly."
         },
         {
@@ -856,6 +892,10 @@
       "summary": "Asiatische Family Offices gehören zu den aktivsten Investoren in Schweizer Privatmärkte. Dieser Beitrag untersucht, wie Family Offices aus Singapur, Hongkong und Malaysia die Schweiz angehen, was sie suchen, wie sie Zugang erhalten und was GKP aus seiner Marktposition beobachtet.",
       "body": [
         {
+          "type": "disclaimer",
+          "text": "Dieser Artikel dient ausschliesslich Informationszwecken und stellt keine Steuer-, Rechts- oder Anlageberatung dar. Leser sollten vor jeglichen Entscheidungen einen qualifizierten Schweizer Steuerberater, Anwalt oder Finanzfachmann konsultieren."
+        },
+        {
           "text": "Der Fluss asiatischen Privatkapitals in die Schweiz ist nicht neu, aber er beschleunigt sich. Singapur hat sich insbesondere als primärer Buchungs- und Entscheidungshub für südostasiatisches Privatvermögen etabliert, und seine Family Offices sind zunehmend aktiv in Schweizer Immobilien, Unternehmensübernahmen und Co-Investmentgelegenheiten."
         },
         {
@@ -890,6 +930,10 @@
       "meta_description": "A guide for UAE, Saudi, and Gulf family offices seeking off-market Swiss real estate and European private investment opportunities, how the market works and how GKP provides access.",
       "summary": "Gulf and Middle East private capital has long had an affinity with Switzerland. This guide explains how UAE, Saudi, and broader Gulf family offices are approaching Swiss real estate and European private markets, and what access looks like in practice.",
       "body": [
+        {
+          "type": "disclaimer",
+          "text": "This article is for informational purposes only and does not constitute tax, legal, or investment advice. Readers should consult a qualified Swiss tax advisor, lawyer, or financial professional before making any decisions."
+        },
         {
           "text": "Switzerland and the Gulf have maintained a deep financial relationship for decades. Swiss private banks, wealth managers, and real estate markets have been among the preferred destinations for Middle Eastern capital, from sovereign wealth to family office to individual UHNWI. What has changed in recent years is the sophistication of the approach: Gulf family offices are no longer passive depositors but active allocators, seeking direct real estate, co-investment, and business acquisition opportunities in Switzerland and Europe."
         },
@@ -945,6 +989,10 @@
       "meta_description": "Ein Leitfaden für VAE-, Saudi- und Golf-Family-Offices, die Off-Market-Schweizer-Immobilien und europäische Privatinvestitionen suchen, wie der Markt funktioniert und wie GKP Zugang bietet.",
       "summary": "Golfkapital und Nahost-Privatvermögen haben seit Jahrzehnten eine enge Affinität zur Schweiz. Dieser Leitfaden erklärt, wie VAE-, Saudi- und Golf-Family-Offices Schweizer Immobilien und europäische Privatmärkte angehen.",
       "body": [
+        {
+          "type": "disclaimer",
+          "text": "Dieser Artikel dient ausschliesslich Informationszwecken und stellt keine Steuer-, Rechts- oder Anlageberatung dar. Leser sollten vor jeglichen Entscheidungen einen qualifizierten Schweizer Steuerberater, Anwalt oder Finanzfachmann konsultieren."
+        },
         {
           "text": "Die Schweiz und der Golf unterhalten seit Jahrzehnten eine tiefe Finanzbeziehung. Schweizer Privatbanken, Vermögensverwalter und Immobilienmärkte gehören zu den bevorzugten Zielen für nahöstliches Kapital, von Staatsfonds über Family Offices bis hin zu vermögenden Privatpersonen."
         },
@@ -1016,6 +1064,10 @@
       "summary": "Southeast Asia represents one of the most compelling investment frontiers for Swiss and European private capital. This guide examines what Swiss and European investors are targeting in the region, and how GKP facilitates access from its position across both markets.",
       "body": [
         {
+          "type": "disclaimer",
+          "text": "This article is for informational purposes only and does not constitute tax, legal, or investment advice. Readers should consult a qualified Swiss tax advisor, lawyer, or financial professional before making any decisions."
+        },
+        {
           "text": "For Swiss and European family offices and private investors, Southeast Asia has moved from a peripheral consideration to a core portfolio question. A combination of demographic tailwinds, urbanisation, rising middle-class consumption, and government-driven economic development across Singapore, Thailand, Malaysia, and Vietnam has created an investment landscape that offers both growth exposure and, in select segments, yield that European markets have not delivered in years."
         },
         {
@@ -1078,6 +1130,10 @@
       "meta_description": "Ein praktischer Leitfaden für Schweizer und europäische Family Offices, Privatinvestoren und Kapitalfonds, die Investitionen in Südostasien in Erwägung ziehen. Immobilien, Hospitality, Private Equity und Marktzugang.",
       "summary": "Südostasien ist für Schweizer und europäisches Privatkapital zu einer der überzeugendsten Investitionsgrenzen geworden. Dieser Leitfaden untersucht, was Schweizer und europäische Investoren in der Region anvisieren, und wie GKP den Zugang aus seiner Position in beiden Märkten ermöglicht.",
       "body": [
+        {
+          "type": "disclaimer",
+          "text": "Dieser Artikel dient ausschliesslich Informationszwecken und stellt keine Steuer-, Rechts- oder Anlageberatung dar. Leser sollten vor jeglichen Entscheidungen einen qualifizierten Schweizer Steuerberater, Anwalt oder Finanzfachmann konsultieren."
+        },
         {
           "text": "Für Schweizer und europäische Family Offices und Privatinvestoren hat sich Südostasien von einer peripheren Überlegung zu einer zentralen Portfoliofrage entwickelt. Eine Kombination aus demografischen Rückenwind, Urbanisierung, wachsendem Mittelklassenkonsum und staatlich getriebenem Wirtschaftswachstum in Singapur, Thailand, Malaysia und Vietnam hat eine Investitionslandschaft geschaffen, die sowohl Wachstumsexposure als auch, in ausgewählten Segmenten. Renditen bietet, die europäische Märkte seit Jahren nicht mehr geliefert haben."
         },
@@ -1322,6 +1378,10 @@
       "meta_description": "A practical guide to hospitality investment in Switzerland, covering boutique hotel and alpine resort acquisitions, off-market access, structuring, Lex Koller considerations, and what qualified private investors should know.",
       "summary": "Switzerland's hospitality investment market offers private investors a rare combination: hard real estate assets, operational income, personal use value, and exposure to one of the world's most resilient luxury tourism markets. This guide covers what private investors and family offices need to know before entering the Swiss hospitality investment market — from boutique hotels to alpine resorts.",
       "body": [
+        {
+          "type": "disclaimer",
+          "text": "This article is for informational purposes only and does not constitute tax, legal, or investment advice. Readers should consult a qualified Swiss tax advisor, lawyer, or financial professional before making any decisions."
+        },
         {
           "text": "Swiss alpine hospitality is a category of its own. The country's reputation for precision, discretion, and natural beauty has supported a luxury tourism industry that has remained remarkably resilient across economic cycles. For private investors and family offices, Swiss boutique hotels and alpine resort assets represent a distinctive investment thesis, combining the characteristics of prime real estate with the income dynamics of a hospitality business, in one of Europe's most stable jurisdictions."
         },
