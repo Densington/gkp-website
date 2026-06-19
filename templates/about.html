@@ -26,7 +26,7 @@
     'cta_h2': 'Working with GKP',
     'cta_p': 'Global Key Partners works with a select group of investors, entrepreneurs, family offices, and asset owners. Where there is a potential alignment of interests and objectives, GKP welcomes an initial confidential conversation.',
     'cta_btn': 'Get in touch',
-    'box_text': 'Exclusivity. Trust. Global Access.'
+    'box_text': 'Exclusivity.\nTrust.\nGlobal Access.'
   },
   'de': {
     'title': 'Über Global Key Partners | Boutique-Zugangspartner',
@@ -52,7 +52,7 @@
     'cta_h2': 'Zusammenarbeit mit GKP',
     'cta_p': 'Global Key Partners arbeitet mit einer ausgewählten Gruppe von Investoren, Unternehmern, Family Offices und Eigentümern zusammen. Besteht eine potenzielle Übereinstimmung der Interessen und Ziele, freut sich GKP auf ein erstes vertrauliches Gespräch.',
     'cta_btn': 'Kontakt aufnehmen',
-    'box_text': 'Exklusivität. Vertrauen. Internationale Vernetzung.'
+    'box_text': 'Exklusivität.\nVertrauen.\nInternationale Vernetzung.'
   },
   'fr': {
     'title': 'À propos de Global Key Partners | Partenaire d\'Accès Boutique',
@@ -78,9 +78,9 @@
     'cta_h2': 'Collaborer avec GKP',
     'cta_p': 'Global Key Partners travaille avec un groupe sélectionné d\'investisseurs, d\'entrepreneurs, de family offices et de propriétaires d\'actifs. En cas d\'alignement potentiel des intérêts et des objectifs, GKP se réjouit d\'un premier échange confidentiel.',
     'cta_btn': 'Nous contacter',
-    'box_text': 'Exclusivité. Confiance. Accès global.'
+    'box_text': 'Exclusivité.\nConfiance.\nAccès global.'
   }
-}.get(lang) or {'title':'About GKP','h1':'About GKP','eyebrow':'','sub':'','mission_label':'','mission_h2':'','mission_p1':'','mission_p2':'','mission_p3':'','team_label':'','team_h2':'','team_sub':'','dennis_bio':'','vlora_bio':'','values_label':'','values_h2':'','v1_h':'','v1_p':'','v2_h':'','v2_p':'','v3_h':'','v3_p':'','v4_h':'','v4_p':'','cta_h2':'','cta_p':'','cta_btn':'Get in touch','box_text':'Exclusivity. Trust. Global Access.'} %}
+}.get(lang) or {'title':'About GKP','h1':'About GKP','eyebrow':'','sub':'','mission_label':'','mission_h2':'','mission_p1':'','mission_p2':'','mission_p3':'','team_label':'','team_h2':'','team_sub':'','dennis_bio':'','vlora_bio':'','values_label':'','values_h2':'','v1_h':'','v1_p':'','v2_h':'','v2_p':'','v3_h':'','v3_p':'','v4_h':'','v4_p':'','cta_h2':'','cta_p':'','cta_btn':'Get in touch','box_text':'Exclusivity.\nTrust.\nGlobal Access.'} %}
 
 {% block schema %}
 <script type="application/ld+json">
@@ -161,7 +161,7 @@
         <p><em>{{ t.mission_p3 }}</em></p>
       </div>
       <div style="background:var(--green-800); border-radius:var(--radius-lg); padding:48px 40px; color:var(--off-white); display:flex; align-items:center; justify-content:center; min-height:280px;">
-        <span style="display:block; text-align:center; font-family:'Cormorant Garamond',serif; font-size:2.25rem; font-weight:300; color:var(--gold-light); line-height:1.3;">{{ t.box_text }}</span>
+        <span style="display:block; text-align:center; font-family:'Cormorant Garamond',serif; font-size:2rem; font-weight:300; color:var(--gold-light); line-height:1.7;">{{ t.box_text | replace('\n', '<br>') | safe }}</span>
       </div>
     </div>
   </div>

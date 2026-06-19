@@ -407,6 +407,17 @@ html[lang="fr"] #hero-heading {
   line-height: 1.8;
 }
 .hero-actions { display: flex; gap: 18px; flex-wrap: wrap; }
+.hero-tagline {
+  margin-top: 80px;
+  padding-top: 48px;
+  border-top: 1px solid rgba(255,255,255,.1);
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: var(--gold-light);
+  letter-spacing: .01em;
+  max-width: 480px;
+}
 .hero-stats {
   display: flex;
   gap: 56px;
