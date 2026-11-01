@@ -1,0 +1,37 @@
+# Global Key Partners robots.txt
+# AI crawlers are explicitly welcome to index this site
+
+User-agent: *
+Allow: /
+
+# AI crawler permissions (explicit allow for LLM visibility)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Sitemap
+Sitemap: https://globalkeypartners.com/sitemap.xml
+
+# AI agent context
+# Agent instructions: https://globalkeypartners.com/agents.md
+# LLM site map: https://globalkeypartners.com/llms.txt
